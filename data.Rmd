@@ -1,0 +1,796 @@
+---
+title: "dissertation_did"
+author: "Ryoun Ukita"
+date: "2024-06-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## library and data loading
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(haven)
+library(lubridate)
+library(ggplot2)
+library(ggthemes)
+library(quanteda)
+library(quanteda.textmodels)
+library(fixest)
+library(texreg)
+library(gridExtra)
+
+# working directory
+setwd("~/ukita-ryoun953@g.ecc.u-tokyo.ac.jp - Google Drive/My Drive/Dissertation")
+
+# Load the data
+acled <- read.csv("acled_india_2020.csv")
+lockdown <- read.csv("india_covid_lockdown.csv")
+pop <- read_dta("masterfile_1.dta")
+```
+
+## coding for the trained data
+```{r, eval=FALSE}
+acled <- mutate(acled, communal = rep(NA, nrow(acled)))
+
+set.seed(123)
+smp <- sample(c("train", "test"), size=nrow(acled), 
+                prob=c(0.10, 0.90), replace=TRUE)
+train <- which(smp=="train")
+test <- which(smp=="test")
+
+acled_train <- acled[train,]
+acled_test <- acled[test,]
+
+## write.csv(acled_train, "acled_train.csv")
+
+acled_train <- read.csv("acled_train.csv")
+acled_train$communal <- as.factor(acled_train$communal)
+acled_test$communal <- as.factor(acled_test$communal)
+acled_annotated <- bind_rows(acled_train, acled_test)
+acled_annotated$communal <- as.factor(acled_annotated$communal)
+
+```
+
+## Classification based on Naive Bayes
+```{r, eval=FALSE, cache=TRUE}
+# Tokenisation
+corpus_train <- corpus(acled_train, docid_field = "event_id_cnty", text_field = "notes")
+tokens_train <- tokens(corpus_train, remove_punct = TRUE, remove_numbers = TRUE, remove_separators = TRUE)
+tokens_train <- tokens_tolower(tokens_train)
+tokens_train <- tokens_select(tokens_train, pattern = stopwords("en"), selection = "remove")
+tokens_train <- tokens_wordstem(tokens_train)
+
+corpus_test <- corpus(acled_test, docid_field = "event_id_cnty", text_field = "notes")
+tokens_test <- tokens(corpus_test, remove_punct = TRUE, remove_numbers = TRUE, remove_separators = TRUE)
+tokens_test <- tokens_tolower(tokens_test)
+tokens_test <- tokens_select(tokens_test, pattern = stopwords("en"), selection = "remove")
+tokens_test <- tokens_wordstem(tokens_test)
+
+# Document-feature matrix
+dfm_train <- dfm(tokens_train)
+dfm_test <- dfm(tokens_test)
+
+# Naive Bayes
+nb <- textmodel_nb(dfm_train, docvars(dfm_train, "communal"))
+preds <- predict(nb, newdata = dfm_test, force = TRUE)
+
+acled_annotated[is.na(acled_annotated$communal) == 1, "communal"] <- preds
+
+remove(corpus_train, tokens_train, corpus_test, tokens_test, dfm_train, dfm_test, nb, preds)
+```
+
+## CAA-related events
+```{r}
+# NCA related protests
+acled_annotated$CAA <- ifelse(
+  grepl("Citizenship \\(Amendment\\) Act|Citizenship Amendment Act|CAA|NRA", acled_annotated$notes, ignore.case = TRUE),
+  1, 
+  0
+)
+
+acled_annotated$CAA_violence <- ifelse(acled_annotated$CAA == 1 & (acled_annotated$event_type == "Riots" | acled_annotated$event_type == "Battles"), 1, 0)
+
+acled_annotated$communal <- as.integer(as.character(acled_annotated$communal))
+acled_annotated$CAA <- as.integer(acled_annotated$CAA)
+acled_annotated$CAA_violence <- as.integer(acled_annotated$CAA_violence)
+```
+
+
+## Data cleaning
+```{r}
+
+# ACLED: make a binary for lockdown and group by district
+acled_n <- acled_annotated %>%
+  mutate(date = dmy(event_date),
+         month = month(date),
+         afterlockdown = if_else(month >4, 1, 0)) %>%
+  filter(month <= 9) %>%
+  arrange(admin1, admin2, afterlockdown) %>%
+  group_by(admin1, admin2, afterlockdown) %>%
+  summarise(n_events = sum(communal),
+            n_events_caa = sum(CAA),
+            n_events_caariots = sum(CAA_violence)) %>%
+  ungroup()
+
+acled_n[192, 2] <- "Bilaspur (Chhattisgarh)"
+acled_n[193, 2] <- "Bilaspur (Chhattisgarh)"
+acled_n[118, 2] <- "Aurangabad (Bihar)"
+acled_n[585, 2] <- "Aurangabad (Maharashtra)"
+acled_n[586, 2] <- "Aurangabad (Maharashtra)"
+acled_n[1103, 2] <- "Pratapgarh (Uttar Pradesh)"
+acled_n[1104, 2] <- "Pratapgarh (Uttar Pradesh)"
+acled_n[855, 2] <- "Pratapgarh (Rajasthan)"
+acled_n[856, 2] <- "Pratapgarh (Rajasthan)"
+acled_n[1031, 2] <- "Balrampur (Uttar Pradesh)"
+acled_n[467, 2] <- "Hamirpur (Himachal Pradesh)"
+acled_n[468, 2] <- "Hamirpur (Himachal Pradesh)"
+acled_n[1066, 2] <- "Hamirpur (Uttar Pradesh)"
+
+full_data_acled <- expand.grid(admin2 = unique(acled_n$admin2), afterlockdown =c(0, 1))
+
+acled_n <- acled_n %>%
+  right_join(full_data_acled, by = c("admin2", "afterlockdown")) %>%
+  replace_na(list(n_events = 0,
+                  n_events_caa = 0,
+                  n_events_caariots = 0)) %>%
+  arrange(admin2, afterlockdown) %>%
+  group_by(admin2) %>%
+  fill(afterlockdown, .direction = "downup") %>%
+  ungroup()
+
+# Matching district names
+lockdown <- lockdown %>%
+  mutate(admin2 = case_match(.x = dist_name,
+             .default = dist_name,
+             "Ahmedabad" ~ "Ahmadabad",
+             "Alappuzha (Alleppey)" ~ "Alappuzha",
+             "Ayodhya (Faizabad)" ~ "Ayodhya",
+             "Baleshwar (Balasore)" ~ "Baleshwar",
+             "Ballari (Bellary)" ~ "Ballari",
+             "Banaskantha" ~ "Banas Kantha",
+             "Basta" ~ "Bastar",
+             "Belagavi (Belgaum)" ~ "Belagavi",
+             "Bengaluru Urban (Bangalore City)" ~ "Bengaluru Urban",
+             "Chhota Udaipur (Chhotaudepur)" ~ "Chhotaudepur",
+             "Chikkamagaluru (Chikmagalur)" ~ "Chikmagalur",
+             "Dakshina Kannada (South Canara)" ~ "Dakshina Kannada",
+             "Davangere" ~ "Davanagere",
+             "Devbhumi Dwarka (Devbhoomi Dwarka)" ~ "Devbhumi Dwarka",
+             "East Nimar" ~ "Khandwa",
+             "East Singhbum" ~ "East Singhbhum",
+             "East Slang" ~ "East Siang",
+             "Firozpur (Firojpur or Ferozepur)" ~ "Ferozepore",
+             "Gautam Buddh Nagar (Noida and Greater Noida)" ~ "Gautam Buddha Nagar",
+             "Gurugram (Gurgaon)" ~ "Gurugram",
+             "Jagatsinghpur" ~ "Jagatsinghapur",
+             "Jagitial" ~ "Jagtial",
+             "Jaiapur" ~ "Jajapur",
+             "Jangoan" ~ "Jangaon",
+             "Kachchh (Kutch)" ~ "Kachchh",
+             "Kaimur (Bhabua)" ~ "Kaimur",
+             "Kalaburagi (Gulbarga)" ~ "Kalaburagi",
+             "Kamrup Metro" ~ "Kamrup Metropolitan",
+             "Kanchipuram" ~ "Kancheepuram",
+             "Kanyakumari" ~ "Kanniyakumari",
+             "Komaram Bheem Asifabad" ~ "Kumaram Bheem Asifabad",
+             "Korea (Koriya)" ~ "Korea",
+             "Kozhikode (Calicut)" ~ "Kozhikode",
+             "Leh Ladakh" ~ "Leh",
+             "lmphal East" ~ "Imphal East",
+             "lmphal West" ~ "Imphal West",
+             "lndore"  ~ "Indore",
+             "Malda" ~ "Maldah",
+             "Medchal Malkajgiri" ~ "Medchal-Malkajgiri",
+             "Mehsana" ~ "Mahesana",
+             "Mumbai" ~ "Mumbai City",
+             "Munseli" ~ "Mungeli",
+             "Mysuru (Mysore)" ~ "Mysuru",
+             "Nayaranpur" ~ "Narayanpur",
+             "Panchmahal" ~ "Panch Mahals",
+             "Paschim Medinipur (West Midnapore)" ~ "Paschim Medinipur",
+             "Pashchim Champaran (West Champaran)" ~ "Pashchim Champaran",
+             "Pondicherry" ~ "Puducherry",
+             "Prayagraj (Allahabad)" ~ "Prayagraj",
+             "Purba Medinipur (East Midnapore)" ~ "Purba Medinipur",
+             "Purbi Champaran (East Champaran)" ~ "Purbi Champaran",
+             "Raebareli" ~ "Rae Bareli",
+             "Ranga Reddy" ~ "Rangareddy",
+             "Rupnagar (Ropar)" ~ "Rupnagar",
+             "Sabarkantha" ~ "Sabar Kantha",
+             "Saraikela Kharsawan" ~ "Saraikela-Kharsawan",
+             "SAS Nagar (Mohali)" ~ "SAS Nagar",
+             "Shahid Bhagat Singh Nagar (Nawanshahr)" ~ "Shahid Bhagat Singh Nagar",
+             "Sonepur" ~ "Subarnapur",
+             "South Andamans" ~ "South Andaman",
+             "South Salmara Mankachar" ~ "South Salmara-Mankachar",
+             "SPSR Nellore" ~ "Sri Potti Sriramulu Nellore",
+             "Surguia" ~ "Surguja",
+             "Thanjavur (Tanjore)" ~ "Thanjavur",
+             "Thiruvallur (Tiruvallur)" ~ "Thiruvallur",
+             "Thiruvananthapuram (Trivandrum)" ~ "Thiruvananthapuram",
+             "Thiruvarur (Tiruvarur)" ~ "Thiruvarur",
+             "Thoothukudi (Tuticorin)" ~ "Thoothukudi",
+             "Tiruchirappalli (Trichy)" ~ "Tiruchirappalli",
+             "Tirupathur" ~ "Tirupattur",
+             "Uttara Kannada (North Canara)" ~ "Uttara Kannada",
+             "Varanasi (Banaras)" ~ "Varanasi",
+             "Villupuram" ~ "Viluppuram",
+             "YSR (Kadapa)" ~ "YSR District")) %>%
+  arrange(admin2)
+
+# Differentiating four namesake districts
+lockdown[94,3] <- "Bilaspur (Chhattisgarh)"
+lockdown[95,3] <- "Bilaspur (Himachal Pradesh)"
+lockdown[34, 3] <- "Aurangabad (Bihar)"
+lockdown[35, 3] <- "Aurangabad (Maharashtra)"
+lockdown[520, 3] <- "Pratapgarh (Rajasthan)"
+lockdown[521, 3] <- "Pratapgarh (Uttar Pradesh)"
+lockdown[50, 3] <- "Balrampur (Chhattisgarh)"
+lockdown[51, 3] <- "Balrampur (Uttar Pradesh)"
+lockdown[237, 3] <- "Hamirpur (Himachal Pradesh)"
+lockdown[238, 3] <- "Hamirpur (Uttar Pradesh)"
+
+# full combination of unique dist and time period
+full_data <- expand.grid(admin2 = unique(lockdown$admin2), afterlockdown =c(0, 1))
+lockdown <- full_data %>%
+  right_join(lockdown, by = c("admin2"))
+
+# Merge lockdown data with acled data
+curated_data <- left_join(lockdown, acled_n, by =  c("admin2", "afterlockdown"))
+curated_data$phase3 <- as.factor(curated_data$phase3)
+curated_data <- arrange(curated_data, admin2, afterlockdown)
+```
+
+# Covariate - population
+```{r}
+# Covariate - population
+pop <- pop %>%
+  group_by(NAME_1, NAME_2) %>%
+  summarise(popsize_dist = mean(popsize_dist),
+            lnpopsize_dist = mean(lnpopsize_dist)) %>%
+  ungroup()
+
+pop <- pop %>%
+  mutate(admin2 = case_match(.x = NAME_2,
+             .default = NAME_2,
+             "Nicobar Islands" ~ "Nicobars",
+             "Nellore"  ~ "Sri Potti Sriramulu Nellore",
+             "Y.S.R." ~ "YSR District",
+             "Aurangabad1"  ~ "Aurangabad (Bihar)",
+             "Purba Champaran" ~ "Purbi Champaran",
+             "Balrampur" ~ "Balrampur (Chhattisgarh)",
+             "Bilaspur" ~ "Bilaspur (Chhattisgarh)",
+             "Gariaband" ~ "Garivaband",
+             "Kabeerdham" ~ "Kabirdham",
+             "Koriya" ~ "Korea",
+             "Uttar Bastar Kanker" ~ "Kanker",
+             "Dadra and Nagar Haveli" ~ "Dadra And Nagar Haveli",
+             "Chhota Udaipur" ~ "Chhotaudepur",
+             "Dahod" ~ "Dohad",
+             "The Dangs" ~ "Dang",
+             "Gurgaon" ~ "Gurugram",
+             "Mewat" ~ "Nuh",
+             "Bilaspur11" ~ "Bilaspur (Himachal Pradesh)",
+             "Hamirpur1" ~ "Hamirpur (Himachal Pradesh)",
+             "Lahul & Spiti" ~ "Lahul and Spiti",
+             "Badgam" ~ "Budgam",
+             "Bandipore" ~ "Bandipora",
+             "Leh (Ladakh)" ~ "Leh",
+             "Shupiyan" ~ "Shopian",
+             "Kodarma" ~ "Koderma",
+             "Pashchimi Singhbhum" ~ "West Singhbhum",
+             "Purbi Singhbhum" ~ "East Singhbhum",
+             "Sahibganj" ~ "Sahebganj",
+             "Saraikela-kharsawan" ~ "Saraikela-Kharsawan",
+             "Bagalkot" ~ "Bagalkote",
+             "Bangalore" ~ "Bengaluru Urban",
+             "Bangalore Rural" ~ "Bengaluru Rural",
+             "Belgaum" ~ "Belagavi",
+             "Bellary" ~ "Ballari",
+             "Bijapur1" ~ "Vijayapura",
+             "Chamrajnagar" ~ "Chamarajanagar",
+             "Chikballapura"  ~ "Chikkaballapura",
+             "Gulbarga" ~ "Kalaburagi",
+             "Mysore"  ~ "Mysuru",
+             "Shimoga" ~ "Shivamogga",
+             "Tumkur"  ~ "Tumakuru",
+             "Lakshadweep" ~ "Lakshadweep District",
+             "East Nimar" ~ "Khandwa",
+             "Narsimhapur" ~ "Narsinghpur",
+             "West Nimar" ~ "Khargone",
+             "Ahmadnagar" ~ "Ahmednagar",
+             "Aurangabad" ~ "Aurangabad (Maharashtra)",
+             "Bid" ~ "Beed",
+             "Buldana" ~ "Buldhana",
+             "Garhchiroli" ~ "Gadchiroli",
+             "Gondiya" ~ "Gondia",
+             "Raigarh1" ~ "Raigad",
+             "Lawangtlai" ~ "Lawngtlai",
+             "West" ~ "West Delhi",
+             "Bauda" ~ "Boudh",
+             "Debagarh" ~ "Deogarh",
+             "Nabarangapur" ~ "Nabarangpur",
+             "Firozpur" ~ "Ferozepore",
+             "Muktsar" ~ "Sri Muktsar Sahib",
+             "Sahibzada Ajit Singh Nagar" ~ "SAS Nagar",
+             "Chittaurgarh" ~ "Chittorgarh",
+             "Dhaulpur" ~ "Dholpur",
+             "Jalor" ~ "Jalore",
+             "Jhunjhunun" ~ "Jhunjhunu",
+             "Pratapgarh1" ~ "Pratapgarh (Rajasthan)",
+             "Nagappattinam" ~ "Nagapattinam",
+             "Thoothukkudi" ~ "Thoothukudi",
+             "Virudunagar" ~ "Virudhunagar",
+             "Mahbubnagar" ~ "Mahabubnagar",
+             "Ranga Reddy" ~ "Rangareddy",
+             "Warangal" ~ "Warangal Rural",
+             "Sipahijala" ~ "Sepahijala",
+             "Unokoti" ~ "Unakoti",
+             "Allahabad" ~ "Prayagraj",
+             "Balrampur1" ~ "Balrampur (Uttar Pradesh)",
+             "Faizabad" ~ "Ayodhya",
+             "Hamirpur" ~ "Hamirpur (Uttar Pradesh)",
+             "Kushinagar" ~ "Kushi Nagar",
+             "Lakhimpur Kheri" ~ "Kheri",
+             "Pratapgarh" ~ "Pratapgarh (Uttar Pradesh)",
+             "Sant Ravi Das Nagar" ~ "Bhadohi",
+             "Garhwal"  ~ "Pauri Garhwal",
+             "Hardwar" ~ "Haridwar",
+             "Barddhaman" ~ "Purba Bardhaman",
+             "Darjiling" ~ "Darjeeling",
+             "Haora" ~ "Howrah",
+             "Hugli" ~ "Hooghly",
+             "Koch Bihar" ~ "Cooch Behar",
+             "Pashchim Medinipur" ~ "Paschim Medinipur",
+             "Puruliya" ~ "Purulia")
+         ) %>%
+  arrange(admin2)
+
+curated_data <- curated_data %>%
+  left_join(pop, by = c("admin2")) %>%
+  replace_na(list(n_events = 0, n_events_caa = 0, n_events_caariots = 0))
+
+# write.csv(curated_data, "curated_data.csv")
+# state <- as.data.frame(unique(curated_data$NAME_1))
+# write.csv(state, "state.csv")
+# curated_data <- read.csv("curated_data.csv")
+state <- read.csv("state.csv")
+
+curated_data <- curated_data %>%
+  left_join(state, by = c("NAME_1"))
+
+library(xtable)
+df_sum <- curated_data %>%
+  summarise(
+    riot_mean = mean(n_events),
+    riot_sd = sd(n_events),
+    riot_min = min(n_events),
+    riot_max = max(n_events),
+    caa_mean = mean(n_events_caa),
+    caa_sd = sd(n_events_caa),
+    caa_min = min(n_events_caa),
+    caa_max = max(n_events_caa),
+    pop_mean = mean(popsize_dist, na.rm = TRUE),
+    pop_sd = sd(popsize_dist, na.rm = TRUE),
+    pop_min = min(popsize_dist, na.rm = TRUE),
+    pop_max = max(popsize_dist, na.rm = TRUE)) %>%
+  pivot_longer(cols = everything(), names_to = c("Variable", "Statistic"), names_sep = "_") %>%
+  pivot_wider(names_from = Statistic, values_from = value) %>%
+  select(Variable, mean, sd, min, max)
+
+df_sum_phase3 <- curated_data %>%
+  group_by(phase3) %>%
+  summarise(
+    Count = n(),
+    Percentage = n() / nrow(curated_data) * 100
+  ) %>%
+  mutate(Statistic = paste0(Count, " (", round(Percentage, 2), "%)")) %>%
+  select(phase3, Statistic)
+
+df_sum_bjp <- curated_data %>%
+  group_by(BJP) %>%
+  summarise(
+    Count = n(),
+    Percentage = n() / nrow(curated_data) * 100
+  ) %>%
+  mutate(Statistic = paste0(Count, " (", round(Percentage, 2), "%)")) %>%
+  select(BJP, Statistic)
+
+print(xtable(df_sum), type = "latex", digits = 4)
+print(xtable(df_sum_phase3), type = "latex", digits = 4)
+print(xtable(df_sum_bjp), type = "latex", digits = 4)
+```
+
+
+# Dif-in-dif
+```{r}
+# Dif-in-dif
+did <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data, family = poisson(link = "log"), cluster = "admin2")
+summary(did)
+
+did_caa <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data, family = poisson(link = "log"), cluster = "admin2")
+summary(did_caa)
+
+# texreg(list(did, did_caa), type = "text")
+
+# Dif-in-dif between orange and red zones
+did_orange <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data %>% filter(phase3 == "Orange Zone" | phase3 == "Red Zone") %>% mutate(phase3 = relevel(factor(phase3), ref = "Orange Zone")), family = poisson(link = "log"), cluster = "admin2")
+summary(did_orange)
+
+did_orange_caa <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data %>% filter(phase3 == "Orange Zone" | phase3 == "Red Zone") %>% mutate(phase3 = relevel(factor(phase3), ref = "Orange Zone")), family = poisson(link = "log"), cluster = "admin2")
+summary(did_orange_caa)
+
+texreg(list(did, did_caa, did_orange, did_orange_caa), type = "text")
+```
+# Histograms and count data
+```{r}
+# Histograms
+riot_hist <- ggplot(curated_data, aes(x = n_events)) +
+  geom_histogram(binwidth = 1, fill = "grey", color = "black") +
+  labs(x = "Number of ethnic riots", y = "Frequency")
+
+caa_hist <- ggplot(curated_data, aes(x = n_events_caa)) +
+  geom_histogram(binwidth = 1, fill = "grey", color = "black") +
+  labs(x = "Number of CAA-related events", y = "Frequency")
+
+caariots_hist <- ggplot(curated_data, aes(x = n_events_caariots)) +
+  geom_histogram(binwidth = 1, fill = "grey", color = "black") +
+  labs(x = "Number of CAA-related riots", y = "Frequency")
+
+pdf("histograms.pdf", width = 10, height = 10)
+grid.arrange(riot_hist, caa_hist, caariots_hist, nrow = 3)
+dev.off()
+
+## Fitted values
+library(ggeffects)
+
+marginal_effects_did <- ggpredict(did, terms = c("phase3", "afterlockdown"), condition = c(lnpopsize_dist = mean(curated_data$lnpopsize_dist, na.rm = TRUE)))
+riot_plot <- plot(marginal_effects_did,
+     colors = c("green", "orange", "red"),
+     show_title = FALSE) +
+  labs(x = "Before and after lockdown", y = "Average counts")
+
+marginal_effects_did_caa <- ggpredict(did_caa, terms = c("phase3", "afterlockdown"), condition = c(lnpopsize_dist = mean(curated_data$lnpopsize_dist, na.rm = TRUE)))
+caa_plot <- plot(marginal_effects_did_caa,
+     colors = c("green", "orange", "red"),
+     show_title = FALSE) +
+  labs(x = "Before and after lockdown", y = "Average counts")
+
+pdf("count_plots.pdf", width = 10, height = 5)
+grid.arrange(riot_plot, caa_plot, nrow = 1)
+dev.off()
+
+fitted_did <- cbind(marginal_effects_did[c(1,3,5),c(1,2)], marginal_effects_did[c(2,4,6),2])
+colnames(fitted_did) <- c("Zone", "Before", "After")
+
+fitted_did_caa <- cbind(marginal_effects_did_caa[c(1,3,5),c(1,2)], marginal_effects_did_caa[c(2,4,6),2])
+colnames(fitted_did_caa) <- c("Zone", "Before", "After")
+
+xtable(fitted_did, type = "latex", digits = 4)
+xtable(fitted_did_caa, type = "latex", digits = 4)
+
+```
+
+
+# only violent events
+```{r}
+# Dif-in-dif
+did_caariots <- feglm(n_events_caariots ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data, family = poisson(link = "log"), cluster = "admin2")
+texreg(did_caariots, type = "text")
+```
+
+
+# Controlled for confirmed case within each zone group
+```{r}
+# Confirmed cases
+confirmed_cases <- read.csv("districts.csv")
+confirmed_cases <- confirmed_cases %>%
+  mutate(Date = as.Date(Date, format = "%Y-%m-%d")) %>%
+  filter(Date == "2020-04-30") %>%
+  mutate(admin2 = case_match(.x = District,
+             .default = District,
+             "S.P.S. Nellore" ~ "Sri Potti Sriramulu Nellore",
+             "Y.S.R. Kadapa" ~ "YSR District",
+             "Araria" ~ "Auraiya",
+             "East Champaran" ~ "Purbi Champaran",
+             "Bilaspur" ~ "Bilaspur (Chhattisgarh)",
+             "Ahmedabad" ~ "Ahmadabad",
+             "Banaskantha" ~ "Banas Kantha",
+             "Chhota Udaipur" ~ "Chhotaudepur",
+             "Dahod" ~ "Dohad",
+             "Kutch" ~ "Kachchh",
+             "Mehsana" ~ "Mahesana",
+             "Panchmahal" ~ "Panch Mahals",
+             "Sabarkantha" ~ "Sabar Kantha",
+             "Hamirpur" ~ "Hamirpur (Himachal Pradesh)",
+             "Shopiyan" ~ "Shopian",
+             "Mumbai" ~ "Mumbai City",
+             "Balasore" ~ "Baleshwar",
+             "Jajpur" ~ "Jajapur",
+             "Ferozepur" ~ "Ferozepore",
+             "S.A.S. Nagar" ~ "SAS Nagar",
+             "Kanyakumari" ~ "Kanniyakumari",
+             "Thoothukkudi" ~ "Thoothukudi",
+             "Tirupathur" ~ "Tirupattur",
+             "Balrampur" ~ "Balrampur (Uttar Pradesh)",
+             "Shrawasti" ~ "Shravasti"))
+
+confirmed_cases[402, 9] <- "Pratapgarh (Uttar Pradesh)"
+confirmed_cases[18, 9] <- "Aurangabad (Bihar)"
+confirmed_cases[181, 9] <- "Aurangabad (Maharashtra)"
+
+orange_red <- curated_data %>%
+  filter(phase3 == "Orange Zone" | phase3 == "Red Zone") %>%
+  left_join(confirmed_cases, by = c("admin2")) %>%
+  mutate(phase3 = relevel(factor(phase3), ref = "Orange Zone"))
+
+curated_data <- curated_data %>%
+  left_join(confirmed_cases, by = c("admin2")) %>%
+  replace_na(list(Confirmed = 0))
+
+## summary statistics
+df_sum_phase3 <- curated_data %>%
+  group_by(phase3) %>%
+  summarise(
+    Count = n(),
+    Percentage = n() / nrow(curated_data) * 100,
+    Confirmed_Cases_Mean = mean(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_SD = sd(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_Min = min(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_Max = max(Confirmed, na.rm = TRUE)
+  ) %>%
+  mutate(Count = paste0(Count, " (", round(Percentage, 2), "%)")) %>%
+  select(phase3, Count, Confirmed_Cases_Mean, Confirmed_Cases_SD, Confirmed_Cases_Min, Confirmed_Cases_Max)
+
+df_sum_bjp <- curated_data %>%
+  group_by(BJP) %>%
+  summarise(
+    Count = n(),
+    Percentage = n() / nrow(curated_data) * 100,
+    Confirmed_Cases_Mean = mean(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_SD = sd(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_Min = min(Confirmed, na.rm = TRUE),
+    Confirmed_Cases_Max = max(Confirmed, na.rm = TRUE)
+  ) %>%
+  mutate(Count = paste0(Count, " (", round(Percentage, 2), "%)")) %>%
+  select(BJP, Count, Confirmed_Cases_Mean, Confirmed_Cases_SD, Confirmed_Cases_Min, Confirmed_Cases_Max)
+
+df_sum <- curated_data %>%
+  summarise(
+    riot_mean = mean(n_events),
+    riot_sd = sd(n_events),
+    riot_min = min(n_events),
+    riot_max = max(n_events),
+    caa_mean = mean(n_events_caa),
+    caa_sd = sd(n_events_caa),
+    caa_min = min(n_events_caa),
+    caa_max = max(n_events_caa),
+    pop_mean = mean(popsize_dist, na.rm = TRUE),
+    pop_sd = sd(popsize_dist, na.rm = TRUE),
+    pop_min = min(popsize_dist, na.rm = TRUE),
+    pop_max = max(popsize_dist, na.rm = TRUE),
+    cases_mean = mean(Confirmed, na.rm = TRUE),
+    cases_sd = sd(Confirmed, na.rm = TRUE),
+    cases_min = min(Confirmed, na.rm = TRUE),
+    cases_max = max(Confirmed, na.rm = TRUE),) %>%
+  pivot_longer(cols = everything(), names_to = c("Variable", "Statistic"), names_sep = "_") %>%
+  pivot_wider(names_from = Statistic, values_from = value) %>%
+  select(Variable, mean, sd, min, max)
+
+xtable(df_sum_phase3, caption = "Summary statistics of confirmed cases in each zone group", "latex")
+xtable(df_sum_bjp, caption = "Summary statistics of confirmed cases in BJP and non-BJP states", "latex")
+xtable(df_sum, caption = "Summary statistics of the dataset", "latex")
+```
+
+```{r}
+## dif-in-dif with confirmed cases
+did_withconfirmed <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist + Confirmed, data = curated_data[curated_data$phase3 == "Orange Zone"|curated_data$phase3 == "Red Zone",], family = poisson(link = "log"), cluster = "admin2")
+
+did_withconfirmed_caa <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist + Confirmed, data = curated_data[curated_data$phase3 == "Orange Zone"|curated_data$phase3 == "Red Zone",], family = poisson(link = "log"), cluster = "admin2")
+
+texreg(list(did_withconfirmed, did_withconfirmed_caa), type = "text")
+
+## dif-in-dif in each zone group
+did_confirmed_orange <- feglm(n_events ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red[orange_red$phase3 == "Orange Zone",], family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed_orange)
+
+did_confirmed_red <- feglm(n_events ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red[orange_red$phase3 == "Red Zone",], family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed_red)
+
+did_confirmed_caa_orange <- feglm(n_events_caa ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red[orange_red$phase3 == "Orange Zone",], family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed_caa_orange)
+
+did_confirmed_caa_red <- feglm(n_events_caa ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red[orange_red$phase3 == "Red Zone",], family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed_caa_red)
+
+texreg(list(did_confirmed_orange, did_confirmed_red, did_confirmed_caa_orange, did_confirmed_caa_red), type = "text")
+
+# SD of confirmed cases
+sd(orange_red[orange_red$phase3 == "Red Zone" & orange_red$afterlockdown == 1,]$Confirmed, na.rm = TRUE)
+sd(orange_red[orange_red$phase3 == "Orange Zone" & orange_red$afterlockdown == 1,]$Confirmed, na.rm = TRUE)
+
+# Simply regressing on confirmed cases
+did_confirmed <- feglm(n_events ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red, family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed)
+
+did_confirmed_caa <- feglm(n_events_caa ~ Confirmed*afterlockdown + lnpopsize_dist, data = orange_red, family = poisson(link = "log"), cluster = "admin2")
+summary(did_confirmed_caa)
+
+texreg(list(did_confirmed, did_confirmed_caa, did_confirmed_orange, did_confirmed_red, did_confirmed_caa_orange, did_confirmed_caa_red), type = "text")
+
+# histogram of confirmed cases
+p1 <- ggplot(orange_red[orange_red$phase3 == "Orange Zone" & orange_red$afterlockdown == 1,], aes(x = Confirmed)) + 
+  geom_histogram(binwidth = 1, fill = "lightblue", color = "black") +
+  ggtitle("Histogram of confirmed cases in Orange zone")
+
+p2 <- ggplot(orange_red[orange_red$phase3 == "Red Zone" & orange_red$afterlockdown == 1,], aes(x = Confirmed)) +
+  geom_histogram(binwidth = 1, fill = "lightgreen", color = "black") +
+  scale_x_continuous(limits = c(0,200)) +
+  ggtitle("Histogram of confirmed cases in Red zone")
+
+pdf("histograms.pdf", width = 8, height = 8)
+grid.arrange(p1, p2)
+dev.off()
+
+# heterogenous effect on confirmed cases
+did_orange_over75 <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = orange_red %>% filter(Confirmed > 75 ), family = poisson(link = "log"), cluster = "admin2")
+
+did_orange_under75 <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = orange_red %>% filter(Confirmed <= 75 ), family = poisson(link = "log"), cluster = "admin2")
+
+did_orange_caa_over75 <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = orange_red %>% filter(Confirmed > 75 ), family = poisson(link = "log"), cluster = "admin2")
+
+did_orange_caa_under75 <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = orange_red %>% filter(Confirmed <= 75 ), family = poisson(link = "log"), cluster = "admin2")
+
+texreg(list(did_orange, did_orange_over75, did_orange_under75), type = "text")
+texreg(list(did_orange_caa, did_orange_caa_over75, did_orange_caa_under75), type = "text")
+```
+
+
+# Splitting into two subsets
+```{r}
+did_bjp <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data[curated_data$BJP == 1,], family = poisson(link = "log"), cluster = "admin2")
+summary(did_bjp)
+
+did_not_bjp <- feglm(n_events ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data[curated_data$BJP == 0,], family = poisson(link = "log"), cluster = "admin2")
+summary(did_not_bjp)
+
+did_caa_bjp <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data[curated_data$BJP == 1,], family = poisson(link = "log"), cluster = "admin2")
+summary(did_caa_bjp)
+
+did_caa_not_bjp <- feglm(n_events_caa ~ phase3*afterlockdown + lnpopsize_dist, data = curated_data[curated_data$BJP == 0,], family = poisson(link = "log"), cluster = "admin2")
+summary(did_caa_not_bjp)
+
+texreg(list(did_bjp, did_not_bjp, did_caa_bjp, did_caa_not_bjp), type = "text")
+```
+
+# Parallel trends
+```{r}
+# Lockdown for monthly data
+lockdown <- lockdown %>% 
+  filter(afterlockdown == 1) %>%
+  select(admin2, phase3)
+
+full_data_monthly <- expand.grid(admin2 = unique(lockdown$admin2), month =c(1:12))
+
+lockdown_monthly <- full_data_monthly %>%
+  right_join(lockdown, by = c("admin2"))
+
+# data aggregated by month
+acled_parallel <- acled_annotated %>%
+  mutate(date = dmy(event_date),
+         month = month(date)) %>%
+  arrange(admin1, admin2, month) %>% ## maybe week?
+  group_by(admin1, admin2, month) %>%
+  summarise(n_events = sum(communal),
+            n_events_caa = sum(CAA),
+            n_events_caariots = sum(CAA_violence)) %>%
+  ungroup() %>%
+  left_join(lockdown_monthly, acled_n, by =  c("admin2", "month")) %>%
+  replace_na(list(n_events = 0, n_events_caa = 0, n_events_caariots = 0)) %>%
+  arrange(phase3, month, admin2) %>%
+  group_by(phase3, month) %>%
+  summarise(monthly_n_events = mean(n_events),
+            monthly_n_events_caa = mean(n_events_caa),
+            monthly_n_events_caariots = mean(n_events_caariots),
+            log_n_events = log(monthly_n_events),
+            log_n_events_caa = log(monthly_n_events_caa),
+            log_n_events_caariots = log(monthly_n_events_caariots)) %>%
+  ungroup() %>%
+  filter(is.na(phase3) == FALSE)
+```
+
+```{r}
+# plot
+monthly_riot <- ggplot(acled_parallel[acled_parallel$month <= 4,], aes(x = month, y = log_n_events, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly events") +
+  theme_minimal()
+
+monthly_caa <- ggplot(acled_parallel[acled_parallel$month <= 4,], aes(x = month, y = log_n_events_caa, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly CAA events") +
+  theme_minimal()
+
+monthly_caariots <- ggplot(acled_parallel[acled_parallel$month <= 4,], aes(x = month, y = log_n_events_caariots, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly CAA riots") +
+  theme_minimal()
+
+pdf("monthly_parallel_before.pdf")
+grid.arrange(monthly_riot, monthly_caa)
+dev.off()
+
+# plot after treatment
+monthly_riot_after <- ggplot(acled_parallel[acled_parallel$month >= 5,], aes(x = month, y = log_n_events, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly events") +
+  theme_minimal()
+
+monthly_caa_after <- ggplot(acled_parallel[acled_parallel$month >= 5,], aes(x = month, y = log_n_events_caa, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly CAA events") +
+  theme_minimal()
+
+monthly_caariots_after <- ggplot(acled_parallel[acled_parallel$month >= 5,], aes(x = month, y = log_n_events_caariots, color = phase3)) +
+  geom_line() +
+  geom_point() +
+  scale_colour_manual(
+    values = c(
+      "Green Zone"  = "green",
+      "Orange Zone"  = "orange",
+      "Red Zone"  = "red"
+    )
+  ) +
+  ggtitle("Monthly CAA riots") +
+  theme_minimal()
+
+pdf("monthly_parallel_after.pdf")
+grid.arrange(monthly_riot_after, monthly_caa_after)
+dev.off()
+```
+

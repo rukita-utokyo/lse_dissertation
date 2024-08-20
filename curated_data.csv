@@ -1,0 +1,1467 @@
+,admin2,afterlockdown,dist_name,phase3,admin1,n_events,n_events_caa,NAME_1,NAME_2,popsize_dist,lnpopsize_dist
+1,Adilabad,0,Adilabad,Orange Zone,Telangana,0,0,Telangana,Adilabad,2741239,14.82392025
+2,Adilabad,1,Adilabad,Orange Zone,Telangana,0,0,Telangana,Adilabad,2741239,14.82392025
+3,Agar Malwa,0,Agar Malwa,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Agar Malwa,NA,NA
+4,Agar Malwa,1,Agar Malwa,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Agar Malwa,NA,NA
+5,Agra,0,Agra,Red Zone,Uttar Pradesh,0,3,Uttar Pradesh,Agra,4418797,15.30137825
+6,Agra,1,Agra,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Agra,4418797,15.30137825
+7,Ahmadabad,0,Ahmedabad,Red Zone,Gujarat,0,5,Gujarat,Ahmadabad,7214225,15.79156494
+8,Ahmadabad,1,Ahmedabad,Red Zone,Gujarat,0,0,Gujarat,Ahmadabad,7214225,15.79156494
+9,Ahmednagar,0,Ahmednagar,Orange Zone,Maharashtra,0,2,Maharashtra,Ahmadnagar,4543159,15.32913303
+10,Ahmednagar,1,Ahmednagar,Orange Zone,Maharashtra,0,0,Maharashtra,Ahmadnagar,4543159,15.32913303
+11,Aizawl,0,Aizawl,Green Zone,Mizoram,0,2,Mizoram,Aizawl,400309,12.89999199
+12,Aizawl,1,Aizawl,Green Zone,Mizoram,0,0,Mizoram,Aizawl,400309,12.89999199
+13,Ajmer,0,Ajmer,Red Zone,Rajasthan,0,1,Rajasthan,Ajmer,2583052,14.7644825
+14,Ajmer,1,Ajmer,Red Zone,Rajasthan,0,0,Rajasthan,Ajmer,2583052,14.7644825
+15,Akola,0,Akola,Red Zone,Maharashtra,0,3,Maharashtra,Akola,1813906,14.41099262
+16,Akola,1,Akola,Red Zone,Maharashtra,0,0,Maharashtra,Akola,1813906,14.41099262
+17,Alappuzha,0,Alappuzha (Alleppey),Orange Zone,Kerala,0,1,Kerala,Alappuzha,2127789,14.57059383
+18,Alappuzha,1,Alappuzha (Alleppey),Orange Zone,Kerala,0,0,Kerala,Alappuzha,2127789,14.57059383
+19,Aligarh,0,Aligarh,Red Zone,Uttar Pradesh,0,19,Uttar Pradesh,Aligarh,3673889,15.11676121
+20,Aligarh,1,Aligarh,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Aligarh,3673889,15.11676121
+21,Alipurduar,0,Alipurduar,Green Zone,West Bengal,0,8,West Bengal,Alipurduar,NA,NA
+22,Alipurduar,1,Alipurduar,Green Zone,West Bengal,0,0,West Bengal,Alipurduar,NA,NA
+23,Alirajpur,0,Alirajpur,Orange Zone,NA,0,0,Madhya Pradesh,Alirajpur,728999,13.4994278
+24,Alirajpur,1,Alirajpur,Orange Zone,NA,0,0,Madhya Pradesh,Alirajpur,728999,13.4994278
+25,Almora,0,Almora,Green Zone,Uttarakhand,0,0,Uttarakhand,Almora,622506,13.34150887
+26,Almora,1,Almora,Green Zone,Uttarakhand,0,0,Uttarakhand,Almora,622506,13.34150887
+27,Alwar,0,Alwar,Orange Zone,Rajasthan,1,1,Rajasthan,Alwar,3674179,15.11684036
+28,Alwar,1,Alwar,Orange Zone,Rajasthan,0,0,Rajasthan,Alwar,3674179,15.11684036
+29,Ambala,0,Ambala,Orange Zone,Haryana,0,0,Haryana,Ambala,1128350,13.9362669
+30,Ambala,1,Ambala,Orange Zone,Haryana,0,0,Haryana,Ambala,1128350,13.9362669
+31,Ambedkar Nagar,0,Ambedkar Nagar,Green Zone,NA,0,0,Uttar Pradesh,Ambedkar Nagar,2397888,14.69009876
+32,Ambedkar Nagar,1,Ambedkar Nagar,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Ambedkar Nagar,2397888,14.69009876
+33,Amethi,0,Amethi,Green Zone,NA,0,0,Uttar Pradesh,Amethi,NA,NA
+34,Amethi,1,Amethi,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Amethi,NA,NA
+35,Amravati,0,Amravati,Orange Zone,NA,0,0,Maharashtra,Amravati,2888445,14.87622929
+36,Amravati,1,Amravati,Orange Zone,Maharashtra,0,0,Maharashtra,Amravati,2888445,14.87622929
+37,Amreli,0,Amreli,Green Zone,Gujarat,1,0,Gujarat,Amreli,1514190,14.2303915
+38,Amreli,1,Amreli,Green Zone,NA,0,0,Gujarat,Amreli,1514190,14.2303915
+39,Amritsar,0,Amritsar,Orange Zone,Punjab,0,14,Punjab,Amritsar,2490656,14.72805691
+40,Amritsar,1,Amritsar,Orange Zone,Punjab,0,0,Punjab,Amritsar,2490656,14.72805691
+41,Amroha,0,Amroha,Red Zone,NA,0,0,Uttar Pradesh,Amroha,1840221,14.42539597
+42,Amroha,1,Amroha,Red Zone,Uttar Pradesh,1,0,Uttar Pradesh,Amroha,1840221,14.42539597
+43,Anand,0,Anand,Red Zone,Gujarat,0,0,Gujarat,Anand,2092745,14.5539875
+44,Anand,1,Anand,Red Zone,Gujarat,0,0,Gujarat,Anand,2092745,14.5539875
+45,Anantapur,0,Anantapur,Orange Zone,Andhra Pradesh,0,2,Andhra Pradesh,Anantapur,4081148,15.22188854
+46,Anantapur,1,Anantapur,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Anantapur,4081148,15.22188854
+47,Anantnag,0,Anantnag,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Anantnag,1078692,13.89126015
+48,Anantnag,1,Anantnag,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Anantnag,1078692,13.89126015
+49,Anjaw,0,Anjaw,Green Zone,NA,0,0,Arunachal Pradesh,Anjaw,21167,9.960198402
+50,Anjaw,1,Anjaw,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Anjaw,21167,9.960198402
+51,Anugul,0,Anugul,Green Zone,Odisha,0,0,Odisha,Anugul,1273821,14.05753136
+52,Anugul,1,Anugul,Green Zone,Odisha,0,0,Odisha,Anugul,1273821,14.05753136
+53,Anuppur,0,Anuppur,Green Zone,NA,0,0,Madhya Pradesh,Anuppur,749237,13.52681065
+54,Anuppur,1,Anuppur,Green Zone,NA,0,0,Madhya Pradesh,Anuppur,749237,13.52681065
+55,Araria,0,Araria,Green Zone,Bihar,0,4,Bihar,Araria,2811569,14.84925365
+56,Araria,1,Araria,Green Zone,Bihar,0,0,Bihar,Araria,2811569,14.84925365
+57,Aravalli,0,Aravalli,Red Zone,Gujarat,0,1,Gujarat,Aravalli,NA,NA
+58,Aravalli,1,Aravalli,Red Zone,Gujarat,0,0,Gujarat,Aravalli,NA,NA
+59,Ariyalur,0,Ariyalur,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Ariyalur,754894,13.53433228
+60,Ariyalur,1,Ariyalur,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Ariyalur,754894,13.53433228
+61,Arwal,0,Arwal,Orange Zone,NA,0,0,Bihar,Arwal,700843,13.46003914
+62,Arwal,1,Arwal,Orange Zone,Bihar,0,0,Bihar,Arwal,700843,13.46003914
+63,Ashoknagar,0,Ashoknagar,Green Zone,NA,0,0,Madhya Pradesh,Ashoknagar,845071,13.64717579
+64,Ashoknagar,1,Ashoknagar,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Ashoknagar,845071,13.64717579
+65,Auraiya,0,Auraiya,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Auraiya,1379545,14.13726425
+66,Auraiya,1,Auraiya,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Auraiya,1379545,14.13726425
+67,Aurangabad (Bihar),0,Aurangabad,Orange Zone,NA,0,0,Bihar,Aurangabad1,2540073,14.74770355
+68,Aurangabad (Bihar),1,Aurangabad,Orange Zone,NA,0,0,Bihar,Aurangabad1,2540073,14.74770355
+69,Aurangabad (Maharashtra),0,Aurangabad,Red Zone,NA,0,0,Maharashtra,Aurangabad,3701282,15.12418938
+70,Aurangabad (Maharashtra),1,Aurangabad,Red Zone,NA,0,0,Maharashtra,Aurangabad,3701282,15.12418938
+71,Ayodhya,0,Ayodhya (Faizabad),Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Faizabad,2470996,14.72013187
+72,Ayodhya,1,Ayodhya (Faizabad),Orange Zone,Uttar Pradesh,1,0,Uttar Pradesh,Faizabad,2470996,14.72013187
+73,Azamgarh,0,Azamgarh,Orange Zone,Uttar Pradesh,0,2,Uttar Pradesh,Azamgarh,4613913,15.34458733
+74,Azamgarh,1,Azamgarh,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Azamgarh,4613913,15.34458733
+75,Bagalkote,0,Bagalkote,Orange Zone,Karnataka,0,0,Karnataka,Bagalkot,1889752,14.4519558
+76,Bagalkote,1,Bagalkote,Orange Zone,Karnataka,0,0,Karnataka,Bagalkot,1889752,14.4519558
+77,Bageshwar,0,Bageshwar,Green Zone,Uttarakhand,0,0,Uttarakhand,Bageshwar,259898,12.46804428
+78,Bageshwar,1,Bageshwar,Green Zone,Uttarakhand,0,0,Uttarakhand,Bageshwar,259898,12.46804428
+79,Baghpat,0,Baghpat,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Baghpat,1303048,14.08021641
+80,Baghpat,1,Baghpat,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Baghpat,1303048,14.08021641
+81,Bahraich,0,Bahraich,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bahraich,3487731,15.06476212
+82,Bahraich,1,Bahraich,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bahraich,3487731,15.06476212
+83,Baksa,0,Baksa,Green Zone,Assam,0,2,Assam,Baksa,950075,13.76429653
+84,Baksa,1,Baksa,Green Zone,Assam,0,2,Assam,Baksa,950075,13.76429653
+85,Balaghat,0,Balaghat,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Balaghat,1701698,14.34713745
+86,Balaghat,1,Balaghat,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Balaghat,1701698,14.34713745
+87,Balangir,0,Balangir,Green Zone,Odisha,1,1,Odisha,Balangir,1648997,14.31567764
+88,Balangir,1,Balangir,Green Zone,Odisha,0,0,Odisha,Balangir,1648997,14.31567764
+89,Baleshwar,0,Baleshwar (Balasore),Red Zone,Odisha,0,0,Odisha,Baleshwar,2320529,14.65730572
+90,Baleshwar,1,Baleshwar (Balasore),Red Zone,Odisha,0,0,Odisha,Baleshwar,2320529,14.65730572
+91,Ballari,0,Ballari (Bellary),Orange Zone,Karnataka,0,3,Karnataka,Bellary,2452595,14.71265697
+92,Ballari,1,Ballari (Bellary),Orange Zone,Karnataka,0,0,Karnataka,Bellary,2452595,14.71265697
+93,Ballia,0,Ballia,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Ballia,3239774,14.99101448
+94,Ballia,1,Ballia,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Ballia,3239774,14.99101448
+95,Balod,0,Balod,Green Zone,NA,0,0,Chhattisgarh,Balod,NA,NA
+96,Balod,1,Balod,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Balod,NA,NA
+97,Baloda Bazar,0,Baloda Bazar,Green Zone,NA,0,0,Chhattisgarh,Baloda Bazar,NA,NA
+98,Baloda Bazar,1,Baloda Bazar,Green Zone,NA,0,0,Chhattisgarh,Baloda Bazar,NA,NA
+99,Balrampur (Chhattisgarh),0,Balrampur,Green Zone,NA,0,0,Chhattisgarh,Balrampur,2148665,14.58035755
+100,Balrampur (Chhattisgarh),1,Balrampur,Green Zone,NA,0,0,Chhattisgarh,Balrampur,2148665,14.58035755
+101,Balrampur (Uttar Pradesh),0,Balrampur,Orange Zone,NA,0,0,Uttar Pradesh,Balrampur1,NA,NA
+102,Balrampur (Uttar Pradesh),1,Balrampur,Orange Zone,NA,0,0,Uttar Pradesh,Balrampur1,NA,NA
+103,Banas Kantha,0,Banaskantha,Red Zone,Gujarat,0,0,Gujarat,Banas Kantha,3120506,14.95350552
+104,Banas Kantha,1,Banaskantha,Red Zone,Gujarat,0,0,Gujarat,Banas Kantha,3120506,14.95350552
+105,Banda,0,Banda,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Banda,1799410,14.40296936
+106,Banda,1,Banda,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Banda,1799410,14.40296936
+107,Bandipora,0,Bandipora,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Bandipore,392232,12.87960911
+108,Bandipora,1,Bandipora,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Bandipore,392232,12.87960911
+109,Banka,0,Banka,Orange Zone,NA,0,0,Bihar,Banka,2034763,14.52589035
+110,Banka,1,Banka,Orange Zone,Bihar,0,0,Bihar,Banka,2034763,14.52589035
+111,Bankura,0,Bankura,Green Zone,West Bengal,0,0,West Bengal,Bankura,3596674,15.09552002
+112,Bankura,1,Bankura,Green Zone,West Bengal,0,0,West Bengal,Bankura,3596674,15.09552002
+113,Banswara,0,Banswara,Red Zone,NA,0,0,Rajasthan,Banswara,1797485,14.40189934
+114,Banswara,1,Banswara,Red Zone,Rajasthan,0,0,Rajasthan,Banswara,1797485,14.40189934
+115,Barabanki,0,Barabanki,Green Zone,NA,0,0,Uttar Pradesh,Barabanki,3260699,14.99745178
+116,Barabanki,1,Barabanki,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Barabanki,3260699,14.99745178
+117,Baramulla,0,Baramulla,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Baramulla,1008039,13.8235178
+118,Baramulla,1,Baramulla,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Baramulla,1008039,13.8235178
+119,Baran,0,Baran,Green Zone,Rajasthan,0,0,Rajasthan,Baran,1222755,14.01661682
+120,Baran,1,Baran,Green Zone,Rajasthan,0,0,Rajasthan,Baran,1222755,14.01661682
+121,Bareilly,0,Bareilly,Red Zone,Uttar Pradesh,0,3,Uttar Pradesh,Bareilly,4448359,15.30804539
+122,Bareilly,1,Bareilly,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bareilly,4448359,15.30804539
+123,Bargarh,0,Bargarh,Green Zone,Odisha,0,0,Odisha,Bargarh,1481255,14.20840073
+124,Bargarh,1,Bargarh,Green Zone,Odisha,0,0,Odisha,Bargarh,1481255,14.20840073
+125,Barmer,0,Barmer,Orange Zone,Rajasthan,0,0,Rajasthan,Barmer,2603751,14.7724638
+126,Barmer,1,Barmer,Orange Zone,Rajasthan,0,0,Rajasthan,Barmer,2603751,14.7724638
+127,Barnala,0,Barnala,Orange Zone,Punjab,1,2,Punjab,Barnala,595527,13.29720211
+128,Barnala,1,Barnala,Orange Zone,Punjab,0,0,Punjab,Barnala,595527,13.29720211
+129,Barpeta,0,Barpeta,Green Zone,Assam,0,10,Assam,Barpeta,1693622,14.34237957
+130,Barpeta,1,Barpeta,Green Zone,Assam,0,2,Assam,Barpeta,1693622,14.34237957
+131,Barwani,0,Barwani,Red Zone,Madhya Pradesh,0,1,Madhya Pradesh,Barwani,1385881,14.14184666
+132,Barwani,1,Barwani,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Barwani,1385881,14.14184666
+133,Bastar,0,Basta,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Bastar,1413199,14.16136646
+134,Bastar,1,Basta,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Bastar,1413199,14.16136646
+135,Basti,0,Basti,Orange Zone,NA,0,0,Uttar Pradesh,Basti,2464464,14.71748447
+136,Basti,1,Basti,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Basti,2464464,14.71748447
+137,Bathinda,0,Bathinda,Green Zone,Punjab,0,12,Punjab,Bathinda,1388525,14.14375305
+138,Bathinda,1,Bathinda,Green Zone,Punjab,2,0,Punjab,Bathinda,1388525,14.14375305
+139,Beed,0,Beed,Orange Zone,Maharashtra,0,3,Maharashtra,Bid,2585049,14.76525497
+140,Beed,1,Beed,Orange Zone,Maharashtra,1,0,Maharashtra,Bid,2585049,14.76525497
+141,Begusarai,0,Begusarai,Orange Zone,Bihar,0,3,Bihar,Begusarai,2970541,14.90425491
+142,Begusarai,1,Begusarai,Orange Zone,Bihar,0,0,Bihar,Begusarai,2970541,14.90425491
+143,Belagavi,0,Belagavi (Belgaum),Orange Zone,Karnataka,0,0,Karnataka,Belgaum,4779661,15.37987995
+144,Belagavi,1,Belagavi (Belgaum),Orange Zone,Karnataka,0,0,Karnataka,Belgaum,4779661,15.37987995
+145,Bemetara,0,Bemetara,Green Zone,NA,0,0,Chhattisgarh,Bemetara,NA,NA
+146,Bemetara,1,Bemetara,Green Zone,NA,0,0,Chhattisgarh,Bemetara,NA,NA
+147,Bengaluru Rural,0,Bengaluru Rural,Red Zone,Karnataka,0,0,Karnataka,Bangalore Rural,990923,13.80639172
+148,Bengaluru Rural,1,Bengaluru Rural,Red Zone,Karnataka,0,0,Karnataka,Bangalore Rural,990923,13.80639172
+149,Bengaluru Urban,0,Bengaluru Urban (Bangalore City),Red Zone,Karnataka,0,19,Karnataka,Bangalore,9621551,16.07951546
+150,Bengaluru Urban,1,Bengaluru Urban (Bangalore City),Red Zone,Karnataka,0,1,Karnataka,Bangalore,9621551,16.07951546
+151,Betul,0,Betul,Orange Zone,Madhya Pradesh,0,1,Madhya Pradesh,Betul,1575362,14.26999569
+152,Betul,1,Betul,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Betul,1575362,14.26999569
+153,Bhadohi,0,Bhadohi,Orange Zone,NA,0,0,Uttar Pradesh,Sant Ravi Das Nagar,1578213,14.27180386
+154,Bhadohi,1,Bhadohi,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sant Ravi Das Nagar,1578213,14.27180386
+155,Bhadradri Kothagudem,0,Bhadradri Kothagudem,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+156,Bhadradri Kothagudem,1,Bhadradri Kothagudem,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+157,Bhadrak,0,Bhadrak,Red Zone,Odisha,0,0,Odisha,Bhadrak,1506337,14.22519112
+158,Bhadrak,1,Bhadrak,Red Zone,Odisha,0,0,Odisha,Bhadrak,1506337,14.22519112
+159,Bhagalpur,0,Bhagalpur,Orange Zone,Bihar,0,1,Bihar,Bhagalpur,3037766,14.92663288
+160,Bhagalpur,1,Bhagalpur,Orange Zone,Bihar,0,0,Bihar,Bhagalpur,3037766,14.92663288
+161,Bhandara,0,Bhandara,Orange Zone,NA,0,0,Maharashtra,Bhandara,1200334,13.99811077
+162,Bhandara,1,Bhandara,Orange Zone,Maharashtra,0,0,Maharashtra,Bhandara,1200334,13.99811077
+163,Bharatpur,0,Bharatpur,Red Zone,Rajasthan,0,0,Rajasthan,Bharatpur,2548462,14.7510004
+164,Bharatpur,1,Bharatpur,Red Zone,Rajasthan,0,0,Rajasthan,Bharatpur,2548462,14.7510004
+165,Bharuch,0,Bharuch,Orange Zone,Gujarat,0,0,Gujarat,Bharuch,1551019,14.25442314
+166,Bharuch,1,Bharuch,Orange Zone,Gujarat,0,0,Gujarat,Bharuch,1551019,14.25442314
+167,Bhavnagar,0,Bhavnagar,Red Zone,Gujarat,0,0,Gujarat,Bhavnagar,2880365,14.87342739
+168,Bhavnagar,1,Bhavnagar,Red Zone,Gujarat,0,0,Gujarat,Bhavnagar,2880365,14.87342739
+169,Bhilwara,0,Bhilwara,Orange Zone,NA,0,0,Rajasthan,Bhilwara,2408523,14.69452381
+170,Bhilwara,1,Bhilwara,Orange Zone,Rajasthan,0,0,Rajasthan,Bhilwara,2408523,14.69452381
+171,Bhind,0,Bhind,Green Zone,NA,0,0,Madhya Pradesh,Bhind,1703005,14.34790516
+172,Bhind,1,Bhind,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Bhind,1703005,14.34790516
+173,Bhiwani,0,Bhiwani,Orange Zone,Haryana,0,0,Haryana,Bhiwani,1634445,14.30681419
+174,Bhiwani,1,Bhiwani,Orange Zone,Haryana,0,0,Haryana,Bhiwani,1634445,14.30681419
+175,Bhojpur,0,Bhojpur,Orange Zone,Bihar,0,5,Bihar,Bhojpur,2728407,14.81922817
+176,Bhojpur,1,Bhojpur,Orange Zone,Bihar,0,0,Bihar,Bhojpur,2728407,14.81922817
+177,Bhopal,0,Bhopal,Red Zone,Madhya Pradesh,0,3,Madhya Pradesh,Bhopal,2371061,14.67884827
+178,Bhopal,1,Bhopal,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Bhopal,2371061,14.67884827
+179,Bidar,0,Bidar,Orange Zone,Karnataka,0,1,Karnataka,Bidar,1703300,14.34807777
+180,Bidar,1,Bidar,Orange Zone,Karnataka,0,0,Karnataka,Bidar,1703300,14.34807777
+181,Bijapur,0,Bijapur,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Bijapur,255230,12.44992065
+182,Bijapur,1,Bijapur,Green Zone,Chhattisgarh,0,1,Chhattisgarh,Bijapur,255230,12.44992065
+183,Bijnor,0,Bijnor,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bijnor,3682713,15.11916065
+184,Bijnor,1,Bijnor,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bijnor,3682713,15.11916065
+185,Bikaner,0,Bikaner,Orange Zone,NA,0,0,Rajasthan,Bikaner,2363937,14.67583942
+186,Bikaner,1,Bikaner,Orange Zone,Rajasthan,0,0,Rajasthan,Bikaner,2363937,14.67583942
+187,Bilaspur (Chhattisgarh),0,Bilaspur,Green Zone,NA,0,0,Chhattisgarh,Bilaspur,2663629,14.79520035
+188,Bilaspur (Chhattisgarh),1,Bilaspur,Green Zone,NA,0,0,Chhattisgarh,Bilaspur,2663629,14.79520035
+189,Bilaspur (Himachal Pradesh),0,Bilaspur,Green Zone,NA,0,0,Himachal Pradesh,Bilaspur11,381956,12.85306072
+190,Bilaspur (Himachal Pradesh),1,Bilaspur,Green Zone,NA,0,0,Himachal Pradesh,Bilaspur11,381956,12.85306072
+191,Birbhum,0,Birbhum,Green Zone,West Bengal,0,4,West Bengal,Birbhum,3502404,15.06896019
+192,Birbhum,1,Birbhum,Green Zone,West Bengal,0,0,West Bengal,Birbhum,3502404,15.06896019
+193,Bishnupur,0,Bishnupur,Green Zone,Manipur,0,0,Manipur,Bishnupur,237399,12.37749767
+194,Bishnupur,1,Bishnupur,Green Zone,Manipur,0,0,Manipur,Bishnupur,237399,12.37749767
+195,Biswanath,0,Biswanath,Green Zone,Assam,0,4,Assam,NA,NA,NA
+196,Biswanath,1,Biswanath,Green Zone,Assam,0,1,Assam,NA,NA,NA
+197,Bokaro,0,Bokaro,Orange Zone,Jharkhand,0,0,Jharkhand,Bokaro,2062330,14.53934669
+198,Bokaro,1,Bokaro,Orange Zone,Jharkhand,0,0,Jharkhand,Bokaro,2062330,14.53934669
+199,Bongaigaon,0,Bongaigaon,Green Zone,Assam,0,3,Assam,Bongaigaon,738804,13.51278782
+200,Bongaigaon,1,Bongaigaon,Green Zone,Assam,0,2,Assam,Bongaigaon,738804,13.51278782
+201,Botad,0,Botad,Orange Zone,NA,0,0,Gujarat,Botad,NA,NA
+202,Botad,1,Botad,Orange Zone,Gujarat,0,0,Gujarat,Botad,NA,NA
+203,Boudh,0,Boudh,Green Zone,Odisha,0,0,Odisha,Bauda,441162,12.99716759
+204,Boudh,1,Boudh,Green Zone,NA,0,0,Odisha,Bauda,441162,12.99716759
+205,Budaun,0,Budaun,Orange Zone,NA,0,0,Uttar Pradesh,Budaun,3681896,15.11893845
+206,Budaun,1,Budaun,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Budaun,3681896,15.11893845
+207,Budgam,0,Budgam,Orange Zone,NA,0,0,Jammu and Kashmir,Badgam,753745,13.53280926
+208,Budgam,1,Budgam,Orange Zone,NA,0,0,Jammu and Kashmir,Badgam,753745,13.53280926
+209,Bulandshahr,0,Bulandshahr,Red Zone,Uttar Pradesh,1,1,Uttar Pradesh,Bulandshahr,3499171,15.06803703
+210,Bulandshahr,1,Bulandshahr,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Bulandshahr,3499171,15.06803703
+211,Buldhana,0,Buldhana,Orange Zone,Maharashtra,0,1,Maharashtra,Buldana,2586258,14.76572227
+212,Buldhana,1,Buldhana,Orange Zone,Maharashtra,0,0,Maharashtra,Buldana,2586258,14.76572227
+213,Bundi,0,Bundi,Green Zone,Rajasthan,0,1,Rajasthan,Bundi,1110906,13.92068672
+214,Bundi,1,Bundi,Green Zone,Rajasthan,0,0,Rajasthan,Bundi,1110906,13.92068672
+215,Burhanpur,0,Burhanpur,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Burhanpur,757847,13.53823662
+216,Burhanpur,1,Burhanpur,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Burhanpur,757847,13.53823662
+217,Buxar,0,Buxar,Red Zone,NA,0,0,Bihar,Buxar,1706352,14.34986877
+218,Buxar,1,Buxar,Red Zone,Bihar,0,0,Bihar,Buxar,1706352,14.34986877
+219,Cachar,0,Cachar,Green Zone,Assam,0,1,Assam,Cachar,1736617,14.36744976
+220,Cachar,1,Cachar,Green Zone,Assam,0,2,Assam,Cachar,1736617,14.36744976
+221,Central Delhi,0,Central Delhi,Red Zone,Delhi,0,1,Delhi,NA,NA,NA
+222,Central Delhi,1,Central Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+223,Chamarajanagar,0,Chamarajanagar,Green Zone,NA,0,0,Karnataka,Chamrajnagar,1020791,13.83608818
+224,Chamarajanagar,1,Chamarajanagar,Green Zone,Karnataka,0,0,Karnataka,Chamrajnagar,1020791,13.83608818
+225,Chamba,0,Chamba,Orange Zone,NA,0,0,Himachal Pradesh,Chamba,519080,13.15981293
+226,Chamba,1,Chamba,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Chamba,519080,13.15981293
+227,Chamoli,0,Chamoli,Green Zone,Uttarakhand,0,0,Uttarakhand,Chamoli,391605,12.87800884
+228,Chamoli,1,Chamoli,Green Zone,Uttarakhand,0,0,Uttarakhand,Chamoli,391605,12.87800884
+229,Champawat,0,Champawat,Green Zone,Uttarakhand,0,0,Uttarakhand,Champawat,259648,12.46708202
+230,Champawat,1,Champawat,Green Zone,Uttarakhand,0,0,Uttarakhand,Champawat,259648,12.46708202
+231,Champhai,0,Champhai,Green Zone,NA,0,0,Mizoram,Champhai,125745,11.74201107
+232,Champhai,1,Champhai,Green Zone,NA,0,0,Mizoram,Champhai,125745,11.74201107
+233,Chandauli,0,Chandauli,Green Zone,NA,0,0,Uttar Pradesh,Chandauli,1952756,14.48475266
+234,Chandauli,1,Chandauli,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Chandauli,1952756,14.48475266
+235,Chandel,0,Chandel,Green Zone,Manipur,0,0,Manipur,Chandel,144182,11.87883186
+236,Chandel,1,Chandel,Green Zone,Manipur,0,0,Manipur,Chandel,144182,11.87883186
+237,Chandigarh,0,Chandigarh,Red Zone,Chandigarh,0,12,Chandigarh,Chandigarh,1055450,13.86947823
+238,Chandigarh,1,Chandigarh,Red Zone,Chandigarh,0,0,Chandigarh,Chandigarh,1055450,13.86947823
+239,Chandrapur,0,Chandrapur,Orange Zone,Maharashtra,0,2,Maharashtra,Chandrapur,2204307,14.60592365
+240,Chandrapur,1,Chandrapur,Orange Zone,Maharashtra,0,0,Maharashtra,Chandrapur,2204307,14.60592365
+241,Changlang,0,Changlang,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Changlang,148226,11.90649319
+242,Changlang,1,Changlang,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Changlang,148226,11.90649319
+243,Charaideo,0,Charaideo,Green Zone,Assam,0,6,Assam,NA,NA,NA
+244,Charaideo,1,Charaideo,Green Zone,Assam,0,3,Assam,NA,NA,NA
+245,Charkhi Dadri,0,Charkhi Dadri,Orange Zone,NA,0,0,Haryana,NA,NA,NA
+246,Charkhi Dadri,1,Charkhi Dadri,Orange Zone,Haryana,0,0,Haryana,NA,NA,NA
+247,Chatra,0,Chatra,Green Zone,Jharkhand,0,0,Jharkhand,Chatra,1042886,13.85750198
+248,Chatra,1,Chatra,Green Zone,Jharkhand,0,0,Jharkhand,Chatra,1042886,13.85750198
+249,Chengalpattu,0,Chengalpattu,Red Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+250,Chengalpattu,1,Chengalpattu,Red Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+251,Chennai,0,Chennai,Red Zone,Tamil Nadu,0,25,Tamil Nadu,Chennai,4646732,15.35167503
+252,Chennai,1,Chennai,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Chennai,4646732,15.35167503
+253,Chhatarpur,0,Chhatarpur,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Chhatarpur,1762375,14.38217258
+254,Chhatarpur,1,Chhatarpur,Green Zone,Madhya Pradesh,1,0,Madhya Pradesh,Chhatarpur,1762375,14.38217258
+255,Chhindwara,0,Chhindwara,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Chhindwara,2090922,14.55311584
+256,Chhindwara,1,Chhindwara,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Chhindwara,2090922,14.55311584
+257,Chhotaudepur,0,Chhota Udaipur (Chhotaudepur),Orange Zone,Gujarat,0,0,Gujarat,Chhota Udaipur,NA,NA
+258,Chhotaudepur,1,Chhota Udaipur (Chhotaudepur),Orange Zone,Gujarat,0,0,Gujarat,Chhota Udaipur,NA,NA
+259,Chikkaballapura,0,Chikkaballapura,Orange Zone,NA,0,0,Karnataka,Chikballapura,1255104,14.04272938
+260,Chikkaballapura,1,Chikkaballapura,Orange Zone,NA,0,0,Karnataka,Chikballapura,1255104,14.04272938
+261,Chikmagalur,0,Chikkamagaluru (Chikmagalur),Green Zone,Karnataka,0,1,Karnataka,Chikmagalur,1137961,13.94474888
+262,Chikmagalur,1,Chikkamagaluru (Chikmagalur),Green Zone,NA,0,0,Karnataka,Chikmagalur,1137961,13.94474888
+263,Chirang,0,Chirang,Green Zone,Assam,0,1,Assam,Chirang,482162,13.08603573
+264,Chirang,1,Chirang,Green Zone,Assam,0,6,Assam,Chirang,482162,13.08603573
+265,Chitradurga,0,Chitradurga,Green Zone,NA,0,0,Karnataka,Chitradurga,1659456,14.3220005
+266,Chitradurga,1,Chitradurga,Green Zone,NA,0,0,Karnataka,Chitradurga,1659456,14.3220005
+267,Chitrakoot,0,Chitrakoot,Green Zone,NA,0,0,Uttar Pradesh,Chitrakoot,991730,13.80720615
+268,Chitrakoot,1,Chitrakoot,Green Zone,NA,0,0,Uttar Pradesh,Chitrakoot,991730,13.80720615
+269,Chittoor,0,Chittoor,Red Zone,Andhra Pradesh,0,2,Andhra Pradesh,Chittoor,4174064,15.24440098
+270,Chittoor,1,Chittoor,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Chittoor,4174064,15.24440098
+271,Chittorgarh,0,Chittorgarh,Orange Zone,Rajasthan,0,1,Rajasthan,Chittaurgarh,1544338,14.25010586
+272,Chittorgarh,1,Chittorgarh,Orange Zone,Rajasthan,1,0,Rajasthan,Chittaurgarh,1544338,14.25010586
+273,Churachandpur,0,Churachandpur,Green Zone,NA,0,0,Manipur,Churachandpur,274143,12.52140522
+274,Churachandpur,1,Churachandpur,Green Zone,Manipur,0,0,Manipur,Churachandpur,274143,12.52140522
+275,Churu,0,Churu,Orange Zone,NA,0,0,Rajasthan,Churu,2039547,14.5282383
+276,Churu,1,Churu,Orange Zone,Rajasthan,0,0,Rajasthan,Churu,2039547,14.5282383
+277,Coimbatore,0,Coimbatore,Orange Zone,Tamil Nadu,4,18,Tamil Nadu,Coimbatore,3458045,15.05621433
+278,Coimbatore,1,Coimbatore,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Coimbatore,3458045,15.05621433
+279,Cooch Behar,0,Cooch Behar,Green Zone,West Bengal,0,5,West Bengal,Koch Bihar,2819086,14.85192299
+280,Cooch Behar,1,Cooch Behar,Green Zone,West Bengal,0,0,West Bengal,Koch Bihar,2819086,14.85192299
+281,Cuddalore,0,Cuddalore,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Cuddalore,2605914,14.77329445
+282,Cuddalore,1,Cuddalore,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Cuddalore,2605914,14.77329445
+283,Cuttack,0,Cuttack,Green Zone,Odisha,0,1,Odisha,Cuttack,2624470,14.78038979
+284,Cuttack,1,Cuttack,Green Zone,Odisha,0,0,Odisha,Cuttack,2624470,14.78038979
+285,Dadra And Nagar Haveli,0,Dadra And Nagar Haveli,Green Zone,NA,0,0,Dadra and Nagar Haveli,Dadra and Nagar Haveli,343709,12.74755096
+286,Dadra And Nagar Haveli,1,Dadra And Nagar Haveli,Green Zone,NA,0,0,Dadra and Nagar Haveli,Dadra and Nagar Haveli,343709,12.74755096
+287,Dakshin Dinajpur,0,Dakshin Dinajpur,Green Zone,West Bengal,0,1,West Bengal,Dakshin Dinajpur,1676276,14.33208561
+288,Dakshin Dinajpur,1,Dakshin Dinajpur,Green Zone,West Bengal,0,0,West Bengal,Dakshin Dinajpur,1676276,14.33208561
+289,Dakshina Kannada,0,Dakshina Kannada (South Canara),Orange Zone,Karnataka,0,2,Karnataka,Dakshina Kannada,2089649,14.55250645
+290,Dakshina Kannada,1,Dakshina Kannada (South Canara),Orange Zone,Karnataka,0,0,Karnataka,Dakshina Kannada,2089649,14.55250645
+291,Daman,0,Daman,Green Zone,NA,0,0,Daman and Diu,Daman,191173,12.16093445
+292,Daman,1,Daman,Green Zone,NA,0,0,Daman and Diu,Daman,191173,12.16093445
+293,Damoh,0,Damoh,Green Zone,NA,0,0,Madhya Pradesh,Damoh,1264219,14.0499649
+294,Damoh,1,Damoh,Green Zone,NA,0,0,Madhya Pradesh,Damoh,1264219,14.0499649
+295,Dang,0,Dang,Orange Zone,NA,0,0,Gujarat,The Dangs,228291,12.33837605
+296,Dang,1,Dang,Orange Zone,NA,0,0,Gujarat,The Dangs,228291,12.33837605
+297,Dantewada,0,Dantewada,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Dantewada,533638,13.1874733
+298,Dantewada,1,Dantewada,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Dantewada,533638,13.1874733
+299,Darbhanga,0,Darbhanga,Orange Zone,Bihar,0,3,Bihar,Darbhanga,3937385,15.18602753
+300,Darbhanga,1,Darbhanga,Orange Zone,Bihar,0,0,Bihar,Darbhanga,3937385,15.18602753
+301,Darjeeling,0,Darjeeling,Red Zone,West Bengal,0,33,West Bengal,Darjiling,1846823,14.42897701
+302,Darjeeling,1,Darjeeling,Red Zone,West Bengal,0,0,West Bengal,Darjiling,1846823,14.42897701
+303,Darrang,0,Darrang,Green Zone,Assam,0,4,Assam,Darrang,928500,13.74132538
+304,Darrang,1,Darrang,Green Zone,Assam,0,2,Assam,Darrang,928500,13.74132538
+305,Datia,0,Datia,Green Zone,NA,0,0,Madhya Pradesh,Datia,786754,13.5756712
+306,Datia,1,Datia,Green Zone,NA,0,0,Madhya Pradesh,Datia,786754,13.5756712
+307,Dausa,0,Dausa,Orange Zone,Rajasthan,0,0,Rajasthan,Dausa,1634409,14.30679226
+308,Dausa,1,Dausa,Orange Zone,Rajasthan,0,0,Rajasthan,Dausa,1634409,14.30679226
+309,Davanagere,0,Davangere,Green Zone,NA,0,0,Karnataka,Davanagere,1945497,14.4810276
+310,Davanagere,1,Davangere,Green Zone,Karnataka,0,0,Karnataka,Davanagere,1945497,14.4810276
+311,Dehradun,0,Dehradun,Orange Zone,Uttarakhand,0,8,Uttarakhand,Dehradun,1696694,14.3441925
+312,Dehradun,1,Dehradun,Orange Zone,Uttarakhand,0,0,Uttarakhand,Dehradun,1696694,14.3441925
+313,Deogarh,0,Deogarh,Green Zone,Odisha,0,0,Odisha,Debagarh,312520,12.65242386
+314,Deogarh,1,Deogarh,Green Zone,Odisha,0,0,Odisha,Debagarh,312520,12.65242386
+315,Deoghar,0,Deoghar,Orange Zone,Jharkhand,0,0,Jharkhand,Deoghar,1492073,14.21567726
+316,Deoghar,1,Deoghar,Orange Zone,Jharkhand,0,0,Jharkhand,Deoghar,1492073,14.21567726
+317,Deoria,0,Deoria,Green Zone,Uttar Pradesh,0,1,Uttar Pradesh,Deoria,3100946,14.94721794
+318,Deoria,1,Deoria,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Deoria,3100946,14.94721794
+319,Devbhumi Dwarka,0,Devbhumi Dwarka (Devbhoomi Dwarka),Green Zone,Gujarat,0,0,Gujarat,Devbhumi Dwarka,NA,NA
+320,Devbhumi Dwarka,1,Devbhumi Dwarka (Devbhoomi Dwarka),Green Zone,Gujarat,0,0,Gujarat,Devbhumi Dwarka,NA,NA
+321,Dewas,0,Dewas,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Dewas,1563715,14.26257515
+322,Dewas,1,Dewas,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Dewas,1563715,14.26257515
+323,Dhalai,0,Dhalai,Green Zone,Tripura,0,1,Tripura,Dhalai,378230,12.8432579
+324,Dhalai,1,Dhalai,Green Zone,Tripura,0,0,Tripura,Dhalai,378230,12.8432579
+325,Dhamtari,0,Dhamtari,Green Zone,NA,0,0,Chhattisgarh,Dhamtari,799781,13.59209347
+326,Dhamtari,1,Dhamtari,Green Zone,NA,0,0,Chhattisgarh,Dhamtari,799781,13.59209347
+327,Dhanbad,0,Dhanbad,Orange Zone,Jharkhand,1,9,Jharkhand,Dhanbad,2684487,14.80300045
+328,Dhanbad,1,Dhanbad,Orange Zone,Jharkhand,0,1,Jharkhand,Dhanbad,2684487,14.80300045
+329,Dhar,0,Dhar,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Dhar,2185793,14.59748936
+330,Dhar,1,Dhar,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Dhar,2185793,14.59748936
+331,Dharmapuri,0,Dharmapuri,Orange Zone,Tamil Nadu,0,6,Tamil Nadu,Dharmapuri,1506843,14.22552776
+332,Dharmapuri,1,Dharmapuri,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Dharmapuri,1506843,14.22552776
+333,Dharwad,0,Dharwad,Orange Zone,Karnataka,0,5,Karnataka,Dharwad,1847023,14.42908573
+334,Dharwad,1,Dharwad,Orange Zone,Karnataka,0,0,Karnataka,Dharwad,1847023,14.42908573
+335,Dhemaji,0,Dhemaji,Green Zone,Assam,0,11,Assam,Dhemaji,686133,13.43882656
+336,Dhemaji,1,Dhemaji,Green Zone,Assam,0,5,Assam,Dhemaji,686133,13.43882656
+337,Dhenkanal,0,Dhenkanal,Orange Zone,Odisha,0,0,Odisha,Dhenkanal,1192811,13.9918232
+338,Dhenkanal,1,Dhenkanal,Orange Zone,Odisha,0,0,Odisha,Dhenkanal,1192811,13.9918232
+339,Dholpur,0,Dholpur,Orange Zone,Rajasthan,0,0,Rajasthan,Dhaulpur,1206516,14.00324726
+340,Dholpur,1,Dholpur,Orange Zone,Rajasthan,0,0,Rajasthan,Dhaulpur,1206516,14.00324726
+341,Dhubri,0,Dhubri,Orange Zone,Assam,0,2,Assam,Dhubri,1949258,14.48295975
+342,Dhubri,1,Dhubri,Orange Zone,Assam,0,2,Assam,Dhubri,1949258,14.48295975
+343,Dhule,0,Dhule,Red Zone,Maharashtra,0,1,Maharashtra,Dhule,2050862,14.53377056
+344,Dhule,1,Dhule,Red Zone,Maharashtra,0,0,Maharashtra,Dhule,2050862,14.53377056
+345,Dibang Valley,0,Dibang Valley,Green Zone,NA,0,0,Arunachal Pradesh,Dibang Valley,8004,8.987696648
+346,Dibang Valley,1,Dibang Valley,Green Zone,NA,0,0,Arunachal Pradesh,Dibang Valley,8004,8.987696648
+347,Dibrugarh,0,Dibrugarh,Green Zone,Assam,0,43,Assam,Dibrugarh,1326335,14.09792995
+348,Dibrugarh,1,Dibrugarh,Green Zone,Assam,0,16,Assam,Dibrugarh,1326335,14.09792995
+349,Dima Hasao,0,Dima Hasao,Green Zone,Assam,0,1,Assam,Dima Hasao,214102,12.27420807
+350,Dima Hasao,1,Dima Hasao,Green Zone,Assam,0,0,Assam,Dima Hasao,214102,12.27420807
+351,Dimapur,0,Dimapur,Green Zone,Nagaland,0,6,Nagaland,Dimapur,378811,12.84479237
+352,Dimapur,1,Dimapur,Green Zone,Nagaland,0,0,Nagaland,Dimapur,378811,12.84479237
+353,Dindigul,0,Dindigul,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Dindigul,2159775,14.58551502
+354,Dindigul,1,Dindigul,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Dindigul,2159775,14.58551502
+355,Dindori,0,Dindori,Orange Zone,NA,0,0,Madhya Pradesh,Dindori,704524,13.46527767
+356,Dindori,1,Dindori,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Dindori,704524,13.46527767
+357,Diu,0,Diu,Green Zone,NA,0,0,Daman and Diu,Diu,52074,10.86042118
+358,Diu,1,Diu,Green Zone,NA,0,0,Daman and Diu,Diu,52074,10.86042118
+359,Doda,0,Doda,Green Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Doda,409936,12.9237566
+360,Doda,1,Doda,Green Zone,Jammu and Kashmir,2,0,Jammu and Kashmir,Doda,409936,12.9237566
+361,Dohad,0,Dohad,Orange Zone,Gujarat,0,0,Gujarat,Dahod,2127086,14.57026386
+362,Dohad,1,Dohad,Orange Zone,Gujarat,1,0,Gujarat,Dahod,2127086,14.57026386
+363,Dumka,0,Dumka,Green Zone,Jharkhand,0,1,Jharkhand,Dumka,1321442,14.09423447
+364,Dumka,1,Dumka,Green Zone,Jharkhand,1,0,Jharkhand,Dumka,1321442,14.09423447
+365,Dungarpur,0,Dungarpur,Orange Zone,NA,0,0,Rajasthan,Dungarpur,1388552,14.14377213
+366,Dungarpur,1,Dungarpur,Orange Zone,Rajasthan,0,0,Rajasthan,Dungarpur,1388552,14.14377213
+367,Durg,0,Durg,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Durg,3343872,15.02264023
+368,Durg,1,Durg,Green Zone,NA,0,0,Chhattisgarh,Durg,3343872,15.02264023
+369,East Delhi,0,East Delhi,Red Zone,Delhi,0,3,Delhi,NA,NA,NA
+370,East Delhi,1,East Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+371,East Garo Hills,0,East Garo Hills,Green Zone,NA,0,0,Meghalaya,East Garo Hills,317917,12.66954517
+372,East Garo Hills,1,East Garo Hills,Green Zone,NA,0,0,Meghalaya,East Garo Hills,317917,12.66954517
+373,East Godavari,0,East Godavari,Orange Zone,Andhra Pradesh,0,1,Andhra Pradesh,East Godavari,5154296,15.45534134
+374,East Godavari,1,East Godavari,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,East Godavari,5154296,15.45534134
+375,East Jaintia Hills,0,East Jaintia Hills,Green Zone,NA,0,0,NA,NA,NA,NA
+376,East Jaintia Hills,1,East Jaintia Hills,Green Zone,Meghalaya,0,0,NA,NA,NA,NA
+377,East Kameng,0,East Kameng,Green Zone,NA,0,0,Arunachal Pradesh,East Kameng,78690,11.27327156
+378,East Kameng,1,East Kameng,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,East Kameng,78690,11.27327156
+379,East Khasi Hills,0,East Khasi Hills,Orange Zone,Meghalaya,1,16,Meghalaya,East Khasi Hills,825922,13.62425518
+380,East Khasi Hills,1,East Khasi Hills,Orange Zone,Meghalaya,1,0,Meghalaya,East Khasi Hills,825922,13.62425518
+381,East Siang,0,East Slang,Green Zone,NA,0,0,Arunachal Pradesh,East Siang,99214,11.50503445
+382,East Siang,1,East Slang,Green Zone,Arunachal Pradesh,0,1,Arunachal Pradesh,East Siang,99214,11.50503445
+383,East Sikkim,0,East Sikkim,Green Zone,Sikkim,0,0,Sikkim,East Sikkim,283583,12.5552597
+384,East Sikkim,1,East Sikkim,Green Zone,Sikkim,0,0,Sikkim,East Sikkim,283583,12.5552597
+385,East Singhbhum,0,East Singhbum,Green Zone,Jharkhand,0,4,Jharkhand,Purbi Singhbhum,2293919,14.64577198
+386,East Singhbhum,1,East Singhbum,Green Zone,Jharkhand,0,0,Jharkhand,Purbi Singhbhum,2293919,14.64577198
+387,Ernakulam,0,Ernakulam,Green Zone,Kerala,0,7,Kerala,Ernakulam,3282388,15.00408173
+388,Ernakulam,1,Ernakulam,Green Zone,Kerala,0,0,Kerala,Ernakulam,3282388,15.00408173
+389,Erode,0,Erode,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Erode,2251744,14.62721539
+390,Erode,1,Erode,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Erode,2251744,14.62721539
+391,Etah,0,Etah,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Etah,1774480,14.38901806
+392,Etah,1,Etah,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Etah,1774480,14.38901806
+393,Etawah,0,Etawah,Orange Zone,Uttar Pradesh,0,2,Uttar Pradesh,Etawah,1581810,14.27408028
+394,Etawah,1,Etawah,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Etawah,1581810,14.27408028
+395,Faridabad,0,Faridabad,Red Zone,Haryana,0,0,Haryana,Faridabad,1809733,14.4086895
+396,Faridabad,1,Faridabad,Red Zone,Haryana,0,0,Haryana,Faridabad,1809733,14.4086895
+397,Faridkot,0,Faridkot,Orange Zone,Punjab,0,0,Punjab,Faridkot,617508,13.33344746
+398,Faridkot,1,Faridkot,Orange Zone,Punjab,0,0,Punjab,Faridkot,617508,13.33344746
+399,Farrukhabad,0,Farrukhabad,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Farrukhabad,1885204,14.44954681
+400,Farrukhabad,1,Farrukhabad,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Farrukhabad,1885204,14.44954681
+401,Fatehabad,0,Fatehabad,Orange Zone,Haryana,0,0,Haryana,Fatehabad,942011,13.75577259
+402,Fatehabad,1,Fatehabad,Orange Zone,Haryana,0,0,Haryana,Fatehabad,942011,13.75577259
+403,Fatehgarh Sahib,0,Fatehgarh Sahib,Green Zone,Punjab,0,1,Punjab,Fatehgarh Sahib,600163,13.30495644
+404,Fatehgarh Sahib,1,Fatehgarh Sahib,Green Zone,Punjab,0,0,Punjab,Fatehgarh Sahib,600163,13.30495644
+405,Fatehpur,0,Fatehpur,Green Zone,NA,0,0,Uttar Pradesh,Fatehpur,2632733,14.7835331
+406,Fatehpur,1,Fatehpur,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Fatehpur,2632733,14.7835331
+407,Fazilka,0,Fazilka,Green Zone,Punjab,0,2,Punjab,Fazilka,NA,NA
+408,Fazilka,1,Fazilka,Green Zone,Punjab,0,0,Punjab,Fazilka,NA,NA
+409,Ferozepore,0,Firozpur (Firojpur or Ferozepur),Orange Zone,Punjab,0,1,Punjab,Firozpur,2029074,14.52309036
+410,Ferozepore,1,Firozpur (Firojpur or Ferozepur),Orange Zone,Punjab,0,0,Punjab,Firozpur,2029074,14.52309036
+411,Firozabad,0,Firozabad,Red Zone,Uttar Pradesh,1,0,Uttar Pradesh,Firozabad,2498156,14.73106384
+412,Firozabad,1,Firozabad,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Firozabad,2498156,14.73106384
+413,Gadag,0,Gadag,Orange Zone,Karnataka,0,0,Karnataka,Gadag,1064570,13.87808132
+414,Gadag,1,Gadag,Orange Zone,Karnataka,0,0,Karnataka,Gadag,1064570,13.87808132
+415,Gadchiroli,0,Gadchiroli,Green Zone,Maharashtra,0,0,Maharashtra,Garhchiroli,1072942,13.8859148
+416,Gadchiroli,1,Gadchiroli,Green Zone,Maharashtra,0,0,Maharashtra,Garhchiroli,1072942,13.8859148
+417,Gajapati,0,Gajapati,Green Zone,Odisha,0,0,Odisha,Gajapati,577817,13.2670126
+418,Gajapati,1,Gajapati,Green Zone,Odisha,0,0,Odisha,Gajapati,577817,13.2670126
+419,Ganderbal,0,Ganderbal,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Ganderbal,297446,12.60298824
+420,Ganderbal,1,Ganderbal,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Ganderbal,297446,12.60298824
+421,Gandhinagar,0,Gandhinagar,Red Zone,Gujarat,0,1,Gujarat,Gandhinagar,1391753,14.1460743
+422,Gandhinagar,1,Gandhinagar,Red Zone,Gujarat,0,0,Gujarat,Gandhinagar,1391753,14.1460743
+423,Ganganagar,0,Ganganagar,Green Zone,NA,0,0,Rajasthan,Ganganagar,1969168,14.4931221
+424,Ganganagar,1,Ganganagar,Green Zone,Rajasthan,0,0,Rajasthan,Ganganagar,1969168,14.4931221
+425,Ganjam,0,Ganjam,Green Zone,Odisha,0,0,Odisha,Ganjam,3529031,15.07653427
+426,Ganjam,1,Ganjam,Green Zone,Odisha,0,0,Odisha,Ganjam,3529031,15.07653427
+427,Garhwa,0,Garhwa,Orange Zone,Jharkhand,0,0,Jharkhand,Garhwa,1322784,14.09524918
+428,Garhwa,1,Garhwa,Orange Zone,Jharkhand,0,0,Jharkhand,Garhwa,1322784,14.09524918
+429,Garivaband,0,Garivaband,Green Zone,NA,0,0,Chhattisgarh,Gariaband,NA,NA
+430,Garivaband,1,Garivaband,Green Zone,NA,0,0,Chhattisgarh,Gariaband,NA,NA
+431,Gautam Buddha Nagar,0,Gautam Buddh Nagar (Noida and Greater Noida),Red Zone,Uttar Pradesh,1,0,Uttar Pradesh,Gautam Buddha Nagar,1648115,14.31514263
+432,Gautam Buddha Nagar,1,Gautam Buddh Nagar (Noida and Greater Noida),Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Gautam Buddha Nagar,1648115,14.31514263
+433,Gaya,0,Gaya,Red Zone,Bihar,0,5,Bihar,Gaya,4391418,15.29516315
+434,Gaya,1,Gaya,Red Zone,Bihar,0,0,Bihar,Gaya,4391418,15.29516315
+435,Ghaziabad,0,Ghaziabad,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Ghaziabad,4681645,15.35916042
+436,Ghaziabad,1,Ghaziabad,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Ghaziabad,4681645,15.35916042
+437,Ghazipur,0,Ghazipur,Orange Zone,Uttar Pradesh,0,4,Uttar Pradesh,Ghazipur,3620268,15.10205841
+438,Ghazipur,1,Ghazipur,Orange Zone,Uttar Pradesh,1,0,Uttar Pradesh,Ghazipur,3620268,15.10205841
+439,Gir Somnath,0,Gir Somnath,Orange Zone,NA,0,0,Gujarat,Gir Somnath,NA,NA
+440,Gir Somnath,1,Gir Somnath,Orange Zone,Gujarat,0,0,Gujarat,Gir Somnath,NA,NA
+441,Giridih,0,Giridih,Orange Zone,Jharkhand,0,2,Jharkhand,Giridih,2445474,14.70974922
+442,Giridih,1,Giridih,Orange Zone,Jharkhand,1,0,Jharkhand,Giridih,2445474,14.70974922
+443,Goalpara,0,Goalpara,Orange Zone,Assam,0,5,Assam,Goalpara,1008183,13.8236599
+444,Goalpara,1,Goalpara,Orange Zone,Assam,0,2,Assam,Goalpara,1008183,13.8236599
+445,Godda,0,Godda,Green Zone,Jharkhand,0,0,Jharkhand,Godda,1313551,14.08824444
+446,Godda,1,Godda,Green Zone,Jharkhand,0,0,Jharkhand,Godda,1313551,14.08824444
+447,Golaghat,0,Golaghat,Green Zone,Assam,0,14,Assam,Golaghat,1066888,13.88025665
+448,Golaghat,1,Golaghat,Green Zone,Assam,0,10,Assam,Golaghat,1066888,13.88025665
+449,Gomati,0,Gomati,Orange Zone,Tripura,0,0,Tripura,Gomati,NA,NA
+450,Gomati,1,Gomati,Orange Zone,Tripura,0,0,Tripura,Gomati,NA,NA
+451,Gonda,0,Gonda,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Gonda,3433919,15.04921246
+452,Gonda,1,Gonda,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Gonda,3433919,15.04921246
+453,Gondia,0,Gondia,Green Zone,NA,0,0,Maharashtra,Gondiya,1322507,14.09503937
+454,Gondia,1,Gondia,Green Zone,NA,0,0,Maharashtra,Gondiya,1322507,14.09503937
+455,Gopalganj,0,Gopalganj,Orange Zone,Bihar,0,1,Bihar,Gopalganj,2562012,14.75630379
+456,Gopalganj,1,Gopalganj,Orange Zone,Bihar,0,0,Bihar,Gopalganj,2562012,14.75630379
+457,Gorakhpur,0,Gorakhpur,Orange Zone,Uttar Pradesh,0,2,Uttar Pradesh,Gorakhpur,4440895,15.30636692
+458,Gorakhpur,1,Gorakhpur,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Gorakhpur,4440895,15.30636692
+459,Gumla,0,Gumla,Green Zone,Jharkhand,0,0,Jharkhand,Gumla,1025213,13.84041119
+460,Gumla,1,Gumla,Green Zone,Jharkhand,0,0,Jharkhand,Gumla,1025213,13.84041119
+461,Guna,0,Guna,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Guna,1241519,14.03184605
+462,Guna,1,Guna,Green Zone,Madhya Pradesh,1,0,Madhya Pradesh,Guna,1241519,14.03184605
+463,Guntur,0,Guntur,Red Zone,Andhra Pradesh,0,2,Andhra Pradesh,Guntur,4887813,15.40225506
+464,Guntur,1,Guntur,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Guntur,4887813,15.40225506
+465,Gurdaspur,0,Gurdaspur,Orange Zone,Punjab,0,1,Punjab,Gurdaspur,2298323,14.64768982
+466,Gurdaspur,1,Gurdaspur,Orange Zone,Punjab,0,0,Punjab,Gurdaspur,2298323,14.64768982
+467,Gurugram,0,Gurugram (Gurgaon),Orange Zone,Haryana,1,1,Haryana,Gurgaon,1514432,14.23055077
+468,Gurugram,1,Gurugram (Gurgaon),Orange Zone,Haryana,0,0,Haryana,Gurgaon,1514432,14.23055077
+469,Gwalior,0,Gwalior,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Gwalior,2032036,14.52454853
+470,Gwalior,1,Gwalior,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Gwalior,2032036,14.52454853
+471,Hailakandi,0,Hailakandi,Green Zone,Assam,0,2,Assam,Hailakandi,659296,13.39892769
+472,Hailakandi,1,Hailakandi,Green Zone,Assam,0,2,Assam,Hailakandi,659296,13.39892769
+473,Hamirpur (Himachal Pradesh),0,Hamirpur,Orange Zone,NA,0,0,Himachal Pradesh,Hamirpur1,454768,13.02754307
+474,Hamirpur (Himachal Pradesh),1,Hamirpur,Orange Zone,NA,0,0,Himachal Pradesh,Hamirpur1,454768,13.02754307
+475,Hamirpur (Uttar Pradesh),0,Hamirpur,Green Zone,NA,0,0,Uttar Pradesh,Hamirpur,1104285,13.91470909
+476,Hamirpur (Uttar Pradesh),1,Hamirpur,Green Zone,NA,0,0,Uttar Pradesh,Hamirpur,1104285,13.91470909
+477,Hanumangarh,0,Hanumangarh,Orange Zone,NA,0,0,Rajasthan,Hanumangarh,1774692,14.38913727
+478,Hanumangarh,1,Hanumangarh,Orange Zone,Rajasthan,0,0,Rajasthan,Hanumangarh,1774692,14.38913727
+479,Hapur,0,Hapur,Orange Zone,NA,0,0,Uttar Pradesh,Hapur,NA,NA
+480,Hapur,1,Hapur,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Hapur,NA,NA
+481,Harda,0,Harda,Orange Zone,NA,0,0,Madhya Pradesh,Harda,570465,13.25420666
+482,Harda,1,Harda,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Harda,570465,13.25420666
+483,Hardoi,0,Hardoi,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Hardoi,4092845,15.22475052
+484,Hardoi,1,Hardoi,Orange Zone,NA,0,0,Uttar Pradesh,Hardoi,4092845,15.22475052
+485,Haridwar,0,Haridwar,Red Zone,Uttarakhand,0,3,Uttarakhand,Hardwar,1890422,14.45231056
+486,Haridwar,1,Haridwar,Red Zone,Uttarakhand,1,0,Uttarakhand,Hardwar,1890422,14.45231056
+487,Hassan,0,Hassan,Green Zone,Karnataka,0,0,Karnataka,Hassan,1776421,14.39011097
+488,Hassan,1,Hassan,Green Zone,Karnataka,2,0,Karnataka,Hassan,1776421,14.39011097
+489,Hathras,0,Hathras,Green Zone,NA,0,0,Uttar Pradesh,Hathras,1564708,14.26320934
+490,Hathras,1,Hathras,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Hathras,1564708,14.26320934
+491,Haveri,0,Haveri,Green Zone,Karnataka,0,0,Karnataka,Haveri,1597668,14.28405571
+492,Haveri,1,Haveri,Green Zone,Karnataka,0,0,Karnataka,Haveri,1597668,14.28405571
+493,Hazaribagh,0,Hazaribagh,Orange Zone,Jharkhand,0,0,Jharkhand,Hazaribagh,1734495,14.36622715
+494,Hazaribagh,1,Hazaribagh,Orange Zone,Jharkhand,0,0,Jharkhand,Hazaribagh,1734495,14.36622715
+495,Hingoli,0,Hingoli,Orange Zone,Maharashtra,0,1,Maharashtra,Hingoli,1177345,13.97877216
+496,Hingoli,1,Hingoli,Orange Zone,NA,0,0,Maharashtra,Hingoli,1177345,13.97877216
+497,Hisar,0,Hisar,Orange Zone,Haryana,0,0,Haryana,Hisar,1743931,14.3716526
+498,Hisar,1,Hisar,Orange Zone,Haryana,0,0,Haryana,Hisar,1743931,14.3716526
+499,Hnahthial,0,Hnahthial,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+500,Hnahthial,1,Hnahthial,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+501,Hojai,0,Hojai,Green Zone,Assam,0,3,Assam,NA,NA,NA
+502,Hojai,1,Hojai,Green Zone,Assam,0,0,Assam,NA,NA,NA
+503,Hooghly,0,Hooghly,Orange Zone,West Bengal,0,1,West Bengal,Hugli,5519145,15.52373314
+504,Hooghly,1,Hooghly,Orange Zone,West Bengal,3,0,West Bengal,Hugli,5519145,15.52373314
+505,Hoshangabad,0,Hoshangabad,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Hoshangabad,1241350,14.03170967
+506,Hoshangabad,1,Hoshangabad,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Hoshangabad,1241350,14.03170967
+507,Hoshiarpur,0,Hoshiarpur,Orange Zone,Punjab,0,1,Punjab,Hoshiarpur,1586625,14.27711964
+508,Hoshiarpur,1,Hoshiarpur,Orange Zone,Punjab,0,0,Punjab,Hoshiarpur,1586625,14.27711964
+509,Howrah,0,Howrah,Red Zone,West Bengal,0,2,West Bengal,Haora,4850029,15.39449501
+510,Howrah,1,Howrah,Red Zone,West Bengal,0,0,West Bengal,Haora,4850029,15.39449501
+511,Hyderabad,0,Hyderabad,Red Zone,Telangana,0,23,Telangana,Hyderabad,3943323,15.18753433
+512,Hyderabad,1,Hyderabad,Red Zone,Telangana,0,0,Telangana,Hyderabad,3943323,15.18753433
+513,Idukki,0,Idukki,Orange Zone,Kerala,0,3,Kerala,Idukki,1108974,13.91894627
+514,Idukki,1,Idukki,Orange Zone,Kerala,0,0,Kerala,Idukki,1108974,13.91894627
+515,Imphal East,0,lmphal East,Green Zone,Manipur,0,0,Manipur,Imphal East,456113,13.03049564
+516,Imphal East,1,lmphal East,Green Zone,Manipur,0,0,Manipur,Imphal East,456113,13.03049564
+517,Imphal West,0,lmphal West,Green Zone,Manipur,0,2,Manipur,Imphal West,517992,13.15771484
+518,Imphal West,1,lmphal West,Green Zone,Manipur,0,0,Manipur,Imphal West,517992,13.15771484
+519,Indore,0,lndore,Red Zone,Madhya Pradesh,0,5,Madhya Pradesh,Indore,3276697,15.00234604
+520,Indore,1,lndore,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Indore,3276697,15.00234604
+521,Jabalpur,0,Jabalpur,Red Zone,Madhya Pradesh,0,2,Madhya Pradesh,Jabalpur,2463289,14.71700764
+522,Jabalpur,1,Jabalpur,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Jabalpur,2463289,14.71700764
+523,Jagatsinghapur,0,Jagatsinghpur,Green Zone,Odisha,0,0,Odisha,Jagatsinghapur,1136971,13.94387817
+524,Jagatsinghapur,1,Jagatsinghpur,Green Zone,Odisha,0,0,Odisha,Jagatsinghapur,1136971,13.94387817
+525,Jagtial,0,Jagitial,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+526,Jagtial,1,Jagitial,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+527,Jaipur,0,Jaipur,Red Zone,Rajasthan,0,4,Rajasthan,Jaipur,6626178,15.70653915
+528,Jaipur,1,Jaipur,Red Zone,Rajasthan,0,0,Rajasthan,Jaipur,6626178,15.70653915
+529,Jaisalmer,0,Jaisalmer,Orange Zone,Rajasthan,1,0,Rajasthan,Jaisalmer,669919,13.41491222
+530,Jaisalmer,1,Jaisalmer,Orange Zone,Rajasthan,0,0,Rajasthan,Jaisalmer,669919,13.41491222
+531,Jajapur,0,Jaiapur,Red Zone,Odisha,0,0,Odisha,Jajapur,1827192,14.41829109
+532,Jajapur,1,Jaiapur,Red Zone,Odisha,0,0,Odisha,Jajapur,1827192,14.41829109
+533,Jalandhar,0,Jalandhar,Red Zone,Punjab,0,17,Punjab,Jalandhar,2193590,14.60105038
+534,Jalandhar,1,Jalandhar,Red Zone,Punjab,0,0,Punjab,Jalandhar,2193590,14.60105038
+535,Jalaun,0,Jalaun,Orange Zone,Uttar Pradesh,0,2,Uttar Pradesh,Jalaun,1689974,14.34022331
+536,Jalaun,1,Jalaun,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Jalaun,1689974,14.34022331
+537,Jalgaon,0,Jalgaon,Red Zone,Maharashtra,0,0,Maharashtra,Jalgaon,4229917,15.25769329
+538,Jalgaon,1,Jalgaon,Red Zone,Maharashtra,0,0,Maharashtra,Jalgaon,4229917,15.25769329
+539,Jalna,0,Jalna,Orange Zone,Maharashtra,0,1,Maharashtra,Jalna,1959046,14.48796844
+540,Jalna,1,Jalna,Orange Zone,Maharashtra,0,0,Maharashtra,Jalna,1959046,14.48796844
+541,Jalore,0,Jalore,Green Zone,Rajasthan,0,0,Rajasthan,Jalor,1828730,14.41913223
+542,Jalore,1,Jalore,Green Zone,Rajasthan,0,0,Rajasthan,Jalor,1828730,14.41913223
+543,Jalpaiguri,0,Jalpaiguri,Red Zone,West Bengal,0,7,West Bengal,Jalpaiguri,3872846,15.16950035
+544,Jalpaiguri,1,Jalpaiguri,Red Zone,West Bengal,0,0,West Bengal,Jalpaiguri,3872846,15.16950035
+545,Jammu,0,Jammu,Orange Zone,Jammu and Kashmir,0,6,Jammu and Kashmir,Jammu,1529958,14.24075127
+546,Jammu,1,Jammu,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Jammu,1529958,14.24075127
+547,Jamnagar,0,Jamnagar,Orange Zone,Gujarat,0,0,Gujarat,Jamnagar,2160119,14.58567429
+548,Jamnagar,1,Jamnagar,Orange Zone,Gujarat,0,0,Gujarat,Jamnagar,2160119,14.58567429
+549,Jamtara,0,Jamtara,Orange Zone,Jharkhand,0,1,Jharkhand,Jamtara,791042,13.58110619
+550,Jamtara,1,Jamtara,Orange Zone,Jharkhand,0,0,Jharkhand,Jamtara,791042,13.58110619
+551,Jamui,0,Jamui,Green Zone,Bihar,0,1,Bihar,Jamui,1760405,14.38105488
+552,Jamui,1,Jamui,Green Zone,Bihar,0,0,Bihar,Jamui,1760405,14.38105488
+553,Jangaon,0,Jangoan,Orange Zone,NA,0,0,Telangana,NA,NA,NA
+554,Jangaon,1,Jangoan,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+555,Janjgir-Champa,0,Janjgir-Champa,Green Zone,NA,0,0,Chhattisgarh,Janjgir-Champa,1619707,14.2977562
+556,Janjgir-Champa,1,Janjgir-Champa,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Janjgir-Champa,1619707,14.2977562
+557,Jashpur,0,Jashpur,Green Zone,NA,0,0,Chhattisgarh,Jashpur,851669,13.654953
+558,Jashpur,1,Jashpur,Green Zone,NA,0,0,Chhattisgarh,Jashpur,851669,13.654953
+559,Jaunpur,0,Jaunpur,Orange Zone,NA,0,0,Uttar Pradesh,Jaunpur,4494204,15.31829929
+560,Jaunpur,1,Jaunpur,Orange Zone,Uttar Pradesh,1,0,Uttar Pradesh,Jaunpur,4494204,15.31829929
+561,Jayashankar Bhupalpally,0,Jayashankar Bhupalpally,Orange Zone,NA,0,0,Telangana,NA,NA,NA
+562,Jayashankar Bhupalpally,1,Jayashankar Bhupalpally,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+563,Jehanabad,0,Jehanabad,Orange Zone,Bihar,0,0,Bihar,Jehanabad,1125313,13.93357182
+564,Jehanabad,1,Jehanabad,Orange Zone,Bihar,0,0,Bihar,Jehanabad,1125313,13.93357182
+565,Jhabua,0,Jhabua,Green Zone,Madhya Pradesh,0,1,Madhya Pradesh,Jhabua,1025048,13.84025002
+566,Jhabua,1,Jhabua,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Jhabua,1025048,13.84025002
+567,Jhajjar,0,Jhajjar,Orange Zone,Haryana,0,0,Haryana,Jhajjar,958405,13.77302551
+568,Jhajjar,1,Jhajjar,Orange Zone,Haryana,0,0,Haryana,Jhajjar,958405,13.77302551
+569,Jhalawar,0,Jhalawar,Red Zone,NA,0,0,Rajasthan,Jhalawar,1411129,14.15990067
+570,Jhalawar,1,Jhalawar,Red Zone,Rajasthan,1,0,Rajasthan,Jhalawar,1411129,14.15990067
+571,Jhansi,0,Jhansi,Orange Zone,NA,0,0,Uttar Pradesh,Jhansi,1998603,14.50795937
+572,Jhansi,1,Jhansi,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Jhansi,1998603,14.50795937
+573,Jhargram,0,Jhargram,Green Zone,NA,0,0,West Bengal,NA,NA,NA
+574,Jhargram,1,Jhargram,Green Zone,NA,0,0,West Bengal,NA,NA,NA
+575,Jharsuguda,0,Jharsuguda,Green Zone,Odisha,0,0,Odisha,Jharsuguda,579505,13.26992989
+576,Jharsuguda,1,Jharsuguda,Green Zone,Odisha,0,0,Odisha,Jharsuguda,579505,13.26992989
+577,Jhunjhunu,0,Jhunjhunu,Orange Zone,Rajasthan,0,0,Rajasthan,Jhunjhunun,2137045,14.57493496
+578,Jhunjhunu,1,Jhunjhunu,Orange Zone,Rajasthan,0,0,Rajasthan,Jhunjhunun,2137045,14.57493496
+579,Jind,0,Jind,Orange Zone,Haryana,0,2,Haryana,Jind,1334152,14.1038065
+580,Jind,1,Jind,Orange Zone,Haryana,0,0,Haryana,Jind,1334152,14.1038065
+581,Jiribam,0,Jiribam,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+582,Jiribam,1,Jiribam,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+583,Jodhpur,0,Jodhpur,Red Zone,Rajasthan,0,0,Rajasthan,Jodhpur,3687165,15.120368
+584,Jodhpur,1,Jodhpur,Red Zone,Rajasthan,0,0,Rajasthan,Jodhpur,3687165,15.120368
+585,Jogulamba Gadwal,0,Jogulamba Gadwal,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+586,Jogulamba Gadwal,1,Jogulamba Gadwal,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+587,Jorhat,0,Jorhat,Green Zone,Assam,0,21,Assam,Jorhat,1092256,13.90375614
+588,Jorhat,1,Jorhat,Green Zone,Assam,0,10,Assam,Jorhat,1092256,13.90375614
+589,Junagadh,0,Junagadh,Green Zone,Gujarat,0,0,Gujarat,Junagadh,2743082,14.82459259
+590,Junagadh,1,Junagadh,Green Zone,Gujarat,0,0,Gujarat,Junagadh,2743082,14.82459259
+591,Kabirdham,0,Kabirdham,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Kabeerdham,822526,13.62013531
+592,Kabirdham,1,Kabirdham,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Kabeerdham,822526,13.62013531
+593,Kachchh,0,Kachchh (Kutch),Orange Zone,Gujarat,0,0,Gujarat,Kachchh,2092371,14.55380821
+594,Kachchh,1,Kachchh (Kutch),Orange Zone,Gujarat,0,0,Gujarat,Kachchh,2092371,14.55380821
+595,Kaimur,0,Kaimur (Bhabua),Orange Zone,Bihar,0,0,Bihar,Kaimur,1626384,14.30186939
+596,Kaimur,1,Kaimur (Bhabua),Orange Zone,Bihar,0,0,Bihar,Kaimur,1626384,14.30186939
+597,Kaithal,0,Kaithal,Orange Zone,Haryana,0,0,Haryana,Kaithal,1074304,13.88718319
+598,Kaithal,1,Kaithal,Orange Zone,Haryana,0,0,Haryana,Kaithal,1074304,13.88718319
+599,Kakching,0,Kakching,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+600,Kakching,1,Kakching,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+601,Kalaburagi,0,Kalaburagi (Gulbarga),Orange Zone,Karnataka,0,6,Karnataka,Gulbarga,2566326,14.75798607
+602,Kalaburagi,1,Kalaburagi (Gulbarga),Orange Zone,Karnataka,0,0,Karnataka,Gulbarga,2566326,14.75798607
+603,Kalahandi,0,Kalahandi,Orange Zone,Odisha,0,0,Odisha,Kalahandi,1576869,14.27095222
+604,Kalahandi,1,Kalahandi,Orange Zone,Odisha,0,0,Odisha,Kalahandi,1576869,14.27095222
+605,Kalimpong,0,Kalimpong,Red Zone,West Bengal,0,1,West Bengal,NA,NA,NA
+606,Kalimpong,1,Kalimpong,Red Zone,West Bengal,0,0,West Bengal,NA,NA,NA
+607,Kallakurichi,0,Kallakurichi,Orange Zone,NA,0,0,Tamil Nadu,NA,NA,NA
+608,Kallakurichi,1,Kallakurichi,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+609,Kamareddy,0,Kamareddy,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+610,Kamareddy,1,Kamareddy,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+611,Kamjong,0,Kamjong,Green Zone,Manipur,1,0,Manipur,NA,NA,NA
+612,Kamjong,1,Kamjong,Green Zone,NA,0,0,Manipur,NA,NA,NA
+613,Kamle,0,Kamle,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,NA,NA,NA
+614,Kamle,1,Kamle,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,NA,NA,NA
+615,Kamrup,0,Kamrup,Green Zone,Assam,0,7,Assam,Kamrup,1517542,14.23260212
+616,Kamrup,1,Kamrup,Green Zone,Assam,0,0,Assam,Kamrup,1517542,14.23260212
+617,Kamrup Metropolitan,0,Kamrup Metro,Green Zone,Assam,0,56,Assam,Kamrup Metropolitan,1253938,14.04179955
+618,Kamrup Metropolitan,1,Kamrup Metro,Green Zone,Assam,0,13,Assam,Kamrup Metropolitan,1253938,14.04179955
+619,Kancheepuram,0,Kanchipuram,Red Zone,NA,0,0,Tamil Nadu,Kancheepuram,3998252,15.20136738
+620,Kancheepuram,1,Kanchipuram,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Kancheepuram,3998252,15.20136738
+621,Kandhamal,0,Kandhamal,Green Zone,Odisha,0,0,Odisha,Kandhamal,733110,13.50505066
+622,Kandhamal,1,Kandhamal,Green Zone,Odisha,0,0,Odisha,Kandhamal,733110,13.50505066
+623,Kangpokpi,0,Kangpokpi,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+624,Kangpokpi,1,Kangpokpi,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+625,Kangra,0,Kangra,Orange Zone,Himachal Pradesh,0,1,Himachal Pradesh,Kangra,1510075,14.22766972
+626,Kangra,1,Kangra,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Kangra,1510075,14.22766972
+627,Kanker,0,Kanker,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Uttar Bastar Kanker,748941,13.52641582
+628,Kanker,1,Kanker,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Uttar Bastar Kanker,748941,13.52641582
+629,Kannauj,0,Kannauj,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kannauj,1656616,14.3202877
+630,Kannauj,1,Kannauj,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kannauj,1656616,14.3202877
+631,Kanniyakumari,0,Kanyakumari,Orange Zone,Tamil Nadu,0,5,Tamil Nadu,Kanniyakumari,1870374,14.44164944
+632,Kanniyakumari,1,Kanyakumari,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Kanniyakumari,1870374,14.44164944
+633,Kannur,0,Kannur,Red Zone,Kerala,0,1,Kerala,Kannur,2523003,14.74096012
+634,Kannur,1,Kannur,Red Zone,Kerala,0,0,Kerala,Kannur,2523003,14.74096012
+635,Kanpur Dehat,0,Kanpur Dehat,Green Zone,NA,0,0,Uttar Pradesh,Kanpur Dehat,1796184,14.40117455
+636,Kanpur Dehat,1,Kanpur Dehat,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kanpur Dehat,1796184,14.40117455
+637,Kanpur Nagar,0,Kanpur Nagar,Red Zone,Uttar Pradesh,0,5,Uttar Pradesh,Kanpur Nagar,4581268,15.33748627
+638,Kanpur Nagar,1,Kanpur Nagar,Red Zone,Uttar Pradesh,1,0,Uttar Pradesh,Kanpur Nagar,4581268,15.33748627
+639,Kapurthala,0,Kapurthala,Orange Zone,Punjab,0,2,Punjab,Kapurthala,815168,13.61114979
+640,Kapurthala,1,Kapurthala,Orange Zone,Punjab,0,0,Punjab,Kapurthala,815168,13.61114979
+641,Karaikal,0,Karaikal,Green Zone,NA,0,0,Puducherry,Karaikal,200222,12.20718193
+642,Karaikal,1,Karaikal,Green Zone,NA,0,0,Puducherry,Karaikal,200222,12.20718193
+643,Karauli,0,Karauli,Orange Zone,Rajasthan,0,0,Rajasthan,Karauli,1458248,14.19274616
+644,Karauli,1,Karauli,Orange Zone,Rajasthan,0,0,Rajasthan,Karauli,1458248,14.19274616
+645,Karbi Anglong,0,Karbi Anglong,Green Zone,Assam,0,3,Assam,Karbi Anglong,956313,13.77084064
+646,Karbi Anglong,1,Karbi Anglong,Green Zone,Assam,0,0,Assam,Karbi Anglong,956313,13.77084064
+647,Kargil,0,Kargil,Orange Zone,Ladakh,0,0,Jammu and Kashmir,Kargil,140802,11.85511017
+648,Kargil,1,Kargil,Orange Zone,Ladakh,0,0,Jammu and Kashmir,Kargil,140802,11.85511017
+649,Karimganj,0,Karimganj,Green Zone,Assam,0,2,Assam,Karimganj,1228686,14.02145576
+650,Karimganj,1,Karimganj,Green Zone,Assam,0,0,Assam,Karimganj,1228686,14.02145576
+651,Karimnagar,0,Karimnagar,Orange Zone,NA,0,0,Telangana,Karimnagar,3776269,15.14424706
+652,Karimnagar,1,Karimnagar,Orange Zone,Telangana,0,0,Telangana,Karimnagar,3776269,15.14424706
+653,Karnal,0,Karnal,Orange Zone,Haryana,0,1,Haryana,Karnal,1505324,14.22451878
+654,Karnal,1,Karnal,Orange Zone,Haryana,0,0,Haryana,Karnal,1505324,14.22451878
+655,Karur,0,Karur,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Karur,1064493,13.87800884
+656,Karur,1,Karur,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Karur,1064493,13.87800884
+657,Kasaragod,0,Kasaragod,Orange Zone,Kerala,0,2,Kerala,Kasaragod,1307375,14.08353233
+658,Kasaragod,1,Kasaragod,Orange Zone,Kerala,0,0,Kerala,Kasaragod,1307375,14.08353233
+659,Kasganj,0,Kasganj,Orange Zone,Uttar Pradesh,0,2,Uttar Pradesh,Kasganj,1436719,14.17787266
+660,Kasganj,1,Kasganj,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kasganj,1436719,14.17787266
+661,Kathua,0,Kathua,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Kathua,616435,13.33170795
+662,Kathua,1,Kathua,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Kathua,616435,13.33170795
+663,Katihar,0,Katihar,Green Zone,Bihar,0,1,Bihar,Katihar,3071029,14.93752289
+664,Katihar,1,Katihar,Green Zone,Bihar,0,0,Bihar,Katihar,3071029,14.93752289
+665,Katni,0,Katni,Green Zone,NA,0,0,Madhya Pradesh,Katni,1292042,14.07173443
+666,Katni,1,Katni,Green Zone,NA,0,0,Madhya Pradesh,Katni,1292042,14.07173443
+667,Kaushambi,0,Kaushambi,Orange Zone,NA,0,0,Uttar Pradesh,Kaushambi,1599596,14.28526211
+668,Kaushambi,1,Kaushambi,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kaushambi,1599596,14.28526211
+669,Kendrapara,0,Kendrapara,Orange Zone,Odisha,1,0,Odisha,Kendrapara,1440361,14.18040466
+670,Kendrapara,1,Kendrapara,Orange Zone,Odisha,0,0,Odisha,Kendrapara,1440361,14.18040466
+671,Kendujhar,0,Kendujhar,Green Zone,Odisha,0,1,Odisha,Kendujhar,1801733,14.40425968
+672,Kendujhar,1,Kendujhar,Green Zone,Odisha,0,0,Odisha,Kendujhar,1801733,14.40425968
+673,Khagaria,0,Khagaria,Green Zone,Bihar,0,0,Bihar,Khagaria,1666886,14.32646751
+674,Khagaria,1,Khagaria,Green Zone,Bihar,0,0,Bihar,Khagaria,1666886,14.32646751
+675,Khammam,0,Khammam,Orange Zone,Telangana,0,1,Telangana,Khammam,2797370,14.8441906
+676,Khammam,1,Khammam,Orange Zone,Telangana,0,0,Telangana,Khammam,2797370,14.8441906
+677,Khandwa,0,East Nimar,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,East Nimar,1310061,14.08558464
+678,Khandwa,1,East Nimar,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,East Nimar,1310061,14.08558464
+679,Khargone,0,Khargone,Orange Zone,Madhya Pradesh,0,1,Madhya Pradesh,West Nimar,1873046,14.44307613
+680,Khargone,1,Khargone,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,West Nimar,1873046,14.44307613
+681,Khawzawl,0,Khawzawl,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+682,Khawzawl,1,Khawzawl,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+683,Kheda,0,Kheda,Orange Zone,NA,0,0,Gujarat,Kheda,2299885,14.64836979
+684,Kheda,1,Kheda,Orange Zone,NA,0,0,Gujarat,Kheda,2299885,14.64836979
+685,Kheri,0,Kheri,Green Zone,NA,0,0,Uttar Pradesh,Lakhimpur Kheri,4021243,15.20710182
+686,Kheri,1,Kheri,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Lakhimpur Kheri,4021243,15.20710182
+687,Khordha,0,Khordha,Orange Zone,Odisha,0,4,Odisha,Khordha,2251673,14.62718391
+688,Khordha,1,Khordha,Orange Zone,Odisha,0,0,Odisha,Khordha,2251673,14.62718391
+689,Khowai,0,Khowai,Green Zone,Tripura,0,0,Tripura,Khowai,NA,NA
+690,Khowai,1,Khowai,Green Zone,Tripura,0,0,Tripura,Khowai,NA,NA
+691,Khunti,0,Khunti,Green Zone,Jharkhand,0,0,Jharkhand,Khunti,531885,13.18418217
+692,Khunti,1,Khunti,Green Zone,Jharkhand,0,0,Jharkhand,Khunti,531885,13.18418217
+693,Kinnaur,0,Kinnaur,Green Zone,NA,0,0,Himachal Pradesh,Kinnaur,84121,11.3400116
+694,Kinnaur,1,Kinnaur,Green Zone,NA,0,0,Himachal Pradesh,Kinnaur,84121,11.3400116
+695,Kiphire,0,Kiphire,Green Zone,Nagaland,0,2,Nagaland,Kiphire,74004,11.21187401
+696,Kiphire,1,Kiphire,Green Zone,NA,0,0,Nagaland,Kiphire,74004,11.21187401
+697,Kishanganj,0,Kishanganj,Green Zone,Bihar,0,3,Bihar,Kishanganj,1690400,14.34047604
+698,Kishanganj,1,Kishanganj,Green Zone,Bihar,1,0,Bihar,Kishanganj,1690400,14.34047604
+699,Kishtwar,0,Kishtwar,Green Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Kishtwar,230696,12.34885597
+700,Kishtwar,1,Kishtwar,Green Zone,Jammu and Kashmir,1,0,Jammu and Kashmir,Kishtwar,230696,12.34885597
+701,Kodagu,0,Kodagu,Green Zone,NA,0,0,Karnataka,Kodagu,554519,13.22585678
+702,Kodagu,1,Kodagu,Green Zone,Karnataka,0,0,Karnataka,Kodagu,554519,13.22585678
+703,Koderma,0,Koderma,Orange Zone,NA,0,0,Jharkhand,Kodarma,716259,13.48179722
+704,Koderma,1,Koderma,Orange Zone,Jharkhand,0,0,Jharkhand,Kodarma,716259,13.48179722
+705,Kohima,0,Kohima,Green Zone,Nagaland,0,8,Nagaland,Kohima,267988,12.49869728
+706,Kohima,1,Kohima,Green Zone,Nagaland,0,0,Nagaland,Kohima,267988,12.49869728
+707,Kokrajhar,0,Kokrajhar,Green Zone,Assam,0,1,Assam,Kokrajhar,887142,13.69576073
+708,Kokrajhar,1,Kokrajhar,Green Zone,Assam,0,0,Assam,Kokrajhar,887142,13.69576073
+709,Kolar,0,Kolar,Green Zone,Karnataka,0,2,Karnataka,Kolar,1536401,14.24495316
+710,Kolar,1,Kolar,Green Zone,Karnataka,0,0,Karnataka,Kolar,1536401,14.24495316
+711,Kolasib,0,Kolasib,Green Zone,NA,0,0,Mizoram,Kolasib,83955,11.33803654
+712,Kolasib,1,Kolasib,Green Zone,NA,0,0,Mizoram,Kolasib,83955,11.33803654
+713,Kolhapur,0,Kolhapur,Orange Zone,Maharashtra,0,1,Maharashtra,Kolhapur,3876001,15.17031479
+714,Kolhapur,1,Kolhapur,Orange Zone,Maharashtra,0,0,Maharashtra,Kolhapur,3876001,15.17031479
+715,Kolkata,0,Kolkata,Red Zone,West Bengal,0,57,West Bengal,Kolkata,4496694,15.31885338
+716,Kolkata,1,Kolkata,Red Zone,West Bengal,0,0,West Bengal,Kolkata,4496694,15.31885338
+717,Kollam,0,Kollam,Orange Zone,Kerala,0,1,Kerala,Kollam,2635375,14.78453636
+718,Kollam,1,Kollam,Orange Zone,Kerala,0,0,Kerala,Kollam,2635375,14.78453636
+719,Kondagaon,0,Kondagaon,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Kondagaon,NA,NA
+720,Kondagaon,1,Kondagaon,Green Zone,NA,0,0,Chhattisgarh,Kondagaon,NA,NA
+721,Koppal,0,Koppal,Green Zone,Karnataka,0,0,Karnataka,Koppal,1389920,14.14475632
+722,Koppal,1,Koppal,Green Zone,Karnataka,0,0,Karnataka,Koppal,1389920,14.14475632
+723,Koraput,0,Koraput,Orange Zone,Odisha,0,0,Odisha,Koraput,1379647,14.13733864
+724,Koraput,1,Koraput,Orange Zone,Odisha,0,0,Odisha,Koraput,1379647,14.13733864
+725,Korba,0,Korba,Orange Zone,NA,0,0,Chhattisgarh,Korba,1206640,14.00335026
+726,Korba,1,Korba,Orange Zone,Chhattisgarh,0,0,Chhattisgarh,Korba,1206640,14.00335026
+727,Korea,0,Korea (Koriya),Green Zone,NA,0,0,Chhattisgarh,Koriya,658917,13.39835262
+728,Korea,1,Korea (Koriya),Green Zone,Chhattisgarh,0,0,Chhattisgarh,Koriya,658917,13.39835262
+729,Kota,0,Kota,Red Zone,Rajasthan,0,3,Rajasthan,Kota,1951014,14.48386002
+730,Kota,1,Kota,Red Zone,Rajasthan,0,0,Rajasthan,Kota,1951014,14.48386002
+731,Kottayam,0,Kottayam,Red Zone,Kerala,1,1,Kerala,Kottayam,1974551,14.49585152
+732,Kottayam,1,Kottayam,Red Zone,Kerala,0,0,Kerala,Kottayam,1974551,14.49585152
+733,Kozhikode,0,Kozhikode (Calicut),Orange Zone,Kerala,0,4,Kerala,Kozhikode,3086293,14.94248104
+734,Kozhikode,1,Kozhikode (Calicut),Orange Zone,Kerala,0,0,Kerala,Kozhikode,3086293,14.94248104
+735,Kra Daadi,0,Kra Daadi,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,NA,NA,NA
+736,Kra Daadi,1,Kra Daadi,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+737,Krishna,0,Krishna,Red Zone,Andhra Pradesh,0,2,Andhra Pradesh,Krishna,4517398,15.32344627
+738,Krishna,1,Krishna,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Krishna,4517398,15.32344627
+739,Krishnagiri,0,Krishnagiri,Green Zone,Tamil Nadu,0,1,Tamil Nadu,Krishnagiri,1879809,14.44668102
+740,Krishnagiri,1,Krishnagiri,Green Zone,Tamil Nadu,0,0,Tamil Nadu,Krishnagiri,1879809,14.44668102
+741,Kulgam,0,Kulgam,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Kulgam,424483,12.9586277
+742,Kulgam,1,Kulgam,Orange Zone,Jammu and Kashmir,1,0,Jammu and Kashmir,Kulgam,424483,12.9586277
+743,Kullu,0,Kullu,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Kullu,437903,12.98975277
+744,Kullu,1,Kullu,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Kullu,437903,12.98975277
+745,Kumaram Bheem Asifabad,0,Komaram Bheem Asifabad,Orange Zone,NA,0,0,Telangana,NA,NA,NA
+746,Kumaram Bheem Asifabad,1,Komaram Bheem Asifabad,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+747,Kupwara,0,Kupwara,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Kupwara,870354,13.67665577
+748,Kupwara,1,Kupwara,Orange Zone,Jammu and Kashmir,2,0,Jammu and Kashmir,Kupwara,870354,13.67665577
+749,Kurnool,0,Kurnool,Red Zone,Andhra Pradesh,0,2,Andhra Pradesh,Kurnool,4053463,15.21508217
+750,Kurnool,1,Kurnool,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Kurnool,4053463,15.21508217
+751,Kurukshetra,0,Kurukshetra,Orange Zone,Haryana,0,0,Haryana,Kurukshetra,964655,13.77952576
+752,Kurukshetra,1,Kurukshetra,Orange Zone,Haryana,0,0,Haryana,Kurukshetra,964655,13.77952576
+753,Kurung Kumey,0,Kurung Kumey,Green Zone,NA,0,0,Arunachal Pradesh,Kurung Kumey,92076,11.43036938
+754,Kurung Kumey,1,Kurung Kumey,Green Zone,NA,0,0,Arunachal Pradesh,Kurung Kumey,92076,11.43036938
+755,Kushi Nagar,0,Kushi Nagar,Green Zone,NA,0,0,Uttar Pradesh,Kushinagar,3564544,15.0865469
+756,Kushi Nagar,1,Kushi Nagar,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Kushinagar,3564544,15.0865469
+757,Lahul and Spiti,0,Lahul and Spiti,Green Zone,NA,0,0,Himachal Pradesh,Lahul & Spiti,31564,10.35977268
+758,Lahul and Spiti,1,Lahul and Spiti,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Lahul & Spiti,31564,10.35977268
+759,Lakhimpur,0,Lakhimpur,Green Zone,Assam,0,19,Assam,Lakhimpur,1042137,13.85678387
+760,Lakhimpur,1,Lakhimpur,Green Zone,Assam,0,6,Assam,Lakhimpur,1042137,13.85678387
+761,Lakhisarai,0,Lakhisarai,Orange Zone,Bihar,0,1,Bihar,Lakhisarai,1000912,13.81642246
+762,Lakhisarai,1,Lakhisarai,Orange Zone,Bihar,0,0,Bihar,Lakhisarai,1000912,13.81642246
+763,Lakshadweep District,0,Lakshadweep District,Green Zone,NA,0,0,Lakshadweep,Lakshadweep,64473,11.07400227
+764,Lakshadweep District,1,Lakshadweep District,Green Zone,NA,0,0,Lakshadweep,Lakshadweep,64473,11.07400227
+765,Lalitpur,0,Lalitpur,Green Zone,NA,0,0,Uttar Pradesh,Lalitpur,1221592,14.01566505
+766,Lalitpur,1,Lalitpur,Green Zone,NA,0,0,Uttar Pradesh,Lalitpur,1221592,14.01566505
+767,Latehar,0,Latehar,Green Zone,Jharkhand,0,0,Jharkhand,Latehar,726978,13.49665165
+768,Latehar,1,Latehar,Green Zone,Jharkhand,0,0,Jharkhand,Latehar,726978,13.49665165
+769,Latur,0,Latur,Orange Zone,Maharashtra,0,1,Maharashtra,Latur,2454196,14.71331024
+770,Latur,1,Latur,Orange Zone,Maharashtra,0,0,Maharashtra,Latur,2454196,14.71331024
+771,Lawngtlai,0,Lawngtlai,Green Zone,Mizoram,0,0,Mizoram,Lawangtlai,117894,11.67754078
+772,Lawngtlai,1,Lawngtlai,Green Zone,Mizoram,0,0,Mizoram,Lawangtlai,117894,11.67754078
+773,Leh,0,Leh Ladakh,Orange Zone,Ladakh,0,0,Jammu and Kashmir,Leh (Ladakh),133487,11.80175972
+774,Leh,1,Leh Ladakh,Orange Zone,Ladakh,0,0,Jammu and Kashmir,Leh (Ladakh),133487,11.80175972
+775,Lepa Rada,0,Lepa Rada,Green Zone,NA,0,0,NA,NA,NA,NA
+776,Lepa Rada,1,Lepa Rada,Green Zone,NA,0,0,NA,NA,NA,NA
+777,Lohardaga,0,Lohardaga,Green Zone,Jharkhand,0,1,Jharkhand,Lohardaga,461790,13.04286575
+778,Lohardaga,1,Lohardaga,Green Zone,Jharkhand,0,0,Jharkhand,Lohardaga,461790,13.04286575
+779,Lohit,0,Lohit,Green Zone,NA,0,0,Arunachal Pradesh,Lohit,145726,11.88948345
+780,Lohit,1,Lohit,Green Zone,NA,0,0,Arunachal Pradesh,Lohit,145726,11.88948345
+781,Longding,0,Longding,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Longding,NA,NA
+782,Longding,1,Longding,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Longding,NA,NA
+783,Longleng,0,Longleng,Green Zone,Nagaland,0,1,Nagaland,Longleng,50484,10.82941151
+784,Longleng,1,Longleng,Green Zone,NA,0,0,Nagaland,Longleng,50484,10.82941151
+785,Lower Dibang Valley,0,Lower Dibang Valley,Green Zone,Arunachal Pradesh,0,1,Arunachal Pradesh,Lower Dibang Valley,54080,10.89822006
+786,Lower Dibang Valley,1,Lower Dibang Valley,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Lower Dibang Valley,54080,10.89822006
+787,Lower Siang,0,Lower Siang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+788,Lower Siang,1,Lower Siang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+789,Lower Subansiri,0,Lower Subansiri,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Lower Subansiri,83030,11.3269577
+790,Lower Subansiri,1,Lower Subansiri,Green Zone,NA,0,0,Arunachal Pradesh,Lower Subansiri,83030,11.3269577
+791,Lucknow,0,Lucknow,Red Zone,Uttar Pradesh,1,25,Uttar Pradesh,Lucknow,4589838,15.33935547
+792,Lucknow,1,Lucknow,Red Zone,Uttar Pradesh,0,1,Uttar Pradesh,Lucknow,4589838,15.33935547
+793,Ludhiana,0,Ludhiana,Red Zone,Punjab,0,20,Punjab,Ludhiana,3498739,15.06791306
+794,Ludhiana,1,Ludhiana,Red Zone,Punjab,0,0,Punjab,Ludhiana,3498739,15.06791306
+795,Lunglei,0,Lunglei,Green Zone,NA,0,0,Mizoram,Lunglei,161428,11.99181461
+796,Lunglei,1,Lunglei,Green Zone,NA,0,0,Mizoram,Lunglei,161428,11.99181461
+797,Madhepura,0,Madhepura,Orange Zone,Bihar,0,1,Bihar,Madhepura,2001762,14.50953865
+798,Madhepura,1,Madhepura,Orange Zone,Bihar,0,0,Bihar,Madhepura,2001762,14.50953865
+799,Madhubani,0,Madhubani,Orange Zone,Bihar,0,1,Bihar,Madhubani,4487379,15.31677914
+800,Madhubani,1,Madhubani,Orange Zone,Bihar,0,0,Bihar,Madhubani,4487379,15.31677914
+801,Madurai,0,Madurai,Red Zone,Tamil Nadu,0,9,Tamil Nadu,Madurai,3038252,14.9267931
+802,Madurai,1,Madurai,Red Zone,Tamil Nadu,0,1,Tamil Nadu,Madurai,3038252,14.9267931
+803,Mahabubabad,0,Mahabubabad,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+804,Mahabubabad,1,Mahabubabad,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+805,Mahabubnagar,0,Mahabubnagar,Orange Zone,Telangana,0,0,Telangana,Mahbubnagar,4053028,15.2149744
+806,Mahabubnagar,1,Mahabubnagar,Orange Zone,Telangana,0,0,Telangana,Mahbubnagar,4053028,15.2149744
+807,Maharajganj,0,Maharajganj,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Maharajganj,2684703,14.80308056
+808,Maharajganj,1,Maharajganj,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Maharajganj,2684703,14.80308056
+809,Mahasamund,0,Mahasamund,Green Zone,NA,0,0,Chhattisgarh,Mahasamund,1032754,13.84773922
+810,Mahasamund,1,Mahasamund,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Mahasamund,1032754,13.84773922
+811,Mahe,0,Mahe,Green Zone,NA,0,0,Puducherry,Mahe,41816,10.64103413
+812,Mahe,1,Mahe,Green Zone,NA,0,0,Puducherry,Mahe,41816,10.64103413
+813,Mahendragarh,0,Mahendragarh,Green Zone,NA,0,0,Haryana,Mahendragarh,922088,13.73439598
+814,Mahendragarh,1,Mahendragarh,Green Zone,Haryana,0,0,Haryana,Mahendragarh,922088,13.73439598
+815,Mahesana,0,Mehsana,Orange Zone,Gujarat,0,0,Gujarat,Mahesana,2035064,14.52603817
+816,Mahesana,1,Mehsana,Orange Zone,Gujarat,1,0,Gujarat,Mahesana,2035064,14.52603817
+817,Mahisagar,0,Mahisagar,Orange Zone,NA,0,0,Gujarat,Mahisagar,NA,NA
+818,Mahisagar,1,Mahisagar,Orange Zone,NA,0,0,Gujarat,Mahisagar,NA,NA
+819,Mahoba,0,Mahoba,Green Zone,NA,0,0,Uttar Pradesh,Mahoba,875958,13.68307304
+820,Mahoba,1,Mahoba,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Mahoba,875958,13.68307304
+821,Mainpuri,0,Mainpuri,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Mainpuri,1868529,14.44066238
+822,Mainpuri,1,Mainpuri,Orange Zone,Uttar Pradesh,1,0,Uttar Pradesh,Mainpuri,1868529,14.44066238
+823,Majuli,0,Majuli,Green Zone,Assam,0,3,Assam,NA,NA,NA
+824,Majuli,1,Majuli,Green Zone,Assam,0,0,Assam,NA,NA,NA
+825,Malappuram,0,Malappuram,Orange Zone,Kerala,0,3,Kerala,Malappuram,4112920,15.22964382
+826,Malappuram,1,Malappuram,Orange Zone,Kerala,0,0,Kerala,Malappuram,4112920,15.22964382
+827,Maldah,0,Malda,Red Zone,West Bengal,0,2,West Bengal,Maldah,3988845,15.1990118
+828,Maldah,1,Malda,Red Zone,West Bengal,0,0,West Bengal,Maldah,3988845,15.1990118
+829,Malkangiri,0,Malkangiri,Green Zone,Odisha,0,0,Odisha,Malkangiri,613192,13.32643318
+830,Malkangiri,1,Malkangiri,Green Zone,Odisha,1,0,Odisha,Malkangiri,613192,13.32643318
+831,Mamit,0,Mamit,Green Zone,Mizoram,0,1,Mizoram,Mamit,86364,11.36632633
+832,Mamit,1,Mamit,Green Zone,NA,0,0,Mizoram,Mamit,86364,11.36632633
+833,Mancherial,0,Mancherial,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+834,Mancherial,1,Mancherial,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+835,Mandi,0,Mandi,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Mandi,999777,13.81528759
+836,Mandi,1,Mandi,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Mandi,999777,13.81528759
+837,Mandla,0,Mandla,Green Zone,NA,0,0,Madhya Pradesh,Mandla,1054905,13.86896133
+838,Mandla,1,Mandla,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Mandla,1054905,13.86896133
+839,Mandsaur,0,Mandsaur,Orange Zone,Madhya Pradesh,0,1,Madhya Pradesh,Mandsaur,1340411,14.10848713
+840,Mandsaur,1,Mandsaur,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Mandsaur,1340411,14.10848713
+841,Mandya,0,Mandya,Orange Zone,Karnataka,0,2,Karnataka,Mandya,1805769,14.406497
+842,Mandya,1,Mandya,Orange Zone,Karnataka,0,0,Karnataka,Mandya,1805769,14.406497
+843,Mansa,0,Mansa,Orange Zone,Punjab,1,6,Punjab,Mansa,769751,13.55382252
+844,Mansa,1,Mansa,Orange Zone,Punjab,0,0,Punjab,Mansa,769751,13.55382252
+845,Mathura,0,Mathura,Red Zone,Uttar Pradesh,0,1,Uttar Pradesh,Mathura,2547184,14.75049877
+846,Mathura,1,Mathura,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Mathura,2547184,14.75049877
+847,Mau,0,Mau,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Mau,2205968,14.60667706
+848,Mau,1,Mau,Orange Zone,NA,0,0,Uttar Pradesh,Mau,2205968,14.60667706
+849,Mayurbhanj,0,Mayurbhanj,Green Zone,Odisha,0,1,Odisha,Mayurbhanj,2519738,14.73966503
+850,Mayurbhanj,1,Mayurbhanj,Green Zone,Odisha,1,0,Odisha,Mayurbhanj,2519738,14.73966503
+851,Medak,0,Medak,Orange Zone,Telangana,0,0,Telangana,Medak,3033288,14.92515755
+852,Medak,1,Medak,Orange Zone,Telangana,0,0,Telangana,Medak,3033288,14.92515755
+853,Medchal-Malkajgiri,0,Medchal Malkajgiri,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+854,Medchal-Malkajgiri,1,Medchal Malkajgiri,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+855,Meerut,0,Meerut,Red Zone,Uttar Pradesh,1,1,Uttar Pradesh,Meerut,3443689,15.05205345
+856,Meerut,1,Meerut,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Meerut,3443689,15.05205345
+857,Mirzapur,0,Mirzapur,Orange Zone,NA,0,0,Uttar Pradesh,Mirzapur,2496970,14.73058891
+858,Mirzapur,1,Mirzapur,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Mirzapur,2496970,14.73058891
+859,Moga,0,Moga,Orange Zone,Punjab,0,0,Punjab,Moga,995746,13.81124783
+860,Moga,1,Moga,Orange Zone,Punjab,0,0,Punjab,Moga,995746,13.81124783
+861,Mokokchung,0,Mokokchung,Green Zone,Nagaland,0,2,Nagaland,Mokokchung,194622,12.17881489
+862,Mokokchung,1,Mokokchung,Green Zone,NA,0,0,Nagaland,Mokokchung,194622,12.17881489
+863,Mon,0,Mon,Green Zone,Nagaland,0,1,Nagaland,Mon,250260,12.43025589
+864,Mon,1,Mon,Green Zone,NA,0,0,Nagaland,Mon,250260,12.43025589
+865,Moradabad,0,Moradabad,Red Zone,Uttar Pradesh,0,3,Uttar Pradesh,Moradabad,4772006,15.37827778
+866,Moradabad,1,Moradabad,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Moradabad,4772006,15.37827778
+867,Morbi,0,Morbi,Green Zone,Gujarat,0,0,Gujarat,Morbi,NA,NA
+868,Morbi,1,Morbi,Green Zone,NA,0,0,Gujarat,Morbi,NA,NA
+869,Morena,0,Morena,Orange Zone,NA,0,0,Madhya Pradesh,Morena,1965970,14.49149609
+870,Morena,1,Morena,Orange Zone,NA,0,0,Madhya Pradesh,Morena,1965970,14.49149609
+871,Morigaon,0,Morigaon,Orange Zone,Assam,0,2,Assam,Morigaon,957423,13.77200031
+872,Morigaon,1,Morigaon,Orange Zone,Assam,0,3,Assam,Morigaon,957423,13.77200031
+873,Mulugu,0,Mulugu,Green Zone,NA,0,0,Telangana,NA,NA,NA
+874,Mulugu,1,Mulugu,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+875,Mumbai City,0,Mumbai,Red Zone,Maharashtra,0,11,Maharashtra,Mumbai City,3085411,14.94219589
+876,Mumbai City,1,Mumbai,Red Zone,Maharashtra,0,0,Maharashtra,Mumbai City,3085411,14.94219589
+877,Mumbai Suburban,0,Mumbai Suburban,Red Zone,Maharashtra,0,34,Maharashtra,Mumbai Suburban,9356962,16.05163193
+878,Mumbai Suburban,1,Mumbai Suburban,Red Zone,Maharashtra,1,0,Maharashtra,Mumbai Suburban,9356962,16.05163193
+879,Mungeli,0,Munseli,Green Zone,NA,0,0,Chhattisgarh,Mungeli,NA,NA
+880,Mungeli,1,Munseli,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Mungeli,NA,NA
+881,Munger,0,Munger,Red Zone,Bihar,0,0,Bihar,Munger,1367765,14.12868881
+882,Munger,1,Munger,Red Zone,Bihar,0,0,Bihar,Munger,1367765,14.12868881
+883,Murshidabad,0,Murshidabad,Orange Zone,West Bengal,0,2,West Bengal,Murshidabad,7103807,15.77614117
+884,Murshidabad,1,Murshidabad,Orange Zone,West Bengal,0,0,West Bengal,Murshidabad,7103807,15.77614117
+885,Muzaffarnagar,0,Muzaffarnagar,Red Zone,Uttar Pradesh,0,1,Uttar Pradesh,Muzaffarnagar,4143512,15.23705387
+886,Muzaffarnagar,1,Muzaffarnagar,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Muzaffarnagar,4143512,15.23705387
+887,Muzaffarpur,0,Muzaffarpur,Green Zone,Bihar,0,5,Bihar,Muzaffarpur,4801062,15.38434792
+888,Muzaffarpur,1,Muzaffarpur,Green Zone,Bihar,0,0,Bihar,Muzaffarpur,4801062,15.38434792
+889,Mysuru,0,Mysuru (Mysore),Red Zone,Karnataka,0,1,Karnataka,Mysore,3001127,14.91449833
+890,Mysuru,1,Mysuru (Mysore),Red Zone,Karnataka,0,0,Karnataka,Mysore,3001127,14.91449833
+891,Nabarangpur,0,Nabarangpur,Green Zone,Odisha,0,0,Odisha,Nabarangapur,1220946,14.01513672
+892,Nabarangpur,1,Nabarangpur,Green Zone,NA,0,0,Odisha,Nabarangapur,1220946,14.01513672
+893,Nadia,0,Nadia,Orange Zone,West Bengal,0,3,West Bengal,Nadia,5167600,15.45791912
+894,Nadia,1,Nadia,Orange Zone,West Bengal,0,0,West Bengal,Nadia,5167600,15.45791912
+895,Nagaon,0,Nagaon,Green Zone,Assam,0,20,Assam,Nagaon,2823768,14.85358238
+896,Nagaon,1,Nagaon,Green Zone,Assam,0,6,Assam,Nagaon,2823768,14.85358238
+897,Nagapattinam,0,Nagapattinam,Orange Zone,Tamil Nadu,0,7,Tamil Nadu,Nagappattinam,1616450,14.29574299
+898,Nagapattinam,1,Nagapattinam,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Nagappattinam,1616450,14.29574299
+899,Nagarkurnool,0,Nagarkurnool,Green Zone,NA,0,0,Telangana,NA,NA,NA
+900,Nagarkurnool,1,Nagarkurnool,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+901,Nagaur,0,Nagaur,Red Zone,Rajasthan,0,0,Rajasthan,Nagaur,3307743,15.01177692
+902,Nagaur,1,Nagaur,Red Zone,Rajasthan,0,0,Rajasthan,Nagaur,3307743,15.01177692
+903,Nagpur,0,Nagpur,Red Zone,Maharashtra,0,8,Maharashtra,Nagpur,4653570,15.3531456
+904,Nagpur,1,Nagpur,Red Zone,Maharashtra,0,0,Maharashtra,Nagpur,4653570,15.3531456
+905,Nainital,0,Nainital,Orange Zone,Uttarakhand,0,3,Uttarakhand,Nainital,954605,13.76905251
+906,Nainital,1,Nainital,Orange Zone,Uttarakhand,0,0,Uttarakhand,Nainital,954605,13.76905251
+907,Nalanda,0,Nalanda,Orange Zone,Bihar,0,2,Bihar,Nalanda,2877653,14.87248516
+908,Nalanda,1,Nalanda,Orange Zone,Bihar,0,0,Bihar,Nalanda,2877653,14.87248516
+909,Nalbari,0,Nalbari,Green Zone,Assam,0,13,Assam,Nalbari,771639,13.55627251
+910,Nalbari,1,Nalbari,Green Zone,Assam,0,2,Assam,Nalbari,771639,13.55627251
+911,Nalgonda,0,Nalgonda,Orange Zone,NA,0,0,Telangana,Nalgonda,3488809,15.06507111
+912,Nalgonda,1,Nalgonda,Orange Zone,Telangana,0,0,Telangana,Nalgonda,3488809,15.06507111
+913,Namakkal,0,Namakkal,Red Zone,Tamil Nadu,0,3,Tamil Nadu,Namakkal,1726601,14.36166573
+914,Namakkal,1,Namakkal,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Namakkal,1726601,14.36166573
+915,Namsai,0,Namsai,Green Zone,Arunachal Pradesh,0,1,Arunachal Pradesh,Namsai,NA,NA
+916,Namsai,1,Namsai,Green Zone,NA,0,0,Arunachal Pradesh,Namsai,NA,NA
+917,Nanded,0,Nanded,Orange Zone,Maharashtra,0,2,Maharashtra,Nanded,3361292,15.02783585
+918,Nanded,1,Nanded,Orange Zone,Maharashtra,0,0,Maharashtra,Nanded,3361292,15.02783585
+919,Nandurbar,0,Nandurbar,Orange Zone,NA,0,0,Maharashtra,Nandurbar,1648295,14.3152523
+920,Nandurbar,1,Nandurbar,Orange Zone,Maharashtra,0,0,Maharashtra,Nandurbar,1648295,14.3152523
+921,Narayanpet,0,Narayanpet,Orange Zone,NA,0,0,Telangana,NA,NA,NA
+922,Narayanpet,1,Narayanpet,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+923,Narayanpur,0,Nayaranpur,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Narayanpur,139820,11.84811115
+924,Narayanpur,1,Nayaranpur,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Narayanpur,139820,11.84811115
+925,Narmada,0,Narmada,Orange Zone,NA,0,0,Gujarat,Narmada,590297,13.28838062
+926,Narmada,1,Narmada,Orange Zone,Gujarat,0,0,Gujarat,Narmada,590297,13.28838062
+927,Narsinghpur,0,Narsinghpur,Green Zone,NA,0,0,Madhya Pradesh,Narsimhapur,1091854,13.90338802
+928,Narsinghpur,1,Narsinghpur,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Narsimhapur,1091854,13.90338802
+929,Nashik,0,Nashik,Red Zone,Maharashtra,0,2,Maharashtra,Nashik,6107187,15.62497711
+930,Nashik,1,Nashik,Red Zone,Maharashtra,1,0,Maharashtra,Nashik,6107187,15.62497711
+931,Navsari,0,Navsari,Orange Zone,NA,0,0,Gujarat,Navsari,1329672,14.10044289
+932,Navsari,1,Navsari,Orange Zone,Gujarat,0,0,Gujarat,Navsari,1329672,14.10044289
+933,Nawada,0,Nawada,Orange Zone,Bihar,0,3,Bihar,Nawada,2219146,14.61263275
+934,Nawada,1,Nawada,Orange Zone,Bihar,0,0,Bihar,Nawada,2219146,14.61263275
+935,Nayagarh,0,Nayagarh,Green Zone,Odisha,0,0,Odisha,Nayagarh,962789,13.7775898
+936,Nayagarh,1,Nayagarh,Green Zone,Odisha,0,0,Odisha,Nayagarh,962789,13.7775898
+937,Neemuch,0,Neemuch,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Neemuch,826067,13.62443161
+938,Neemuch,1,Neemuch,Green Zone,NA,0,0,Madhya Pradesh,Neemuch,826067,13.62443161
+939,New Delhi,0,New Delhi,Red Zone,Delhi,6,57,Delhi,NA,NA,NA
+940,New Delhi,1,New Delhi,Red Zone,Delhi,0,2,Delhi,NA,NA,NA
+941,Nicobars,0,Nicobars,Green Zone,NA,0,0,Andaman and Nicobar,Nicobar Islands,36842,10.51439381
+942,Nicobars,1,Nicobars,Green Zone,NA,0,0,Andaman and Nicobar,Nicobar Islands,36842,10.51439381
+943,Nirmal,0,Nirmal,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+944,Nirmal,1,Nirmal,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+945,Niwari,0,Niwari,Green Zone,NA,0,0,Madhya Pradesh,NA,NA,NA
+946,Niwari,1,Niwari,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,NA,NA,NA
+947,Nizamabad,0,Nizamabad,Orange Zone,Telangana,0,1,Telangana,Nizamabad,2551335,14.75212765
+948,Nizamabad,1,Nizamabad,Orange Zone,Telangana,0,0,Telangana,Nizamabad,2551335,14.75212765
+949,Noney,0,Noney,Green Zone,NA,0,0,Manipur,NA,NA,NA
+950,Noney,1,Noney,Green Zone,NA,0,0,Manipur,NA,NA,NA
+951,North 24 Parganas,0,North 24 Parganas,Red Zone,West Bengal,0,9,West Bengal,North 24 Parganas,10009781,16.11907387
+952,North 24 Parganas,1,North 24 Parganas,Red Zone,West Bengal,0,0,West Bengal,North 24 Parganas,10009781,16.11907387
+953,North Delhi,0,North Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+954,North Delhi,1,North Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+955,North East Delhi,0,North East Delhi,Red Zone,Delhi,1,6,Delhi,NA,NA,NA
+956,North East Delhi,1,North East Delhi,Red Zone,NA,0,0,Delhi,NA,NA,NA
+957,North Garo Hills,0,North Garo Hills,Green Zone,NA,0,0,Meghalaya,North Garo Hills,NA,NA
+958,North Garo Hills,1,North Garo Hills,Green Zone,NA,0,0,Meghalaya,North Garo Hills,NA,NA
+959,North Goa,0,North Goa,Green Zone,Goa,0,3,Goa,North Goa,818008,13.61462784
+960,North Goa,1,North Goa,Green Zone,Goa,0,0,Goa,North Goa,818008,13.61462784
+961,North Sikkim,0,North Sikkim,Green Zone,NA,0,0,Sikkim,North Sikkim,43709,10.68530941
+962,North Sikkim,1,North Sikkim,Green Zone,Sikkim,0,0,Sikkim,North Sikkim,43709,10.68530941
+963,North Tripura,0,North Tripura,Orange Zone,Tripura,0,1,Tripura,North Tripura,693947,13.45015049
+964,North Tripura,1,North Tripura,Orange Zone,Tripura,0,0,Tripura,North Tripura,693947,13.45015049
+965,North West Delhi,0,North West Delhi,Red Zone,NA,0,0,Delhi,NA,NA,NA
+966,North West Delhi,1,North West Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+967,North and Middle Andaman,0,North and Middle Andaman,Green Zone,NA,0,0,Andaman and Nicobar,North and Middle Andaman,105597,11.56738567
+968,North and Middle Andaman,1,North and Middle Andaman,Green Zone,NA,0,0,Andaman and Nicobar,North and Middle Andaman,105597,11.56738567
+969,Nuapada,0,Nuapada,Green Zone,Odisha,0,0,Odisha,Nuapada,610382,13.32184029
+970,Nuapada,1,Nuapada,Green Zone,Odisha,0,0,Odisha,Nuapada,610382,13.32184029
+971,Nuh,0,Nuh,Orange Zone,Haryana,0,2,Haryana,Mewat,1089263,13.90101147
+972,Nuh,1,Nuh,Orange Zone,Haryana,0,0,Haryana,Mewat,1089263,13.90101147
+973,Osmanabad,0,Osmanabad,Green Zone,Maharashtra,0,0,Maharashtra,Osmanabad,1657576,14.32086658
+974,Osmanabad,1,Osmanabad,Green Zone,Maharashtra,0,0,Maharashtra,Osmanabad,1657576,14.32086658
+975,Pakke Kessang,0,Pakke Kessang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+976,Pakke Kessang,1,Pakke Kessang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+977,Pakur,0,Pakur,Green Zone,Jharkhand,0,0,Jharkhand,Pakur,900422,13.71061897
+978,Pakur,1,Pakur,Green Zone,Jharkhand,0,0,Jharkhand,Pakur,900422,13.71061897
+979,Palakkad,0,Palakkad,Orange Zone,Kerala,0,1,Kerala,Palakkad,2809934,14.84867191
+980,Palakkad,1,Palakkad,Orange Zone,Kerala,0,0,Kerala,Palakkad,2809934,14.84867191
+981,Palamu,0,Palamu,Green Zone,Jharkhand,0,1,Jharkhand,Palamu,1939869,14.47813129
+982,Palamu,1,Palamu,Green Zone,Jharkhand,0,0,Jharkhand,Palamu,1939869,14.47813129
+983,Palghar,0,Palghar,Red Zone,Maharashtra,0,1,Maharashtra,Palghar,NA,NA
+984,Palghar,1,Palghar,Red Zone,Maharashtra,0,0,Maharashtra,Palghar,NA,NA
+985,Pali,0,Pali,Orange Zone,NA,0,0,Rajasthan,Pali,2037573,14.52727032
+986,Pali,1,Pali,Orange Zone,Rajasthan,0,0,Rajasthan,Pali,2037573,14.52727032
+987,Palwal,0,Palwal,Orange Zone,NA,0,0,Haryana,Palwal,1042708,13.85733128
+988,Palwal,1,Palwal,Orange Zone,Haryana,0,0,Haryana,Palwal,1042708,13.85733128
+989,Panch Mahals,0,Panchmahal,Red Zone,Gujarat,0,1,Gujarat,Panch Mahals,2390776,14.68712902
+990,Panch Mahals,1,Panchmahal,Red Zone,Gujarat,0,0,Gujarat,Panch Mahals,2390776,14.68712902
+991,Panchkula,0,Panchkula,Orange Zone,Haryana,0,1,Haryana,Panchkula,561293,13.23799801
+992,Panchkula,1,Panchkula,Orange Zone,Haryana,0,0,Haryana,Panchkula,561293,13.23799801
+993,Panipat,0,Panipat,Orange Zone,Haryana,0,0,Haryana,Panipat,1205437,14.00235271
+994,Panipat,1,Panipat,Orange Zone,Haryana,0,0,Haryana,Panipat,1205437,14.00235271
+995,Panna,0,Panna,Green Zone,NA,0,0,Madhya Pradesh,Panna,1016520,13.83189583
+996,Panna,1,Panna,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Panna,1016520,13.83189583
+997,Papum Pare,0,Papum Pare,Green Zone,Arunachal Pradesh,0,5,Arunachal Pradesh,Papum Pare,176573,12.08148956
+998,Papum Pare,1,Papum Pare,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Papum Pare,176573,12.08148956
+999,Parbhani,0,Parbhani,Orange Zone,Maharashtra,0,1,Maharashtra,Parbhani,1836086,14.42314625
+1000,Parbhani,1,Parbhani,Orange Zone,NA,0,0,Maharashtra,Parbhani,1836086,14.42314625
+1001,Paschim Bardhaman,0,Paschim Bardhaman,Orange Zone,West Bengal,0,2,West Bengal,NA,NA,NA
+1002,Paschim Bardhaman,1,Paschim Bardhaman,Orange Zone,West Bengal,0,0,West Bengal,NA,NA,NA
+1003,Paschim Medinipur,0,Paschim Medinipur (West Midnapore),Red Zone,West Bengal,0,0,West Bengal,Pashchim Medinipur,5913457,15.59274101
+1004,Paschim Medinipur,1,Paschim Medinipur (West Midnapore),Red Zone,West Bengal,0,0,West Bengal,Pashchim Medinipur,5913457,15.59274101
+1005,Pashchim Champaran,0,Pashchim Champaran (West Champaran),Green Zone,Bihar,0,2,Bihar,Pashchim Champaran,3935042,15.18543243
+1006,Pashchim Champaran,1,Pashchim Champaran (West Champaran),Green Zone,Bihar,0,0,Bihar,Pashchim Champaran,3935042,15.18543243
+1007,Patan,0,Patan,Orange Zone,Gujarat,0,0,Gujarat,Patan,1343734,14.11096287
+1008,Patan,1,Patan,Orange Zone,NA,0,0,Gujarat,Patan,1343734,14.11096287
+1009,Pathanamthitta,0,Pathanamthitta,Orange Zone,Kerala,0,1,Kerala,Pathanamthitta,1197412,13.99567318
+1010,Pathanamthitta,1,Pathanamthitta,Orange Zone,Kerala,0,0,Kerala,Pathanamthitta,1197412,13.99567318
+1011,Pathankot,0,Pathankot,Orange Zone,Punjab,0,2,Punjab,Pathankot,NA,NA
+1012,Pathankot,1,Pathankot,Orange Zone,Punjab,0,0,Punjab,Pathankot,NA,NA
+1013,Patiala,0,Patiala,Red Zone,Punjab,0,5,Punjab,Patiala,1895686,14.45509148
+1014,Patiala,1,Patiala,Red Zone,Punjab,0,0,Punjab,Patiala,1895686,14.45509148
+1015,Patna,0,Patna,Red Zone,Bihar,0,11,Bihar,Patna,5838465,15.57997894
+1016,Patna,1,Patna,Red Zone,Bihar,0,0,Bihar,Patna,5838465,15.57997894
+1017,Pauri Garhwal,0,Pauri Garhwal,Green Zone,Uttarakhand,0,0,Uttarakhand,Garhwal,687271,13.44048405
+1018,Pauri Garhwal,1,Pauri Garhwal,Green Zone,Uttarakhand,0,0,Uttarakhand,Garhwal,687271,13.44048405
+1019,Peddapalli,0,Peddapalli,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1020,Peddapalli,1,Peddapalli,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1021,Perambalur,0,Perambalur,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Perambalur,565223,13.24497604
+1022,Perambalur,1,Perambalur,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Perambalur,565223,13.24497604
+1023,Peren,0,Peren,Green Zone,Nagaland,0,1,Nagaland,Peren,95219,11.4639349
+1024,Peren,1,Peren,Green Zone,Nagaland,0,0,Nagaland,Peren,95219,11.4639349
+1025,Phek,0,Phek,Green Zone,Nagaland,0,1,Nagaland,Phek,163418,12.00406647
+1026,Phek,1,Phek,Green Zone,NA,0,0,Nagaland,Phek,163418,12.00406647
+1027,Pherzawl,0,Pherzawl,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+1028,Pherzawl,1,Pherzawl,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+1029,Pilibhit,0,Pilibhit,Orange Zone,Uttar Pradesh,0,1,Uttar Pradesh,Pilibhit,2031007,14.52404213
+1030,Pilibhit,1,Pilibhit,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Pilibhit,2031007,14.52404213
+1031,Pithoragarh,0,Pithoragarh,Green Zone,Uttarakhand,0,0,Uttarakhand,Pithoragarh,483439,13.08868027
+1032,Pithoragarh,1,Pithoragarh,Green Zone,Uttarakhand,0,0,Uttarakhand,Pithoragarh,483439,13.08868027
+1033,Poonch,0,Poonch,Green Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Poonch,476835,13.07492542
+1034,Poonch,1,Poonch,Green Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Poonch,476835,13.07492542
+1035,Porbandar,0,Porbandar,Green Zone,NA,0,0,Gujarat,Porbandar,585449,13.2801342
+1036,Porbandar,1,Porbandar,Green Zone,NA,0,0,Gujarat,Porbandar,585449,13.2801342
+1037,Prakasam,0,Prakasam,Orange Zone,Andhra Pradesh,0,1,Andhra Pradesh,Prakasam,3397448,15.03853512
+1038,Prakasam,1,Prakasam,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Prakasam,3397448,15.03853512
+1039,Pratapgarh (Rajasthan),0,Pratapgarh,Green Zone,NA,0,0,Rajasthan,Pratapgarh1,867848,13.67377186
+1040,Pratapgarh (Rajasthan),1,Pratapgarh,Green Zone,NA,0,0,Rajasthan,Pratapgarh1,867848,13.67377186
+1041,Pratapgarh (Uttar Pradesh),0,Pratapgarh,Orange Zone,NA,0,0,Uttar Pradesh,Pratapgarh,3209141,14.98151398
+1042,Pratapgarh (Uttar Pradesh),1,Pratapgarh,Orange Zone,NA,0,0,Uttar Pradesh,Pratapgarh,3209141,14.98151398
+1043,Prayagraj,0,Prayagraj (Allahabad),Orange Zone,Uttar Pradesh,0,7,Uttar Pradesh,Allahabad,5954391,15.59963989
+1044,Prayagraj,1,Prayagraj (Allahabad),Orange Zone,Uttar Pradesh,0,1,Uttar Pradesh,Allahabad,5954391,15.59963989
+1045,Puducherry,0,Pondicherry,Orange Zone,Puducherry,0,2,Puducherry,Puducherry,950289,13.7645216
+1046,Puducherry,1,Pondicherry,Orange Zone,Puducherry,0,0,Puducherry,Puducherry,950289,13.7645216
+1047,Pudukkottai,0,Pudukkottai,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Pudukkottai,1618345,14.29691505
+1048,Pudukkottai,1,Pudukkottai,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Pudukkottai,1618345,14.29691505
+1049,Pulwama,0,Pulwama,Green Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Pulwama,560440,13.23647785
+1050,Pulwama,1,Pulwama,Green Zone,Jammu and Kashmir,1,0,Jammu and Kashmir,Pulwama,560440,13.23647785
+1051,Pune,0,Pune,Red Zone,Maharashtra,0,11,Maharashtra,Pune,9429408,16.05934334
+1052,Pune,1,Pune,Red Zone,Maharashtra,2,0,Maharashtra,Pune,9429408,16.05934334
+1053,Purba Bardhaman,0,Purba Bardhaman,Orange Zone,West Bengal,0,1,West Bengal,Barddhaman,7717563,15.85900879
+1054,Purba Bardhaman,1,Purba Bardhaman,Orange Zone,West Bengal,0,0,West Bengal,Barddhaman,7717563,15.85900879
+1055,Purba Medinipur,0,Purba Medinipur (East Midnapore),Red Zone,NA,0,0,West Bengal,Purba Medinipur,5095875,15.44394207
+1056,Purba Medinipur,1,Purba Medinipur (East Midnapore),Red Zone,West Bengal,0,0,West Bengal,Purba Medinipur,5095875,15.44394207
+1057,Purbi Champaran,0,Purbi Champaran (East Champaran),Orange Zone,Bihar,0,2,Bihar,Purba Champaran,5099371,15.44462776
+1058,Purbi Champaran,1,Purbi Champaran (East Champaran),Orange Zone,Bihar,1,0,Bihar,Purba Champaran,5099371,15.44462776
+1059,Puri,0,Puri,Green Zone,Odisha,0,0,Odisha,Puri,1698730,14.34539127
+1060,Puri,1,Puri,Green Zone,Odisha,0,0,Odisha,Puri,1698730,14.34539127
+1061,Purnia,0,Purnia,Orange Zone,Bihar,0,5,Bihar,Purnia,3264619,14.99865341
+1062,Purnia,1,Purnia,Orange Zone,Bihar,0,0,Bihar,Purnia,3264619,14.99865341
+1063,Purulia,0,Purulia,Green Zone,West Bengal,0,0,West Bengal,Puruliya,2930115,14.89055252
+1064,Purulia,1,Purulia,Green Zone,West Bengal,0,0,West Bengal,Puruliya,2930115,14.89055252
+1065,Rae Bareli,0,Raebareli,Red Zone,Uttar Pradesh,0,2,Uttar Pradesh,Rae Bareli,3405559,15.0409193
+1066,Rae Bareli,1,Raebareli,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Rae Bareli,3405559,15.0409193
+1067,Raichur,0,Raichur,Green Zone,Karnataka,0,0,Karnataka,Raichur,1928812,14.47241497
+1068,Raichur,1,Raichur,Green Zone,Karnataka,0,0,Karnataka,Raichur,1928812,14.47241497
+1069,Raigad,0,Raigad,Orange Zone,Maharashtra,0,0,Maharashtra,Raigarh1,2634200,14.78409004
+1070,Raigad,1,Raigad,Orange Zone,Maharashtra,0,0,Maharashtra,Raigarh1,2634200,14.78409004
+1071,Raigarh,0,Raigarh,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Raigarh,1493984,14.21695709
+1072,Raigarh,1,Raigarh,Green Zone,NA,0,0,Chhattisgarh,Raigarh,1493984,14.21695709
+1073,Raipur,0,Raipur,Red Zone,Chhattisgarh,0,0,Chhattisgarh,Raipur,4063872,15.2176466
+1074,Raipur,1,Raipur,Red Zone,Chhattisgarh,0,0,Chhattisgarh,Raipur,4063872,15.2176466
+1075,Raisen,0,Raisen,Orange Zone,NA,0,0,Madhya Pradesh,Raisen,1331597,14.10188961
+1076,Raisen,1,Raisen,Orange Zone,NA,0,0,Madhya Pradesh,Raisen,1331597,14.10188961
+1077,Rajanna Sircilla,0,Rajanna Sircilla,Orange Zone,NA,0,0,Telangana,NA,NA,NA
+1078,Rajanna Sircilla,1,Rajanna Sircilla,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+1079,Rajgarh,0,Rajgarh,Green Zone,Madhya Pradesh,0,2,Madhya Pradesh,Rajgarh,1545814,14.25106144
+1080,Rajgarh,1,Rajgarh,Green Zone,NA,0,0,Madhya Pradesh,Rajgarh,1545814,14.25106144
+1081,Rajkot,0,Rajkot,Orange Zone,Gujarat,0,0,Gujarat,Rajkot,3804558,15.15171051
+1082,Rajkot,1,Rajkot,Orange Zone,Gujarat,0,0,Gujarat,Rajkot,3804558,15.15171051
+1083,Rajnandgaon,0,Rajnandgaon,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Rajnandgaon,1537133,14.24542999
+1084,Rajnandgaon,1,Rajnandgaon,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Rajnandgaon,1537133,14.24542999
+1085,Rajouri,0,Rajouri,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Rajouri,642415,13.37298965
+1086,Rajouri,1,Rajouri,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Rajouri,642415,13.37298965
+1087,Rajsamand,0,Rajsamand,Orange Zone,Rajasthan,1,0,Rajasthan,Rajsamand,1156597,13.96099281
+1088,Rajsamand,1,Rajsamand,Orange Zone,Rajasthan,0,0,Rajasthan,Rajsamand,1156597,13.96099281
+1089,Ramanagara,0,Ramanagara,Green Zone,Karnataka,0,1,Karnataka,Ramanagara,1082636,13.89490891
+1090,Ramanagara,1,Ramanagara,Green Zone,Karnataka,0,0,Karnataka,Ramanagara,1082636,13.89490891
+1091,Ramanathapuram,0,Ramanathapuram,Orange Zone,Tamil Nadu,0,3,Tamil Nadu,Ramanathapuram,1353445,14.11816406
+1092,Ramanathapuram,1,Ramanathapuram,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Ramanathapuram,1353445,14.11816406
+1093,Ramban,0,Ramban,Orange Zone,NA,0,0,Jammu and Kashmir,Ramban,283713,12.55571842
+1094,Ramban,1,Ramban,Orange Zone,Jammu and Kashmir,2,0,Jammu and Kashmir,Ramban,283713,12.55571842
+1095,Ramgarh,0,Ramgarh,Green Zone,Jharkhand,0,1,Jharkhand,Ramgarh,949443,13.76363087
+1096,Ramgarh,1,Ramgarh,Green Zone,Jharkhand,0,0,Jharkhand,Ramgarh,949443,13.76363087
+1097,Rampur,0,Rampur,Red Zone,Uttar Pradesh,0,1,Uttar Pradesh,Rampur,2335819,14.66387272
+1098,Rampur,1,Rampur,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Rampur,2335819,14.66387272
+1099,Ranchi,0,Ranchi,Red Zone,Jharkhand,0,15,Jharkhand,Ranchi,2914253,14.88512421
+1100,Ranchi,1,Ranchi,Red Zone,Jharkhand,0,0,Jharkhand,Ranchi,2914253,14.88512421
+1101,Rangareddy,0,Ranga Reddy,Red Zone,Telangana,0,0,Telangana,Ranga Reddy,5296741,15.48260212
+1102,Rangareddy,1,Ranga Reddy,Red Zone,Telangana,0,0,Telangana,Ranga Reddy,5296741,15.48260212
+1103,Ranipet,0,Ranipet,Red Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+1104,Ranipet,1,Ranipet,Red Zone,NA,0,0,Tamil Nadu,NA,NA,NA
+1105,Ratlam,0,Ratlam,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Ratlam,1455069,14.19056416
+1106,Ratlam,1,Ratlam,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Ratlam,1455069,14.19056416
+1107,Ratnagiri,0,Ratnagiri,Orange Zone,NA,0,0,Maharashtra,Ratnagiri,1615069,14.2948885
+1108,Ratnagiri,1,Ratnagiri,Orange Zone,Maharashtra,0,0,Maharashtra,Ratnagiri,1615069,14.2948885
+1109,Rayagada,0,Rayagada,Green Zone,Odisha,0,0,Odisha,Rayagada,967911,13.78289509
+1110,Rayagada,1,Rayagada,Green Zone,Odisha,0,0,Odisha,Rayagada,967911,13.78289509
+1111,Reasi,0,Reasi,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Reasi,314667,12.65927029
+1112,Reasi,1,Reasi,Orange Zone,Jammu and Kashmir,1,0,Jammu and Kashmir,Reasi,314667,12.65927029
+1113,Rewa,0,Rewa,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Rewa,2365106,14.67633343
+1114,Rewa,1,Rewa,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Rewa,2365106,14.67633343
+1115,Rewari,0,Rewari,Green Zone,Haryana,0,0,Haryana,Rewari,900332,13.71051884
+1116,Rewari,1,Rewari,Green Zone,Haryana,0,0,Haryana,Rewari,900332,13.71051884
+1117,Ri Bhoi,0,Ri Bhoi,Green Zone,Meghalaya,0,0,Meghalaya,Ri Bhoi,258840,12.46396542
+1118,Ri Bhoi,1,Ri Bhoi,Green Zone,Meghalaya,0,0,Meghalaya,Ri Bhoi,258840,12.46396542
+1119,Rohtak,0,Rohtak,Orange Zone,Haryana,0,0,Haryana,Rohtak,1061204,13.87491512
+1120,Rohtak,1,Rohtak,Orange Zone,Haryana,0,1,Haryana,Rohtak,1061204,13.87491512
+1121,Rohtas,0,Rohtas,Red Zone,NA,0,0,Bihar,Rohtas,2959918,14.90067196
+1122,Rohtas,1,Rohtas,Red Zone,Bihar,0,0,Bihar,Rohtas,2959918,14.90067196
+1123,Rudraprayag,0,Rudraprayag,Green Zone,Uttarakhand,0,0,Uttarakhand,Rudraprayag,242285,12.39787006
+1124,Rudraprayag,1,Rudraprayag,Green Zone,Uttarakhand,0,0,Uttarakhand,Rudraprayag,242285,12.39787006
+1125,Rupnagar,0,Rupnagar (Ropar),Green Zone,Punjab,0,1,Punjab,Rupnagar,684627,13.4366293
+1126,Rupnagar,1,Rupnagar (Ropar),Green Zone,Punjab,0,0,Punjab,Rupnagar,684627,13.4366293
+1127,SAS Nagar,0,SAS Nagar (Mohali),Orange Zone,Punjab,0,1,Punjab,Sahibzada Ajit Singh Nagar,994628,13.8101244
+1128,SAS Nagar,1,SAS Nagar (Mohali),Orange Zone,Punjab,0,0,Punjab,Sahibzada Ajit Singh Nagar,994628,13.8101244
+1129,Sabar Kantha,0,Sabarkantha,Orange Zone,NA,0,0,Gujarat,Sabar Kantha,2428589,14.70282078
+1130,Sabar Kantha,1,Sabarkantha,Orange Zone,Gujarat,0,0,Gujarat,Sabar Kantha,2428589,14.70282078
+1131,Sagar,0,Sagar,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sagar,2378458,14.68196297
+1132,Sagar,1,Sagar,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sagar,2378458,14.68196297
+1133,Saharanpur,0,Saharanpur,Red Zone,Uttar Pradesh,0,5,Uttar Pradesh,Saharanpur,3466382,15.05862236
+1134,Saharanpur,1,Saharanpur,Red Zone,Uttar Pradesh,1,0,Uttar Pradesh,Saharanpur,3466382,15.05862236
+1135,Saharsa,0,Saharsa,Green Zone,Bihar,0,0,Bihar,Saharsa,1900661,14.45771217
+1136,Saharsa,1,Saharsa,Green Zone,Bihar,0,0,Bihar,Saharsa,1900661,14.45771217
+1137,Sahebganj,0,Sahebganj,Green Zone,NA,0,0,Jharkhand,Sahibganj,1150567,13.95576572
+1138,Sahebganj,1,Sahebganj,Green Zone,Jharkhand,0,0,Jharkhand,Sahibganj,1150567,13.95576572
+1139,Saiha,0,Saiha,Green Zone,NA,0,0,Mizoram,Saiha,56574,10.94330502
+1140,Saiha,1,Saiha,Green Zone,NA,0,0,Mizoram,Saiha,56574,10.94330502
+1141,Saitual,0,Saitual,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+1142,Saitual,1,Saitual,Green Zone,NA,0,0,Mizoram,NA,NA,NA
+1143,Salem,0,Salem,Orange Zone,Tamil Nadu,0,10,Tamil Nadu,Salem,3482056,15.06313324
+1144,Salem,1,Salem,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Salem,3482056,15.06313324
+1145,Samastipur,0,Samastipur,Green Zone,Bihar,0,1,Bihar,Samastipur,4261566,15.26514721
+1146,Samastipur,1,Samastipur,Green Zone,Bihar,0,0,Bihar,Samastipur,4261566,15.26514721
+1147,Samba,0,Samba,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Samba,318898,12.6726265
+1148,Samba,1,Samba,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Samba,318898,12.6726265
+1149,Sambalpur,0,Sambalpur,Green Zone,Odisha,0,0,Odisha,Sambalpur,1041099,13.85578728
+1150,Sambalpur,1,Sambalpur,Green Zone,Odisha,0,0,Odisha,Sambalpur,1041099,13.85578728
+1151,Sambhal,0,Sambhal,Orange Zone,Uttar Pradesh,0,1,Uttar Pradesh,Sambhal,NA,NA
+1152,Sambhal,1,Sambhal,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sambhal,NA,NA
+1153,Sangareddy,0,Sangareddy,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+1154,Sangareddy,1,Sangareddy,Orange Zone,Telangana,0,0,Telangana,NA,NA,NA
+1155,Sangli,0,Sangli,Orange Zone,Maharashtra,0,1,Maharashtra,Sangli,2822143,14.85300732
+1156,Sangli,1,Sangli,Orange Zone,Maharashtra,0,0,Maharashtra,Sangli,2822143,14.85300732
+1157,Sangrur,0,Sangrur,Orange Zone,Punjab,0,16,Punjab,Sangrur,1655169,14.31941414
+1158,Sangrur,1,Sangrur,Orange Zone,Punjab,0,0,Punjab,Sangrur,1655169,14.31941414
+1159,Sant Kabir Nagar,0,Sant Kabir Nagar,Red Zone,NA,0,0,Uttar Pradesh,Sant Kabir Nagar,1715183,14.35503006
+1160,Sant Kabir Nagar,1,Sant Kabir Nagar,Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sant Kabir Nagar,1715183,14.35503006
+1161,Saraikela-Kharsawan,0,Saraikela Kharsawan,Green Zone,Jharkhand,0,0,Jharkhand,Saraikela-kharsawan,1065056,13.87853813
+1162,Saraikela-Kharsawan,1,Saraikela Kharsawan,Green Zone,Jharkhand,0,0,Jharkhand,Saraikela-kharsawan,1065056,13.87853813
+1163,Saran,0,Saran,Orange Zone,Bihar,2,1,Bihar,Saran,3951862,15.18969727
+1164,Saran,1,Saran,Orange Zone,Bihar,0,0,Bihar,Saran,3951862,15.18969727
+1165,Satara,0,Satara,Red Zone,Maharashtra,0,1,Maharashtra,Satara,3003741,14.91536903
+1166,Satara,1,Satara,Red Zone,Maharashtra,0,0,Maharashtra,Satara,3003741,14.91536903
+1167,Satna,0,Satna,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Satna,2228935,14.61703491
+1168,Satna,1,Satna,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Satna,2228935,14.61703491
+1169,Sawai Madhopur,0,Sawai Madhopur,Orange Zone,Rajasthan,0,1,Rajasthan,Sawai Madhopur,1335551,14.10485458
+1170,Sawai Madhopur,1,Sawai Madhopur,Orange Zone,Rajasthan,0,0,Rajasthan,Sawai Madhopur,1335551,14.10485458
+1171,Sehore,0,Sehore,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sehore,1311332,14.08655357
+1172,Sehore,1,Sehore,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sehore,1311332,14.08655357
+1173,Senapati,0,Senapati,Green Zone,Manipur,0,0,Manipur,Senapati,479148,13.07976437
+1174,Senapati,1,Senapati,Green Zone,Manipur,0,0,Manipur,Senapati,479148,13.07976437
+1175,Seoni,0,Seoni,Green Zone,NA,0,0,Madhya Pradesh,Seoni,1379131,14.13696384
+1176,Seoni,1,Seoni,Green Zone,NA,0,0,Madhya Pradesh,Seoni,1379131,14.13696384
+1177,Sepahijala,0,Sepahijala,Green Zone,Tripura,0,0,Tripura,Sipahijala,NA,NA
+1178,Sepahijala,1,Sepahijala,Green Zone,Tripura,0,0,Tripura,Sipahijala,NA,NA
+1179,Serchhip,0,Serchhip,Green Zone,NA,0,0,Mizoram,Serchhip,64937,11.08117294
+1180,Serchhip,1,Serchhip,Green Zone,NA,0,0,Mizoram,Serchhip,64937,11.08117294
+1181,Shahdara,0,Shahdara,Red Zone,Delhi,0,2,Delhi,NA,NA,NA
+1182,Shahdara,1,Shahdara,Red Zone,Delhi,1,0,Delhi,NA,NA,NA
+1183,Shahdol,0,Shahdol,Orange Zone,NA,0,0,Madhya Pradesh,Shahdol,1066063,13.87948322
+1184,Shahdol,1,Shahdol,Orange Zone,NA,0,0,Madhya Pradesh,Shahdol,1066063,13.87948322
+1185,Shahid Bhagat Singh Nagar,0,Shahid Bhagat Singh Nagar (Nawanshahr),Orange Zone,Punjab,0,1,Punjab,Shahid Bhagat Singh Nagar,612310,13.32499409
+1186,Shahid Bhagat Singh Nagar,1,Shahid Bhagat Singh Nagar (Nawanshahr),Orange Zone,Punjab,0,0,Punjab,Shahid Bhagat Singh Nagar,612310,13.32499409
+1187,Shahjahanpur,0,Shahjahanpur,Green Zone,NA,0,0,Uttar Pradesh,Shahjahanpur,3006538,14.91629982
+1188,Shahjahanpur,1,Shahjahanpur,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Shahjahanpur,3006538,14.91629982
+1189,Shajapur,0,Shajapur,Orange Zone,Madhya Pradesh,0,1,Madhya Pradesh,Shajapur,1512681,14.22939396
+1190,Shajapur,1,Shajapur,Orange Zone,NA,0,0,Madhya Pradesh,Shajapur,1512681,14.22939396
+1191,Shamli,0,Shamli,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Shamli,NA,NA
+1192,Shamli,1,Shamli,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Shamli,NA,NA
+1193,Sheikhpura,0,Sheikhpura,Green Zone,Bihar,2,0,Bihar,Sheikhpura,636342,13.36349106
+1194,Sheikhpura,1,Sheikhpura,Green Zone,Bihar,0,0,Bihar,Sheikhpura,636342,13.36349106
+1195,Sheohar,0,Sheohar,Green Zone,NA,0,0,Bihar,Sheohar,656246,13.39429092
+1196,Sheohar,1,Sheohar,Green Zone,Bihar,0,0,Bihar,Sheohar,656246,13.39429092
+1197,Sheopur,0,Sheopur,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sheopur,687861,13.44134235
+1198,Sheopur,1,Sheopur,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Sheopur,687861,13.44134235
+1199,Shi Yomi,0,Shi Yomi,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+1200,Shi Yomi,1,Shi Yomi,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+1201,Shimla,0,Shimla,Green Zone,Himachal Pradesh,0,2,Himachal Pradesh,Shimla,814010,13.60972786
+1202,Shimla,1,Shimla,Green Zone,Himachal Pradesh,0,0,Himachal Pradesh,Shimla,814010,13.60972786
+1203,Shivamogga,0,Shivamogga,Green Zone,Karnataka,0,4,Karnataka,Shimoga,1752753,14.37669849
+1204,Shivamogga,1,Shivamogga,Green Zone,Karnataka,0,0,Karnataka,Shimoga,1752753,14.37669849
+1205,Shivpuri,0,Shivpuri,Green Zone,Madhya Pradesh,0,0,Madhya Pradesh,Shivpuri,1726050,14.36134624
+1206,Shivpuri,1,Shivpuri,Green Zone,NA,0,0,Madhya Pradesh,Shivpuri,1726050,14.36134624
+1207,Shopian,0,Shopian,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Shupiyan,266215,12.49205971
+1208,Shopian,1,Shopian,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Shupiyan,266215,12.49205971
+1209,Shravasti,0,Shravasti,Orange Zone,NA,0,0,Uttar Pradesh,Shravasti,1117361,13.92648029
+1210,Shravasti,1,Shravasti,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Shravasti,1117361,13.92648029
+1211,Siang,0,Siang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+1212,Siang,1,Siang,Green Zone,NA,0,0,Arunachal Pradesh,NA,NA,NA
+1213,Siddharth Nagar,0,Siddharth Nagar,Green Zone,NA,0,0,Uttar Pradesh,Siddharth Nagar,2559297,14.7552433
+1214,Siddharth Nagar,1,Siddharth Nagar,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Siddharth Nagar,2559297,14.7552433
+1215,Siddipet,0,Siddipet,Green Zone,NA,0,0,Telangana,NA,NA,NA
+1216,Siddipet,1,Siddipet,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1217,Sidhi,0,Sidhi,Green Zone,NA,0,0,Madhya Pradesh,Sidhi,1127033,13.93509865
+1218,Sidhi,1,Sidhi,Green Zone,NA,0,0,Madhya Pradesh,Sidhi,1127033,13.93509865
+1219,Sikar,0,Sikar,Orange Zone,Rajasthan,0,1,Rajasthan,Sikar,2677333,14.80033207
+1220,Sikar,1,Sikar,Orange Zone,Rajasthan,0,0,Rajasthan,Sikar,2677333,14.80033207
+1221,Simdega,0,Simdega,Orange Zone,Jharkhand,0,0,Jharkhand,Simdega,599578,13.30398178
+1222,Simdega,1,Simdega,Orange Zone,Jharkhand,0,0,Jharkhand,Simdega,599578,13.30398178
+1223,Sindhudurg,0,Sindhudurg,Green Zone,NA,0,0,Maharashtra,Sindhudurg,849651,13.65258121
+1224,Sindhudurg,1,Sindhudurg,Green Zone,Maharashtra,0,0,Maharashtra,Sindhudurg,849651,13.65258121
+1225,Singrauli,0,Singrauli,Green Zone,NA,0,0,Madhya Pradesh,Singrauli,1178273,13.9795599
+1226,Singrauli,1,Singrauli,Green Zone,NA,0,0,Madhya Pradesh,Singrauli,1178273,13.9795599
+1227,Sirmaur,0,Sirmaur,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Sirmaur,529855,13.18035889
+1228,Sirmaur,1,Sirmaur,Orange Zone,NA,0,0,Himachal Pradesh,Sirmaur,529855,13.18035889
+1229,Sirohi,0,Sirohi,Green Zone,NA,0,0,Rajasthan,Sirohi,1036346,13.85121155
+1230,Sirohi,1,Sirohi,Green Zone,Rajasthan,0,0,Rajasthan,Sirohi,1036346,13.85121155
+1231,Sirsa,0,Sirsa,Orange Zone,Haryana,0,0,Haryana,Sirsa,1295189,14.07416725
+1232,Sirsa,1,Sirsa,Orange Zone,Haryana,0,0,Haryana,Sirsa,1295189,14.07416725
+1233,Sitamarhi,0,Sitamarhi,Green Zone,Bihar,0,1,Bihar,Sitamarhi,3423574,15.04619598
+1234,Sitamarhi,1,Sitamarhi,Green Zone,Bihar,0,0,Bihar,Sitamarhi,3423574,15.04619598
+1235,Sitapur,0,Sitapur,Orange Zone,NA,0,0,Uttar Pradesh,Sitapur,4483992,15.31602383
+1236,Sitapur,1,Sitapur,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sitapur,4483992,15.31602383
+1237,Sivaganga,0,Sivaganga,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Sivaganga,1339101,14.10750866
+1238,Sivaganga,1,Sivaganga,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Sivaganga,1339101,14.10750866
+1239,Sivasagar,0,Sivasagar,Green Zone,Assam,0,21,Assam,Sivasagar,1151050,13.95618534
+1240,Sivasagar,1,Sivasagar,Green Zone,Assam,0,9,Assam,Sivasagar,1151050,13.95618534
+1241,Siwan,0,Siwan,Orange Zone,Bihar,0,1,Bihar,Siwan,3330464,15.0186224
+1242,Siwan,1,Siwan,Orange Zone,Bihar,0,0,Bihar,Siwan,3330464,15.0186224
+1243,Solan,0,Solan,Orange Zone,NA,0,0,Himachal Pradesh,Solan,580320,13.27133465
+1244,Solan,1,Solan,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Solan,580320,13.27133465
+1245,Solapur,0,Solapur,Red Zone,Maharashtra,0,2,Maharashtra,Solapur,4317756,15.27824593
+1246,Solapur,1,Solapur,Red Zone,Maharashtra,0,0,Maharashtra,Solapur,4317756,15.27824593
+1247,Sonbhadra,0,Sonbhadra,Green Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sonbhadra,1862559,14.43746185
+1248,Sonbhadra,1,Sonbhadra,Green Zone,NA,0,0,Uttar Pradesh,Sonbhadra,1862559,14.43746185
+1249,Sonipat,0,Sonipat,Red Zone,Haryana,0,0,Haryana,Sonipat,1450001,14.18707466
+1250,Sonipat,1,Sonipat,Red Zone,Haryana,0,0,Haryana,Sonipat,1450001,14.18707466
+1251,Sonitpur,0,Sonitpur,Green Zone,Assam,0,6,Assam,Sonitpur,1924110,14.46997452
+1252,Sonitpur,1,Sonitpur,Green Zone,Assam,0,4,Assam,Sonitpur,1924110,14.46997452
+1253,South 24 Parganas,0,South 24 Parganas,Red Zone,West Bengal,0,3,West Bengal,South 24 Parganas,8161961,15.91499519
+1254,South 24 Parganas,1,South 24 Parganas,Red Zone,West Bengal,0,0,West Bengal,South 24 Parganas,8161961,15.91499519
+1255,South Andaman,0,South Andamans,Red Zone,Andaman and Nicobar Islands,0,0,Andaman and Nicobar,South Andaman,238142,12.38062286
+1256,South Andaman,1,South Andamans,Red Zone,Andaman and Nicobar Islands,0,0,Andaman and Nicobar,South Andaman,238142,12.38062286
+1257,South Delhi,0,South Delhi,Red Zone,Delhi,0,2,Delhi,NA,NA,NA
+1258,South Delhi,1,South Delhi,Red Zone,Delhi,0,1,Delhi,NA,NA,NA
+1259,South East Delhi,0,South East Delhi,Red Zone,Delhi,0,17,Delhi,NA,NA,NA
+1260,South East Delhi,1,South East Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+1261,South Garo Hills,0,South Garo Hills,Green Zone,Meghalaya,0,0,Meghalaya,South Garo Hills,142334,11.86593151
+1262,South Garo Hills,1,South Garo Hills,Green Zone,Meghalaya,0,0,Meghalaya,South Garo Hills,142334,11.86593151
+1263,South Goa,0,South Goa,Green Zone,Goa,0,1,Goa,South Goa,640537,13.37006187
+1264,South Goa,1,South Goa,Green Zone,Goa,0,0,Goa,South Goa,640537,13.37006187
+1265,South Salmara-Mankachar,0,South Salmara Mankachar,Green Zone,Assam,0,1,Assam,NA,NA,NA
+1266,South Salmara-Mankachar,1,South Salmara Mankachar,Green Zone,Assam,0,0,Assam,NA,NA,NA
+1267,South Sikkim,0,South Sikkim,Green Zone,Sikkim,0,0,Sikkim,South Sikkim,146850,11.89716721
+1268,South Sikkim,1,South Sikkim,Green Zone,NA,0,0,Sikkim,South Sikkim,146850,11.89716721
+1269,South Tripura,0,South Tripura,Green Zone,Tripura,0,1,Tripura,South Tripura,876001,13.68312263
+1270,South Tripura,1,South Tripura,Green Zone,Tripura,0,0,Tripura,South Tripura,876001,13.68312263
+1271,South West Delhi,0,South West Delhi,Red Zone,NA,0,0,Delhi,NA,NA,NA
+1272,South West Delhi,1,South West Delhi,Red Zone,Delhi,0,0,Delhi,NA,NA,NA
+1273,South West Garo Hills,0,South West Garo Hills,Green Zone,Meghalaya,0,0,Meghalaya,South West Garo Hills,NA,NA
+1274,South West Garo Hills,1,South West Garo Hills,Green Zone,Meghalaya,0,0,Meghalaya,South West Garo Hills,NA,NA
+1275,South West Khasi Hills,0,South West Khasi Hills,Green Zone,Meghalaya,0,1,Meghalaya,South West Khasi Hills,NA,NA
+1276,South West Khasi Hills,1,South West Khasi Hills,Green Zone,Meghalaya,0,0,Meghalaya,South West Khasi Hills,NA,NA
+1277,Sri Muktsar Sahib,0,Sri Muktsar Sahib,Orange Zone,Punjab,0,5,Punjab,Muktsar,901896,13.71225452
+1278,Sri Muktsar Sahib,1,Sri Muktsar Sahib,Orange Zone,Punjab,0,0,Punjab,Muktsar,901896,13.71225452
+1279,Sri Potti Sriramulu Nellore,0,SPSR Nellore,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Nellore,2963557,14.90190125
+1280,Sri Potti Sriramulu Nellore,1,SPSR Nellore,Red Zone,Andhra Pradesh,0,0,Andhra Pradesh,Nellore,2963557,14.90190125
+1281,Srikakulam,0,Srikakulam,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Srikakulam,2703114,14.80991459
+1282,Srikakulam,1,Srikakulam,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Srikakulam,2703114,14.80991459
+1283,Srinagar,0,Srinagar,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Srinagar,1236829,14.02806187
+1284,Srinagar,1,Srinagar,Red Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Srinagar,1236829,14.02806187
+1285,Subarnapur,0,Sonepur,Green Zone,Odisha,0,1,Odisha,Subarnapur,610183,13.32151413
+1286,Subarnapur,1,Sonepur,Green Zone,Odisha,0,0,Odisha,Subarnapur,610183,13.32151413
+1287,Sukma,0,Sukma,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Sukma,NA,NA
+1288,Sukma,1,Sukma,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Sukma,NA,NA
+1289,Sultanpur,0,Sultanpur,Orange Zone,NA,0,0,Uttar Pradesh,Sultanpur,3797117,15.14975262
+1290,Sultanpur,1,Sultanpur,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Sultanpur,3797117,15.14975262
+1291,Sundargarh,0,Sundargarh,Orange Zone,Odisha,0,5,Odisha,Sundargarh,2093437,14.55431747
+1292,Sundargarh,1,Sundargarh,Orange Zone,Odisha,0,0,Odisha,Sundargarh,2093437,14.55431747
+1293,Supaul,0,Supaul,Green Zone,Bihar,0,2,Bihar,Supaul,2229076,14.61709785
+1294,Supaul,1,Supaul,Green Zone,Bihar,0,0,Bihar,Supaul,2229076,14.61709785
+1295,Surajpur,0,Surajpur,Green Zone,NA,0,0,Chhattisgarh,Surajpur,NA,NA
+1296,Surajpur,1,Surajpur,Green Zone,Chhattisgarh,0,0,Chhattisgarh,Surajpur,NA,NA
+1297,Surat,0,Surat,Red Zone,Gujarat,0,2,Gujarat,Surat,6081322,15.62073231
+1298,Surat,1,Surat,Red Zone,Gujarat,0,0,Gujarat,Surat,6081322,15.62073231
+1299,Surendranagar,0,Surendranagar,Orange Zone,Gujarat,0,0,Gujarat,Surendranagar,1756268,14.37870121
+1300,Surendranagar,1,Surendranagar,Orange Zone,Gujarat,0,0,Gujarat,Surendranagar,1756268,14.37870121
+1301,Surguja,0,Surguia,Green Zone,NA,0,0,Chhattisgarh,Surguja,2359886,14.67412376
+1302,Surguja,1,Surguia,Green Zone,NA,0,0,Chhattisgarh,Surguja,2359886,14.67412376
+1303,Suryapet,0,Suryapet,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+1304,Suryapet,1,Suryapet,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+1305,Tamenglong,0,Tamenglong,Green Zone,Manipur,0,0,Manipur,Tamenglong,140651,11.85403728
+1306,Tamenglong,1,Tamenglong,Green Zone,Manipur,0,0,Manipur,Tamenglong,140651,11.85403728
+1307,Tapi,0,Tapi,Orange Zone,NA,0,0,Gujarat,Tapi,807022,13.60110664
+1308,Tapi,1,Tapi,Orange Zone,Gujarat,0,0,Gujarat,Tapi,807022,13.60110664
+1309,Tarn Taran,0,Tarn Taran,Orange Zone,Punjab,0,2,Punjab,Tarn Taran,1119627,13.9285059
+1310,Tarn Taran,1,Tarn Taran,Orange Zone,Punjab,0,0,Punjab,Tarn Taran,1119627,13.9285059
+1311,Tawang,0,Tawang,Green Zone,NA,0,0,Arunachal Pradesh,Tawang,49977,10.81931782
+1312,Tawang,1,Tawang,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Tawang,49977,10.81931782
+1313,Tehri Garhwal,0,Tehri Garhwal,Green Zone,Uttarakhand,0,0,Uttarakhand,Tehri Garhwal,618931,13.33574867
+1314,Tehri Garhwal,1,Tehri Garhwal,Green Zone,Uttarakhand,0,0,Uttarakhand,Tehri Garhwal,618931,13.33574867
+1315,Tengnoupal,0,Tengnoupal,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+1316,Tengnoupal,1,Tengnoupal,Green Zone,Manipur,0,0,Manipur,NA,NA,NA
+1317,Tenkasi,0,Tenkasi,Orange Zone,Tamil Nadu,0,2,Tamil Nadu,NA,NA,NA
+1318,Tenkasi,1,Tenkasi,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+1319,Thane,0,Thane,Red Zone,Maharashtra,0,10,Maharashtra,Thane,11060148,16.21885872
+1320,Thane,1,Thane,Red Zone,Maharashtra,0,0,Maharashtra,Thane,11060148,16.21885872
+1321,Thanjavur,0,Thanjavur (Tanjore),Red Zone,Tamil Nadu,0,14,Tamil Nadu,Thanjavur,2405890,14.6934309
+1322,Thanjavur,1,Thanjavur (Tanjore),Red Zone,Tamil Nadu,0,0,Tamil Nadu,Thanjavur,2405890,14.6934309
+1323,The Nilgiris,0,The Nilgiris,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,The Nilgiris,735394,13.50816154
+1324,The Nilgiris,1,The Nilgiris,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,The Nilgiris,735394,13.50816154
+1325,Theni,0,Theni,Orange Zone,Tamil Nadu,0,2,Tamil Nadu,Theni,1245899,14.03536797
+1326,Theni,1,Theni,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Theni,1245899,14.03536797
+1327,Thiruvallur,0,Thiruvallur (Tiruvallur),Red Zone,NA,0,0,Tamil Nadu,Thiruvallur,3728104,15.1314106
+1328,Thiruvallur,1,Thiruvallur (Tiruvallur),Red Zone,Tamil Nadu,0,0,Tamil Nadu,Thiruvallur,3728104,15.1314106
+1329,Thiruvananthapuram,0,Thiruvananthapuram (Trivandrum),Orange Zone,Kerala,0,10,Kerala,Thiruvananthapuram,3301427,15.00986576
+1330,Thiruvananthapuram,1,Thiruvananthapuram (Trivandrum),Orange Zone,Kerala,0,0,Kerala,Thiruvananthapuram,3301427,15.00986576
+1331,Thiruvarur,0,Thiruvarur (Tiruvarur),Red Zone,Tamil Nadu,0,8,Tamil Nadu,Thiruvarur,1264277,14.05001068
+1332,Thiruvarur,1,Thiruvarur (Tiruvarur),Red Zone,Tamil Nadu,0,0,Tamil Nadu,Thiruvarur,1264277,14.05001068
+1333,Thoothukudi,0,Thoothukudi (Tuticorin),Orange Zone,Tamil Nadu,0,9,Tamil Nadu,Thoothukkudi,1750176,14.37522697
+1334,Thoothukudi,1,Thoothukudi (Tuticorin),Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Thoothukkudi,1750176,14.37522697
+1335,Thoubal,0,Thoubal,Green Zone,Manipur,0,2,Manipur,Thoubal,422168,12.95315838
+1336,Thoubal,1,Thoubal,Green Zone,Manipur,0,0,Manipur,Thoubal,422168,12.95315838
+1337,Thrissur,0,Thrissur,Orange Zone,Kerala,0,1,Kerala,Thrissur,3121200,14.95372772
+1338,Thrissur,1,Thrissur,Orange Zone,Kerala,0,0,Kerala,Thrissur,3121200,14.95372772
+1339,Tikamgarh,0,Tikamgarh,Orange Zone,NA,0,0,Madhya Pradesh,Tikamgarh,1445166,14.18373489
+1340,Tikamgarh,1,Tikamgarh,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Tikamgarh,1445166,14.18373489
+1341,Tinsukia,0,Tinsukia,Green Zone,Assam,0,66,Assam,Tinsukia,1327929,14.09913158
+1342,Tinsukia,1,Tinsukia,Green Zone,Assam,0,20,Assam,Tinsukia,1327929,14.09913158
+1343,Tirap,0,Tirap,Green Zone,NA,0,0,Arunachal Pradesh,Tirap,111975,11.62603092
+1344,Tirap,1,Tirap,Green Zone,NA,0,0,Arunachal Pradesh,Tirap,111975,11.62603092
+1345,Tiruchirappalli,0,Tiruchirappalli (Trichy),Orange Zone,Tamil Nadu,0,9,Tamil Nadu,Tiruchirappalli,2722290,14.81698418
+1346,Tiruchirappalli,1,Tiruchirappalli (Trichy),Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Tiruchirappalli,2722290,14.81698418
+1347,Tirunelveli,0,Tirunelveli,Orange Zone,Tamil Nadu,0,14,Tamil Nadu,Tirunelveli,3077233,14.93954182
+1348,Tirunelveli,1,Tirunelveli,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Tirunelveli,3077233,14.93954182
+1349,Tirupattur,0,Tirupathur,Orange Zone,Tamil Nadu,0,3,Tamil Nadu,NA,NA,NA
+1350,Tirupattur,1,Tirupathur,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,NA,NA,NA
+1351,Tiruppur,0,Tiruppur,Red Zone,Tamil Nadu,1,5,Tamil Nadu,Tiruppur,2479052,14.72338676
+1352,Tiruppur,1,Tiruppur,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Tiruppur,2479052,14.72338676
+1353,Tiruvannamalai,0,Tiruvannamalai,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Tiruvannamalai,2464875,14.71765137
+1354,Tiruvannamalai,1,Tiruvannamalai,Orange Zone,NA,0,0,Tamil Nadu,Tiruvannamalai,2464875,14.71765137
+1355,Tonk,0,Tonk,Orange Zone,Rajasthan,0,1,Rajasthan,Tonk,1421326,14.16710091
+1356,Tonk,1,Tonk,Orange Zone,Rajasthan,0,0,Rajasthan,Tonk,1421326,14.16710091
+1357,Tuensang,0,Tuensang,Green Zone,Nagaland,0,1,Nagaland,Tuensang,196596,12.18890572
+1358,Tuensang,1,Tuensang,Green Zone,Nagaland,0,0,Nagaland,Tuensang,196596,12.18890572
+1359,Tumakuru,0,Tumakuru,Orange Zone,Karnataka,0,0,Karnataka,Tumkur,2678980,14.80094624
+1360,Tumakuru,1,Tumakuru,Orange Zone,Karnataka,0,0,Karnataka,Tumkur,2678980,14.80094624
+1361,Udaipur,0,Udaipur,Orange Zone,Rajasthan,0,1,Rajasthan,Udaipur,3068420,14.93667316
+1362,Udaipur,1,Udaipur,Orange Zone,Rajasthan,0,0,Rajasthan,Udaipur,3068420,14.93667316
+1363,Udalguri,0,Udalguri,Green Zone,Assam,0,2,Assam,Udalguri,831668,13.63118839
+1364,Udalguri,1,Udalguri,Green Zone,Assam,0,1,Assam,Udalguri,831668,13.63118839
+1365,Udham Singh Nagar,0,Udham Singh Nagar,Green Zone,Uttarakhand,0,0,Uttarakhand,Udham Singh Nagar,1648902,14.31562042
+1366,Udham Singh Nagar,1,Udham Singh Nagar,Green Zone,Uttarakhand,0,0,Uttarakhand,Udham Singh Nagar,1648902,14.31562042
+1367,Udhampur,0,Udhampur,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Udhampur,554985,13.22669601
+1368,Udhampur,1,Udhampur,Orange Zone,Jammu and Kashmir,0,0,Jammu and Kashmir,Udhampur,554985,13.22669601
+1369,Udupi,0,Udupi,Green Zone,Karnataka,0,0,Karnataka,Udupi,1177361,13.97878647
+1370,Udupi,1,Udupi,Green Zone,Karnataka,0,0,Karnataka,Udupi,1177361,13.97878647
+1371,Ujjain,0,Ujjain,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Ujjain,1986864,14.50206852
+1372,Ujjain,1,Ujjain,Red Zone,Madhya Pradesh,0,0,Madhya Pradesh,Ujjain,1986864,14.50206852
+1373,Ukhrul,0,Ukhrul,Green Zone,Manipur,0,0,Manipur,Ukhrul,183998,12.12267971
+1374,Ukhrul,1,Ukhrul,Green Zone,Manipur,0,0,Manipur,Ukhrul,183998,12.12267971
+1375,Umaria,0,Umaria,Green Zone,NA,0,0,Madhya Pradesh,Umaria,644758,13.37663078
+1376,Umaria,1,Umaria,Green Zone,NA,0,0,Madhya Pradesh,Umaria,644758,13.37663078
+1377,Una,0,Una,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Una,521173,13.16383743
+1378,Una,1,Una,Orange Zone,Himachal Pradesh,0,0,Himachal Pradesh,Una,521173,13.16383743
+1379,Unakoti,0,Unakoti,Green Zone,Tripura,0,1,Tripura,Unokoti,NA,NA
+1380,Unakoti,1,Unakoti,Green Zone,Tripura,0,0,Tripura,Unokoti,NA,NA
+1381,Unnao,0,Unnao,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Unnao,3108367,14.94960785
+1382,Unnao,1,Unnao,Orange Zone,Uttar Pradesh,0,0,Uttar Pradesh,Unnao,3108367,14.94960785
+1383,Upper Siang,0,Upper Siang,Green Zone,NA,0,0,Arunachal Pradesh,Upper Siang,35320,10.47220421
+1384,Upper Siang,1,Upper Siang,Green Zone,NA,0,0,Arunachal Pradesh,Upper Siang,35320,10.47220421
+1385,Upper Subansiri,0,Upper Subansiri,Green Zone,NA,0,0,Arunachal Pradesh,Upper Subansiri,83448,11.3319788
+1386,Upper Subansiri,1,Upper Subansiri,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,Upper Subansiri,83448,11.3319788
+1387,Uttar Dinajpur,0,Uttar Dinajpur,Green Zone,West Bengal,0,3,West Bengal,Uttar Dinajpur,3007134,14.91649818
+1388,Uttar Dinajpur,1,Uttar Dinajpur,Green Zone,West Bengal,0,0,West Bengal,Uttar Dinajpur,3007134,14.91649818
+1389,Uttara Kannada,0,Uttara Kannada (North Canara),Orange Zone,Karnataka,0,0,Karnataka,Uttara Kannada,1437169,14.17818546
+1390,Uttara Kannada,1,Uttara Kannada (North Canara),Orange Zone,Karnataka,0,0,Karnataka,Uttara Kannada,1437169,14.17818546
+1391,Uttarkashi,0,Uttarkashi,Green Zone,Uttarakhand,0,0,Uttarakhand,Uttarkashi,330086,12.7071085
+1392,Uttarkashi,1,Uttarkashi,Green Zone,Uttarakhand,0,0,Uttarakhand,Uttarkashi,330086,12.7071085
+1393,Vadodara,0,Vadodara,Red Zone,Gujarat,0,4,Gujarat,Vadodara,4165626,15.24237728
+1394,Vadodara,1,Vadodara,Red Zone,Gujarat,0,0,Gujarat,Vadodara,4165626,15.24237728
+1395,Vaishali,0,Vaishali,Orange Zone,Bihar,0,0,Bihar,Vaishali,3495021,15.06684971
+1396,Vaishali,1,Vaishali,Orange Zone,Bihar,0,0,Bihar,Vaishali,3495021,15.06684971
+1397,Valsad,0,Valsad,Orange Zone,Gujarat,0,0,Gujarat,Valsad,1705678,14.349473
+1398,Valsad,1,Valsad,Orange Zone,Gujarat,0,0,Gujarat,Valsad,1705678,14.349473
+1399,Varanasi,0,Varanasi (Banaras),Red Zone,Uttar Pradesh,0,2,Uttar Pradesh,Varanasi,3676841,15.1175642
+1400,Varanasi,1,Varanasi (Banaras),Red Zone,Uttar Pradesh,0,0,Uttar Pradesh,Varanasi,3676841,15.1175642
+1401,Vellore,0,Vellore,Red Zone,Tamil Nadu,0,4,Tamil Nadu,Vellore,3936331,15.18575954
+1402,Vellore,1,Vellore,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Vellore,3936331,15.18575954
+1403,Vidisha,0,Vidisha,Orange Zone,NA,0,0,Madhya Pradesh,Vidisha,1458875,14.19317627
+1404,Vidisha,1,Vidisha,Orange Zone,Madhya Pradesh,0,0,Madhya Pradesh,Vidisha,1458875,14.19317627
+1405,Vijayapura,0,Vijayapura,Orange Zone,Karnataka,0,0,Karnataka,Bijapur1,2177331,14.59361076
+1406,Vijayapura,1,Vijayapura,Orange Zone,Karnataka,0,0,Karnataka,Bijapur1,2177331,14.59361076
+1407,Vikarabad,0,Vikarabad,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+1408,Vikarabad,1,Vikarabad,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+1409,Viluppuram,0,Villupuram,Orange Zone,Tamil Nadu,0,1,Tamil Nadu,Viluppuram,3458873,15.0564537
+1410,Viluppuram,1,Villupuram,Orange Zone,Tamil Nadu,0,0,Tamil Nadu,Viluppuram,3458873,15.0564537
+1411,Virudhunagar,0,Virudhunagar,Red Zone,Tamil Nadu,0,2,Tamil Nadu,Virudunagar,1942288,14.47937679
+1412,Virudhunagar,1,Virudhunagar,Red Zone,Tamil Nadu,0,0,Tamil Nadu,Virudunagar,1942288,14.47937679
+1413,Visakhapatnam,0,Visakhapatnam,Orange Zone,Andhra Pradesh,1,4,Andhra Pradesh,Visakhapatnam,4290589,15.27193451
+1414,Visakhapatnam,1,Visakhapatnam,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Visakhapatnam,4290589,15.27193451
+1415,Vizianagaram,0,Vizianagaram,Green Zone,Andhra Pradesh,0,0,Andhra Pradesh,Vizianagaram,2344474,14.66757202
+1416,Vizianagaram,1,Vizianagaram,Green Zone,Andhra Pradesh,0,0,Andhra Pradesh,Vizianagaram,2344474,14.66757202
+1417,Wanaparthy,0,Wanaparthy,Green Zone,NA,0,0,Telangana,NA,NA,NA
+1418,Wanaparthy,1,Wanaparthy,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1419,Warangal Rural,0,Warangal Rural,Green Zone,Telangana,0,0,Telangana,Warangal,3512576,15.07186031
+1420,Warangal Rural,1,Warangal Rural,Green Zone,Telangana,0,0,Telangana,Warangal,3512576,15.07186031
+1421,Warangal Urban,0,Warangal Urban,Red Zone,Telangana,0,1,Telangana,NA,NA,NA
+1422,Warangal Urban,1,Warangal Urban,Red Zone,Telangana,0,0,Telangana,NA,NA,NA
+1423,Wardha,0,Wardha,Green Zone,Maharashtra,0,0,Maharashtra,Wardha,1300774,14.07847023
+1424,Wardha,1,Wardha,Green Zone,NA,0,0,Maharashtra,Wardha,1300774,14.07847023
+1425,Washim,0,Washim,Green Zone,Maharashtra,0,1,Maharashtra,Washim,1197160,13.99546242
+1426,Washim,1,Washim,Green Zone,NA,0,0,Maharashtra,Washim,1197160,13.99546242
+1427,Wayanad,0,Wayanad,Green Zone,Kerala,1,1,Kerala,Wayanad,817420,13.61390877
+1428,Wayanad,1,Wayanad,Green Zone,Kerala,0,0,Kerala,Wayanad,817420,13.61390877
+1429,West Delhi,0,West Delhi,Red Zone,NA,0,0,NCT of Delhi,West,16787940,16.63617134
+1430,West Delhi,1,West Delhi,Red Zone,NA,0,0,NCT of Delhi,West,16787940,16.63617134
+1431,West Garo Hills,0,West Garo Hills,Green Zone,Meghalaya,0,1,Meghalaya,West Garo Hills,643291,13.37435246
+1432,West Garo Hills,1,West Garo Hills,Green Zone,Meghalaya,0,0,Meghalaya,West Garo Hills,643291,13.37435246
+1433,West Godavari,0,West Godavari,Orange Zone,Andhra Pradesh,0,1,Andhra Pradesh,West Godavari,3936966,15.18592072
+1434,West Godavari,1,West Godavari,Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,West Godavari,3936966,15.18592072
+1435,West Jaintia Hills,0,West Jaintia Hills,Green Zone,Meghalaya,0,0,Meghalaya,NA,NA,NA
+1436,West Jaintia Hills,1,West Jaintia Hills,Green Zone,Meghalaya,0,0,Meghalaya,NA,NA,NA
+1437,West Kameng,0,West Kameng,Green Zone,NA,0,0,Arunachal Pradesh,West Kameng,83947,11.33794117
+1438,West Kameng,1,West Kameng,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,West Kameng,83947,11.33794117
+1439,West Karbi Anglong,0,West Karbi Anglong,Green Zone,Assam,0,2,Assam,NA,NA,NA
+1440,West Karbi Anglong,1,West Karbi Anglong,Green Zone,Assam,0,0,Assam,NA,NA,NA
+1441,West Khasi Hills,0,West Khasi Hills,Green Zone,Meghalaya,0,1,Meghalaya,West Khasi Hills,383461,12.85699368
+1442,West Khasi Hills,1,West Khasi Hills,Green Zone,Meghalaya,0,0,Meghalaya,West Khasi Hills,383461,12.85699368
+1443,West Siang,0,West Siang,Green Zone,Arunachal Pradesh,0,0,Arunachal Pradesh,West Siang,112274,11.6286974
+1444,West Siang,1,West Siang,Green Zone,NA,0,0,Arunachal Pradesh,West Siang,112274,11.6286974
+1445,West Sikkim,0,West Sikkim,Green Zone,NA,0,0,Sikkim,West Sikkim,136435,11.82360363
+1446,West Sikkim,1,West Sikkim,Green Zone,NA,0,0,Sikkim,West Sikkim,136435,11.82360363
+1447,West Singhbhum,0,West Singhbhum,Green Zone,Jharkhand,0,0,Jharkhand,Pashchimi Singhbhum,1502338,14.22253323
+1448,West Singhbhum,1,West Singhbhum,Green Zone,Jharkhand,0,0,Jharkhand,Pashchimi Singhbhum,1502338,14.22253323
+1449,West Tripura,0,West Tripura,Green Zone,Tripura,0,19,Tripura,West Tripura,1725739,14.361166
+1450,West Tripura,1,West Tripura,Green Zone,Tripura,0,0,Tripura,West Tripura,1725739,14.361166
+1451,Wokha,0,Wokha,Green Zone,Nagaland,0,2,Nagaland,Wokha,166343,12.02180767
+1452,Wokha,1,Wokha,Green Zone,Nagaland,0,0,Nagaland,Wokha,166343,12.02180767
+1453,YSR District,0,YSR (Kadapa),Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Y.S.R.,2882469,14.87415791
+1454,YSR District,1,YSR (Kadapa),Orange Zone,Andhra Pradesh,0,0,Andhra Pradesh,Y.S.R.,2882469,14.87415791
+1455,Yadadri Bhuvanagiri,0,Yadadri Bhuvanagiri,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1456,Yadadri Bhuvanagiri,1,Yadadri Bhuvanagiri,Green Zone,Telangana,0,0,Telangana,NA,NA,NA
+1457,Yadgir,0,Yadgir,Green Zone,Karnataka,0,0,Karnataka,Yadgir,1174271,13.97615814
+1458,Yadgir,1,Yadgir,Green Zone,Karnataka,0,0,Karnataka,Yadgir,1174271,13.97615814
+1459,Yamunanagar,0,Yamunanagar,Orange Zone,Haryana,0,0,Haryana,Yamunanagar,1214205,14.00959969
+1460,Yamunanagar,1,Yamunanagar,Orange Zone,Haryana,0,0,Haryana,Yamunanagar,1214205,14.00959969
+1461,Yanam,0,Yanam,Green Zone,NA,0,0,Puducherry,Yanam,55626,10.92640591
+1462,Yanam,1,Yanam,Green Zone,NA,0,0,Puducherry,Yanam,55626,10.92640591
+1463,Yavatmal,0,Yavatmal,Red Zone,Maharashtra,0,2,Maharashtra,Yavatmal,2772348,14.83520508
+1464,Yavatmal,1,Yavatmal,Red Zone,Maharashtra,0,0,Maharashtra,Yavatmal,2772348,14.83520508
+1465,Zunheboto,0,Zunheboto,Green Zone,Nagaland,0,3,Nagaland,Zunheboto,140757,11.85479069
+1466,Zunheboto,1,Zunheboto,Green Zone,Nagaland,0,0,Nagaland,Zunheboto,140757,11.85479069
